@@ -1,0 +1,163 @@
+450519 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+450803 | src/Logger.cpp:46:setLogfile()
+450818 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+453014 | src/myfs.cpp:40:fuseGetattr()
+453036 | path: /.Trash
+453148 | src/myfs.cpp:40:fuseGetattr()
+453165 | path: /.Trash-1000
+509761 | src/myfs.cpp:261:fuseOpendir()
+514262 | src/myfs.cpp:40:fuseGetattr()
+514284 | path: /
+515505 | src/myfs.cpp:288:fuseReleasedir()
+2018.12.19 21:26:45.54529 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:26:45.64608 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:26:45.76756 | src/myfs.cpp:266:fuseReaddir()
+2018.12.19 21:26:45.90989 | src/myfs.cpp:152:fuseOpen()
+2018.12.19 21:26:45.97976 | src/myfs.cpp:177:fuseRead()
+2018.12.19 21:26:45.97994 | reading file: /trcpy()  function  copies the string pointed to by src, including | size: 12288 | offset: 0
+2018.12.19 21:26:45.98006 | from: 0 | TO: 512 | bufferOffset: 0
+2018.12.19 21:26:45.98392 | from: 0 | TO: 512 | bufferOffset: 512
+2018.12.19 21:26:45.98409 | from: 0 | TO: 512 | bufferOffset: 1024
+2018.12.19 21:26:45.98418 | from: 0 | TO: 512 | bufferOffset: 1536
+2018.12.19 21:26:45.98787 | from: 0 | TO: 512 | bufferOffset: 2048
+2018.12.19 21:26:45.98803 | from: 0 | TO: 512 | bufferOffset: 2560
+2018.12.19 21:26:45.98812 | from: 0 | TO: 512 | bufferOffset: 3072
+2018.12.19 21:26:45.98821 | from: 0 | TO: 512 | bufferOffset: 3584
+2018.12.19 21:26:45.98829 | from: 0 | TO: 512 | bufferOffset: 4096
+2018.12.19 21:26:45.98838 | from: 0 | TO: 512 | bufferOffset: 4608
+2018.12.19 21:26:45.98847 | from: 0 | TO: 512 | bufferOffset: 5120
+2018.12.19 21:26:45.98855 | from: 0 | TO: 512 | bufferOffset: 5632
+2018.12.19 21:26:45.98864 | from: 0 | TO: 512 | bufferOffset: 6144
+2018.12.19 21:26:45.98873 | from: 0 | TO: 512 | bufferOffset: 6656
+2018.12.19 21:26:45.98881 | from: 0 | TO: 512 | bufferOffset: 7168
+2018.12.19 21:26:45.98890 | from: 0 | TO: 512 | bufferOffset: 7680
+2018.12.19 21:26:45.98898 | from: 0 | TO: 512 | bufferOffset: 8192
+2018.12.19 21:26:45.98907 | from: 0 | TO: 512 | bufferOffset: 8704
+2018.12.19 21:26:45.98915 | from: 0 | TO: 512 | bufferOffset: 9216
+2018.12.19 21:26:45.98924 | from: 0 | TO: 512 | bufferOffset: 9728
+2018.12.19 21:26:45.98954 | from: 0 | TO: 512 | bufferOffset: 10240
+2018.12.19 21:26:45.98966 | from: 0 | TO: 512 | bufferOffset: 10752
+2018.12.19 21:26:45.98976 | from: 0 | TO: 512 | bufferOffset: 11264
+2018.12.19 21:26:45.98984 | from: 0 | TO: 512 | bufferOffset: 11776
+2018.12.19 21:26:45.98997 | Inodepointer: 470
+2018.12.19 21:26:45.99005 | Inodepointer: 471
+2018.12.19 21:26:45.99012 | Inodepointer: 472
+2018.12.19 21:26:45.99019 | Inodepointer: 473
+2018.12.19 21:26:45.99026 | Inodepointer: 474
+2018.12.19 21:26:45.99038 | buf offset : 12288
+2018.12.19 21:26:45.99066 | src/myfs.cpp:226:fuseFlush()
+2018.12.19 21:26:45.99172 | src/myfs.cpp:231:fuseRelease()
+2018.12.19 21:26:45.99760 | src/myfs.cpp:288:fuseReleasedir()
+519108 | src/myfs.cpp:266:fuseReaddir()
+521424 | src/myfs.cpp:288:fuseReleasedir()
+838746 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+838800 | src/Logger.cpp:46:setLogfile()
+838809 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+840431 | src/myfs.cpp:40:fuseGetattr()
+840451 | path: /.Trash
+840496 | src/myfs.cpp:40:fuseGetattr()
+840507 | path: /.Trash-1000
+882423 | src/myfs.cpp:261:fuseOpendir()
+883815 | src/myfs.cpp:40:fuseGetattr()
+883831 | path: /
+885014 | src/myfs.cpp:288:fuseReleasedir()
+813993 | src/myfs.cpp:221:fuseStatfs()
+816136 | src/myfs.cpp:221:fuseStatfs()
+847319 | src/myfs.cpp:266:fuseReaddir()
+852721 | src/myfs.cpp:152:fuseOpen()
+854266 | src/myfs.cpp:177:fuseRead()
+854283 | reading file: /trcpy()  function  copies the string pointed to by src, including | size: 12288 | offset: 0
+854293 | from: 0 | TO: 512 | bufferOffset: 0
+854720 | from: 0 | TO: 512 | bufferOffset: 512
+854740 | from: 0 | TO: 512 | bufferOffset: 1024
+854751 | from: 0 | TO: 512 | bufferOffset: 1536
+855153 | from: 0 | TO: 512 | bufferOffset: 2048
+855171 | from: 0 | TO: 512 | bufferOffset: 2560
+855181 | from: 0 | TO: 512 | bufferOffset: 3072
+855191 | from: 0 | TO: 512 | bufferOffset: 3584
+855201 | from: 0 | TO: 512 | bufferOffset: 4096
+855211 | from: 0 | TO: 512 | bufferOffset: 4608
+855220 | from: 0 | TO: 512 | bufferOffset: 5120
+855230 | from: 0 | TO: 512 | bufferOffset: 5632
+855240 | from: 0 | TO: 512 | bufferOffset: 6144
+855250 | from: 0 | TO: 512 | bufferOffset: 6656
+855259 | from: 0 | TO: 512 | bufferOffset: 7168
+855269 | from: 0 | TO: 512 | bufferOffset: 7680
+855279 | from: 0 | TO: 512 | bufferOffset: 8192
+855289 | from: 0 | TO: 512 | bufferOffset: 8704
+855298 | from: 0 | TO: 512 | bufferOffset: 9216
+855308 | from: 0 | TO: 512 | bufferOffset: 9728
+855342 | from: 0 | TO: 512 | bufferOffset: 10240
+855356 | from: 0 | TO: 512 | bufferOffset: 10752
+855366 | from: 0 | TO: 512 | bufferOffset: 11264
+855377 | from: 0 | TO: 512 | bufferOffset: 11776
+855387 | Inodepointer: 470
+855395 | Inodepointer: 471
+855421 | Inodepointer: 472
+855433 | Inodepointer: 473
+855442 | Inodepointer: 474
+855455 | buf offset : 12288
+855488 | src/myfs.cpp:226:fuseFlush()
+855508 | src/myfs.cpp:231:fuseRelease()
+858959 | src/myfs.cpp:288:fuseReleasedir()
+2018.12.19 21:32:41.17722 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+2018.12.19 21:32:41.17788 | src/Logger.cpp:46:setLogfile()
+2018.12.19 21:32:41.17797 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+2018.12.19 21:32:41.19327 | src/myfs.cpp:40:fuseGetattr()
+2018.12.19 21:32:41.19345 | path: /.Trash
+2018.12.19 21:32:41.19387 | src/myfs.cpp:40:fuseGetattr()
+2018.12.19 21:32:41.19396 | path: /.Trash-1000
+2018.12.19 21:32:41.53368 | src/myfs.cpp:261:fuseOpendir()
+2018.12.19 21:32:41.54790 | src/myfs.cpp:40:fuseGetattr()
+2018.12.19 21:32:41.54805 | path: /
+2018.12.19 21:32:41.56192 | src/myfs.cpp:288:fuseReleasedir()
+943490 | src/myfs.cpp:266:fuseReaddir()
+946013 | src/myfs.cpp:152:fuseOpen()
+947275 | src/myfs.cpp:177:fuseRead()
+947290 | reading file: /trcpy()  function  copies the string pointed to by src, including | size: 12288 | offset: 0
+947299 | from: 0 | TO: 512 | bufferOffset: 0
+947310 | from: 0 | TO: 512 | bufferOffset: 512
+947319 | from: 0 | TO: 512 | bufferOffset: 1024
+947328 | from: 0 | TO: 512 | bufferOffset: 1536
+947338 | from: 0 | TO: 512 | bufferOffset: 2048
+947347 | from: 0 | TO: 512 | bufferOffset: 2560
+947356 | from: 0 | TO: 512 | bufferOffset: 3072
+947365 | from: 0 | TO: 512 | bufferOffset: 3584
+947374 | from: 0 | TO: 512 | bufferOffset: 4096
+947383 | from: 0 | TO: 512 | bufferOffset: 4608
+947392 | from: 0 | TO: 512 | bufferOffset: 5120
+947401 | from: 0 | TO: 512 | bufferOffset: 5632
+947411 | from: 0 | TO: 512 | bufferOffset: 6144
+947420 | from: 0 | TO: 512 | bufferOffset: 6656
+947429 | from: 0 | TO: 512 | bufferOffset: 7168
+947438 | from: 0 | TO: 512 | bufferOffset: 7680
+947447 | from: 0 | TO: 512 | bufferOffset: 8192
+947456 | from: 0 | TO: 512 | bufferOffset: 8704
+947465 | from: 0 | TO: 512 | bufferOffset: 9216
+947474 | from: 0 | TO: 512 | bufferOffset: 9728
+947484 | from: 0 | TO: 512 | bufferOffset: 10240
+947493 | from: 0 | TO: 512 | bufferOffset: 10752
+947502 | from: 0 | TO: 512 | bufferOffset: 11264
+947531 | from: 0 | TO: 512 | bufferOffset: 11776
+947543 | Inodepointer: 470
+947551 | Inodepointer: 471
+947559 | Inodepointer: 472
+947566 | Inodepointer: 473
+947574 | Inodepointer: 474
+947584 | buf offset : 12288
+947610 | src/myfs.cpp:226:fuseFlush()
+947628 | src/myfs.cpp:231:fuseRelease()
+948409 | src/myfs.cpp:288:fuseReleasedir()
+2018.12.19 21:34:14.8347 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:34:14.14260 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:34:14.15570 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:34:14.17377 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:34:14.18701 | src/myfs.cpp:221:fuseStatfs()
+2018.12.19 21:34:14.18754 | src/myfs.cpp:221:fuseStatfs()
+233485 | src/myfs.cpp:266:fuseReaddir()
+236279 | src/myfs.cpp:288:fuseReleasedir()
+2018.12.19 21:43:27.94539 | src/myfs.cpp:266:fuseReaddir()
+2018.12.19 21:43:27.97227 | src/myfs.cpp:288:fuseReleasedir()
