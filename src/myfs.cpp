@@ -41,15 +41,18 @@ int MyFS::fuseGetattr(const char *path, struct stat *statbuf) {
     LOGF("path: %s\n", path);
 
     if ( strcmp( path, "/" ) == 0 ) {
+        
         statbuf->st_uid = getuid(); // The owner of the file/directory is the user who mounted the filesystem
         statbuf->st_gid = getgid(); // The group of the file/directory is the same as the group of the user who mounted the filesystem
         statbuf->st_atime = time( NULL ); // The last "a"ccess of the file/directory is right now
         statbuf->st_mtime = time( NULL ); // The last "m"odification of the file/directory is right now
         statbuf->st_ctime = time( NULL );
-        statbuf->st_mode = S_IFREG | 0444;
+        statbuf->st_mode = S_IFDIR | 0555;
         statbuf->st_nlink = 2; // Why "two" hardlinks instead of "one"? The answer is here: http://unix.stackexchange.com/a/101536
+        LOG("step1");
         return 0;
     } else {
+        
         uint32_t pointer = -1;
         char copy[512];    // Max. größe 512 und auch immer 512 groß
         Inode* node = (Inode*)copy;
@@ -69,8 +72,9 @@ int MyFS::fuseGetattr(const char *path, struct stat *statbuf) {
                 return 0;
             }
         }
+        LOG("step2");
     }
-
+    LOG("step3");
     return -ENOENT;
 }
 
@@ -78,7 +82,7 @@ int MyFS::fuseReadlink(const char *path, char *link, size_t size) {
     LOGM();
     return 0;
 }
-
+//create a new inode
 int MyFS::fuseMknod(const char *path, mode_t mode, dev_t dev) {
     LOGM();
 
@@ -227,7 +231,7 @@ int MyFS::fuseFlush(const char *path, struct fuse_file_info *fileInfo) {
     return 0;
 }
 
-int MyFS::fuseRelease(const char *path, struct fuse_file_info *fileInfo) {
+int MyFS::fuseRelease(const char *path, struct fuse_file_info *fileInfo) {      //TODO
     LOGM();
     return 0;
 }
@@ -257,7 +261,7 @@ int MyFS::fuseRemovexattr(const char *path, const char *name) {
     return 0;
 }
 
-int MyFS::fuseOpendir(const char *path, struct fuse_file_info *fileInfo) {
+int MyFS::fuseOpendir(const char *path, struct fuse_file_info *fileInfo) {      //todo
     LOGM();
     return 0;
 }
@@ -265,7 +269,7 @@ int MyFS::fuseOpendir(const char *path, struct fuse_file_info *fileInfo) {
 int MyFS::fuseReaddir(const char *path, void *buf, fuse_fill_dir_t filler, off_t offset, struct fuse_file_info *fileInfo) {
     LOGM();
 
-    filler( buf, ".", NULL, 0 );  // Current Directory -> FUSE struct
+    filler( buf, ".", NULL, 0 );  // Current Directory
     filler( buf, "..", NULL, 0 ); // Parent Directory
 
     if ( strcmp( path, "/" ) == 0 ) { // If the user is trying to show the files/directories of the root directory show the following
@@ -284,7 +288,7 @@ int MyFS::fuseReaddir(const char *path, void *buf, fuse_fill_dir_t filler, off_t
     return 0;
 }
 
-int MyFS::fuseReleasedir(const char *path, struct fuse_file_info *fileInfo) {
+int MyFS::fuseReleasedir(const char *path, struct fuse_file_info *fileInfo) {               //todo
     LOGM();
     return 0;
 }
@@ -295,12 +299,14 @@ int MyFS::fuseFsyncdir(const char *path, int datasync, struct fuse_file_info *fi
 }
 
 int MyFS::fuseInit(struct fuse_conn_info *conn) {
-
+    
     // Initialize time based logging
     Logger::getLogger()->setTimeBasedLogging(true);
-    if (Logger::getLogger()->setLogfile(((MyFsInfo*) fuse_get_context()->private_data)->logFile) != 0)
+    if (Logger::getLogger()->setLogfile(((MyFsInfo*) fuse_get_context()->private_data)->logFile) != 0){
         return -1;
-    
+    }
+
+    LOGM();
     // Get the container file name here:
     LOGF("Container file name: %s\n", ((MyFsInfo*) fuse_get_context()->private_data)->contFile);
     

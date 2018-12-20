@@ -36,19 +36,20 @@ int main(int argc, char* argv[]) {
 
     MyFSMgr::instance()->getAbsPath(argv[1], containerFilePath); //MyFSMgr is a helper class 
 
-    LOG("Initialize block device...");
+    LOG("Initialize block device...\n");
     MyFSMgr::instance()->BDInstance()->create(containerFilePath); //create container instance 
     MyFSMgr::instance()->fillBlocks(0, BLOCK_COUNT);        //fill whole container with zeros starting from block 0 to the last available block 
 
-    LOG("Initialize superblock...");
+    LOG("Initialize superblock...\n");
     MyFSMgr::instance()->writeSuperBlock();                 //write the superblock
 
-    LOG("Copying files into container file...");
+    LOG("Copying files into container file...\n");
     for (int i = 2; i < argc; i++) {
-        if (MyFSMgr::instance()->importFile(argv[i]) == -1)
-            printf("step1"); // see: log file for more info
+        if (MyFSMgr::instance()->importFile(argv[i]) == 0)
+            printf("Files are imported successfully \n"); 
     }
 
     MyFSMgr::instance()->BDInstance()->close(); 
+    printf("BlockDevice is closed \n");
     return (EXIT_SUCCESS);
 }

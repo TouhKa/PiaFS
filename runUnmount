@@ -1,2 +1,2 @@
 #!/bin/bash
-fusermount --unmount /home/pia/Documents/Mount/
+fusermount --unmount /home/pia/Documents/TEST/

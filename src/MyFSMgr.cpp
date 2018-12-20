@@ -2,9 +2,6 @@
 
 /**
  * PIAs TODO:
- * - Entfernen von kommentierten Code-Zeilen
- * - Alles Kommentieren, auch inline comments
- * - Mehr LOG ausgaben machen. Viel mehr.
  * - Umschreiben der Bit Operationen
  * - Sinnvolle Return werte ERROR_CODES
  * - Bug Fixes für Aufg.2 (Schreiben / Löschen)
@@ -116,15 +113,19 @@ void MyFSMgr::writeSuperBlock() {
 void MyFSMgr::changeSBFileCount(int difference) {
     char read[BLOCK_SIZE]; //buffer
     int isSuccess =_blockDevice->read(0, read); //read 1. block which is the superblocks into the buffer
-    LOGF("Supberblock is read with status : %u", isSuccess);
+    LOGF("Supberblock is read with status : %u \n", isSuccess);
 
     Superblock* sb = (Superblock*) read;   //cast the char buffer into the structure of the superblock
 
-    if (difference > 0) {                   //add a file
+    if (difference > 0) {   
+                        //add a file
         sb->fileCount += difference;
+        LOGF("Total files : %u \n", sb->fileCount);
 
     } else if (difference != 0 && sb->fileCount >= (uint32_t) abs(difference)) { //delete a file
         sb->fileCount += difference;
+        LOGF("Total files : %u \n", sb->fileCount);
+
     } else {
         LOGF("Invalid difference value %d!", difference);
     }
@@ -302,7 +303,7 @@ uint32_t MyFSMgr::findNextFreeBlock() {
     char read[BLOCK_SIZE];                          //buffer
     for(uint32_t i = FAT_START; i <= FAT_ENDE; i++) {
         _blockDevice->read(i, read);                //loop throug FAT blocks. 
-         printf("resul4");
+    
         for (int x = 0; x < 128; x++) { // Max. entries within a block
             result = 0;
             for(int m = (4 * x); m < (4 * (x + 1)); m++) { //get valueof Entry Size = 4 Bytes
@@ -392,7 +393,7 @@ void MyFSMgr::createNewInode(char* path, mode_t mode){	//Leere Datei, hat sie ei
  */
 void MyFSMgr::writeInode(Inode* node) {
     char read[BLOCK_SIZE];
-
+    printf("inode written");
     for (uint32_t pointer = NODE_START; pointer <= NODE_ENDE; pointer++) {
         _blockDevice->read(pointer, read);                          //write current INODES into the buffer
 
@@ -472,17 +473,10 @@ void MyFSMgr::writeRootPointer(uint32_t newPointer) {
     }
     if(i >= NUM_DIR_ENTRIES){                                  //check if there are already max. amount of entries.
        LOG("ROOTDIRECTORY: Erlaubte Anzahl Eintraege ueberschritten.");
-    
-    }else{
-        //TODO return fehlerbehandlung
-        return;
-    }
+
 
     root->pointer[i] = newPointer;
     _blockDevice->write(ROOT_BLOCK, (char*)root);
-
-}
-
 
 
 /**
