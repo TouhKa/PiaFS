@@ -473,12 +473,12 @@ void MyFSMgr::writeRootPointer(uint32_t newPointer) {
     }
     if(i >= NUM_DIR_ENTRIES){                                  //check if there are already max. amount of entries.
        LOG("ROOTDIRECTORY: Erlaubte Anzahl Eintraege ueberschritten.");
-
+    }
 
     root->pointer[i] = newPointer;
     _blockDevice->write(ROOT_BLOCK, (char*)root);
 
-
+    }
 /**
  * Aufgabe1 
  * Find Inode in root dir

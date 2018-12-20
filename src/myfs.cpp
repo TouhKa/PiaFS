@@ -154,6 +154,7 @@ int MyFS::fuseUtime(const char *path, struct utimbuf *ubuf) {
 
 int MyFS::fuseOpen(const char *path, struct fuse_file_info *fileInfo) {
     LOGM();
+    //LOGF("Open %s \n", *path );
 
     uint32_t pointer = -1;
     char read[BLOCK_SIZE];
@@ -167,8 +168,8 @@ int MyFS::fuseOpen(const char *path, struct fuse_file_info *fileInfo) {
             DataBuffer db;                                       //Zum füllen aller wichtigen Daten, INode, DataPointer, BlockNr, Buffer(char[512])
             db.blockNumber = 0;                                  //da wir max. 64 Datein haben, ein Array mit 64 Plätzen. Im fh kommt dann der Index der File
             MyFSMgr::BDInstance()->read(node->pointer, read);    //In den nachfolgenden Fuse Operationen können wir dann auf das File & den Buffer zugreifen
-            memcpy(&db.data, read, 512);
-            db.dataPointer = node->pointer;
+            memcpy(&db.data, read, 512);                               //write block into buffer
+            db.dataPointer = node->pointer;                             
             dataBuffer[pointer - NODE_START] = db;
             fileInfo->fh = pointer - NODE_START;
             return 0;
@@ -214,11 +215,11 @@ int MyFS::fuseRead(const char *path, char *buf, size_t size, off_t offset, struc
     return bufferOffset;
 }
 
-int MyFS::fuseWrite(const char *path, const char *buf, size_t size, off_t offset, struct fuse_file_info *fileInfo) {
+int MyFS::fuseWrite(const char *path, const char *buf, size_t size, off_t offset, struct fuse_file_info *fileInfo) {            ///TODO
     LOGM();
     LOGF("path: '%s', offset: %i, buf: \n'%s'\n", basename(path), (int)offset, buf);
 
-    return MyFSMgr::instance()->changeFileContent((char*)path, (char*)buf, size, offset);
+    return MyFSMgr::instance()->changeFileContent((char*)path, (char*)buf, size, offset);  //LOGF("Writing Permission for %s - Files denied", *path );
 }
 
 int MyFS::fuseStatfs(const char *path, struct statvfs *statInfo) {
