@@ -1,250 +1,2326 @@
-669495 | src/myfs.cpp:266:fuseOpendir()
-671589 | src/myfs.cpp:40:fuseGetattr()
-671608 | path: /
-671614 | step1
-683752 | src/myfs.cpp:271:fuseReaddir()
-686416 | src/myfs.cpp:40:fuseGetattr()
-686447 | path: /data1.txt
-686899 | src/myfs.cpp:40:fuseGetattr()
-686909 | path: /.hidden
-686920 | step2
-686924 | step3
-687393 | src/myfs.cpp:40:fuseGetattr()
-687402 | path: /.goutputstream-PGNWTZ
-688413 | src/myfs.cpp:40:fuseGetattr()
-688425 | path: /.goutputstream-SUQHUZ
-690775 | src/myfs.cpp:293:fuseReleasedir()
-231422 | src/myfs.cpp:40:fuseGetattr()
-231449 | path: /
-231456 | step1
-170977 | src/myfs.cpp:40:fuseGetattr()
-171000 | path: /
-171006 | step1
-558258 | src/myfs.cpp:40:fuseGetattr()
-558290 | path: /.goutputstream-SUQHUZ
-561078 | src/myfs.cpp:226:fuseStatfs()
-562147 | src/myfs.cpp:40:fuseGetattr()
-562160 | path: /
-562165 | step1
-575614 | src/myfs.cpp:266:fuseOpendir()
-579486 | src/myfs.cpp:40:fuseGetattr()
-579499 | path: /.Trash
-579513 | step2
-579517 | step3
-580613 | src/myfs.cpp:40:fuseGetattr()
-580624 | path: /.Trash-1000
-580636 | step2
-580641 | step3
-580660 | src/myfs.cpp:271:fuseReaddir()
-580698 | src/myfs.cpp:40:fuseGetattr()
-580705 | path: /data1.txt
-580737 | src/myfs.cpp:40:fuseGetattr()
-580743 | path: /.hidden
-580772 | step2
-580778 | step3
-580854 | src/myfs.cpp:40:fuseGetattr()
-580862 | path: /
-580867 | step1
-582596 | src/myfs.cpp:40:fuseGetattr()
-582607 | path: /.goutputstream-PGNWTZ
-582642 | src/myfs.cpp:156:fuseOpen()
-582668 | src/myfs.cpp:182:fuseRead()
-582674 | reading file: /.goutputstream-PGNWTZ | size: 4096 | offset: 0
-582680 | from: 0 | TO: 512 | bufferOffset: 0
-582688 | from: 0 | TO: 512 | bufferOffset: 512
-582695 | from: 0 | TO: 512 | bufferOffset: 1024
-582734 | Inodepointer: 470
-582771 | Inodepointer: 471
-582782 | buf offset : 1536
-582817 | src/myfs.cpp:231:fuseFlush()
-582830 | src/myfs.cpp:236:fuseRelease()
-582901 | src/myfs.cpp:40:fuseGetattr()
-582908 | path: /.goutputstream-PGNWTZ
-582953 | src/myfs.cpp:156:fuseOpen()
-582976 | src/myfs.cpp:182:fuseRead()
-582982 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-582988 | from: 0 | TO: 512 | bufferOffset: 0
-582995 | from: 0 | TO: 512 | bufferOffset: 512
-583002 | from: 0 | TO: 512 | bufferOffset: 1024
-583010 | Inodepointer: 470
-583016 | Inodepointer: 471
-583022 | Inodepointer: 472
-583030 | buf offset : 1536
-583043 | src/myfs.cpp:231:fuseFlush()
-583054 | src/myfs.cpp:236:fuseRelease()
-583119 | src/myfs.cpp:40:fuseGetattr()
-583126 | path: /.goutputstream-SUQHUZ
-583450 | src/myfs.cpp:293:fuseReleasedir()
-256919 | src/myfs.cpp:40:fuseGetattr()
-256973 | path: /data1.txt
-740387 | src/myfs.cpp:40:fuseGetattr()
-740417 | path: /
-740423 | step1
-743597 | src/myfs.cpp:156:fuseOpen()
-763487 | src/myfs.cpp:266:fuseOpendir()
-869012 | src/myfs.cpp:271:fuseReaddir()
-872995 | src/myfs.cpp:40:fuseGetattr()
-873010 | path: /.hidden
-873023 | step2
-873027 | step3
-874163 | src/myfs.cpp:40:fuseGetattr()
-874187 | path: /.goutputstream-PGNWTZ
-875313 | src/myfs.cpp:156:fuseOpen()
-876323 | src/myfs.cpp:182:fuseRead()
-876334 | reading file: /.goutputstream-PGNWTZ | size: 4096 | offset: 0
-876341 | from: 0 | TO: 512 | bufferOffset: 0
-876350 | from: 0 | TO: 512 | bufferOffset: 512
-876357 | from: 0 | TO: 512 | bufferOffset: 1024
-876365 | Inodepointer: 470
-876371 | Inodepointer: 471
-876382 | buf offset : 1536
-876398 | src/myfs.cpp:231:fuseFlush()
-876410 | src/myfs.cpp:236:fuseRelease()
-876478 | src/myfs.cpp:40:fuseGetattr()
-876486 | path: /.goutputstream-SUQHUZ
-876512 | src/myfs.cpp:156:fuseOpen()
-876535 | src/myfs.cpp:182:fuseRead()
-876541 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-876546 | from: 0 | TO: 512 | bufferOffset: 0
-876553 | from: 0 | TO: 512 | bufferOffset: 512
-876560 | from: 0 | TO: 512 | bufferOffset: 1024
-876568 | Inodepointer: 470
-876574 | Inodepointer: 471
-876580 | Inodepointer: 472
-876587 | buf offset : 1536
-876600 | src/myfs.cpp:231:fuseFlush()
-876610 | src/myfs.cpp:236:fuseRelease()
-877232 | src/myfs.cpp:182:fuseRead()
-877243 | reading file: /data1.txt | size: 4096 | offset: 0
-877249 | from: 0 | TO: 512 | bufferOffset: 0
-877258 | from: 0 | TO: 512 | bufferOffset: 512
-877271 | from: 0 | TO: 512 | bufferOffset: 1024
-877279 | Inodepointer: 470
-877286 | buf offset : 1536
-878331 | src/myfs.cpp:40:fuseGetattr()
-878340 | path: /.goutputstream-SUQHUZ
-882450 | src/myfs.cpp:40:fuseGetattr()
-882462 | path: /.goutputstream-PGNWTZ
-882507 | src/myfs.cpp:40:fuseGetattr()
-882514 | path: /data1.txt
-883151 | src/myfs.cpp:40:fuseGetattr()
-883161 | path: /
-883166 | step1
-883321 | src/myfs.cpp:293:fuseReleasedir()
-887596 | src/myfs.cpp:231:fuseFlush()
-890324 | src/myfs.cpp:236:fuseRelease()
-928814 | src/myfs.cpp:40:fuseGetattr()
-928879 | path: /data1.txt
-952620 | src/myfs.cpp:40:fuseGetattr()
-952646 | path: /
-952652 | step1
-2018.12.20 14:12:39.5500 | src/myfs.cpp:40:fuseGetattr()
-2018.12.20 14:12:39.5546 | path: /.goutputstream-SUQHUZ
-2018.12.20 14:12:39.8380 | src/myfs.cpp:156:fuseOpen()
-2018.12.20 14:12:39.9772 | src/myfs.cpp:182:fuseRead()
-2018.12.20 14:12:39.9808 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-2018.12.20 14:12:39.9819 | from: 0 | TO: 512 | bufferOffset: 0
-2018.12.20 14:12:39.9833 | from: 0 | TO: 512 | bufferOffset: 512
-2018.12.20 14:12:39.9846 | from: 0 | TO: 512 | bufferOffset: 1024
-2018.12.20 14:12:39.9859 | Inodepointer: 470
-2018.12.20 14:12:39.9870 | Inodepointer: 471
-2018.12.20 14:12:39.9880 | Inodepointer: 472
-2018.12.20 14:12:39.9896 | buf offset : 1536
-2018.12.20 14:12:39.9926 | src/myfs.cpp:231:fuseFlush()
-2018.12.20 14:12:39.9946 | src/myfs.cpp:236:fuseRelease()
-2018.12.20 14:12:39.10478 | src/myfs.cpp:40:fuseGetattr()
-2018.12.20 14:12:39.10494 | path: /.goutputstream-SUQHUZ
-2018.12.20 14:12:39.14646 | src/myfs.cpp:156:fuseOpen()
-2018.12.20 14:12:39.14701 | src/myfs.cpp:182:fuseRead()
-2018.12.20 14:12:39.14712 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-2018.12.20 14:12:39.14721 | from: 0 | TO: 512 | bufferOffset: 0
-2018.12.20 14:12:39.14734 | from: 0 | TO: 512 | bufferOffset: 512
-2018.12.20 14:12:39.14747 | from: 0 | TO: 512 | bufferOffset: 1024
-2018.12.20 14:12:39.14759 | Inodepointer: 470
-2018.12.20 14:12:39.14770 | Inodepointer: 471
-2018.12.20 14:12:39.14793 | Inodepointer: 472
-2018.12.20 14:12:39.14804 | buf offset : 1536
-2018.12.20 14:12:39.14824 | src/myfs.cpp:231:fuseFlush()
-2018.12.20 14:12:39.14841 | src/myfs.cpp:236:fuseRelease()
-487022 | src/myfs.cpp:40:fuseGetattr()
-487052 | path: /.goutputstream-SUQHUZ
-488361 | src/myfs.cpp:40:fuseGetattr()
-488374 | path: /
-488380 | step1
-491625 | src/myfs.cpp:156:fuseOpen()
-511320 | src/myfs.cpp:266:fuseOpendir()
-611086 | src/myfs.cpp:156:fuseOpen()
-612613 | src/myfs.cpp:182:fuseRead()
-612631 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-612638 | from: 0 | TO: 512 | bufferOffset: 0
-612647 | from: 0 | TO: 512 | bufferOffset: 512
-612654 | from: 0 | TO: 512 | bufferOffset: 1024
-612662 | Inodepointer: 470
-612668 | Inodepointer: 471
-612674 | Inodepointer: 472
-612684 | buf offset : 1536
-613980 | src/myfs.cpp:231:fuseFlush()
-614467 | src/myfs.cpp:236:fuseRelease()
-614594 | src/myfs.cpp:271:fuseReaddir()
-614631 | src/myfs.cpp:40:fuseGetattr()
-614637 | path: /data1.txt
-614658 | src/myfs.cpp:40:fuseGetattr()
-614664 | path: /.hidden
-614674 | step2
-614678 | step3
-614733 | src/myfs.cpp:40:fuseGetattr()
-614740 | path: /.goutputstream-PGNWTZ
-615891 | src/myfs.cpp:156:fuseOpen()
-615921 | src/myfs.cpp:182:fuseRead()
-615927 | reading file: /.goutputstream-PGNWTZ | size: 4096 | offset: 0
-615932 | from: 0 | TO: 512 | bufferOffset: 0
-615940 | from: 0 | TO: 512 | bufferOffset: 512
-615947 | from: 0 | TO: 512 | bufferOffset: 1024
-615954 | Inodepointer: 470
-615959 | Inodepointer: 471
-615967 | buf offset : 1536
-615980 | src/myfs.cpp:231:fuseFlush()
-615992 | src/myfs.cpp:236:fuseRelease()
-616058 | src/myfs.cpp:40:fuseGetattr()
-616064 | path: /.goutputstream-SUQHUZ
-616088 | src/myfs.cpp:156:fuseOpen()
-616111 | src/myfs.cpp:182:fuseRead()
-616116 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-616121 | from: 0 | TO: 512 | bufferOffset: 0
-616128 | from: 0 | TO: 512 | bufferOffset: 512
-616134 | from: 0 | TO: 512 | bufferOffset: 1024
-616141 | Inodepointer: 470
-616147 | Inodepointer: 471
-616157 | Inodepointer: 472
-616164 | buf offset : 1536
-616177 | src/myfs.cpp:231:fuseFlush()
-616187 | src/myfs.cpp:236:fuseRelease()
-617946 | src/myfs.cpp:40:fuseGetattr()
-617957 | path: /.goutputstream-SUQHUZ
-623413 | src/myfs.cpp:40:fuseGetattr()
-623427 | path: /.goutputstream-PGNWTZ
-627652 | src/myfs.cpp:40:fuseGetattr()
-627684 | path: /
-627690 | step1
-629290 | src/myfs.cpp:293:fuseReleasedir()
-631489 | src/myfs.cpp:231:fuseFlush()
-634639 | src/myfs.cpp:236:fuseRelease()
-646508 | src/myfs.cpp:156:fuseOpen()
-650648 | src/myfs.cpp:182:fuseRead()
-650663 | reading file: /.goutputstream-SUQHUZ | size: 4096 | offset: 0
-650670 | from: 0 | TO: 512 | bufferOffset: 0
-650686 | from: 0 | TO: 512 | bufferOffset: 512
-650693 | from: 0 | TO: 512 | bufferOffset: 1024
-650700 | Inodepointer: 470
-650706 | Inodepointer: 471
-650712 | Inodepointer: 472
-650720 | buf offset : 1536
-651963 | src/myfs.cpp:231:fuseFlush()
-652988 | src/myfs.cpp:236:fuseRelease()
-655701 | src/myfs.cpp:40:fuseGetattr()
-655713 | path: /.goutputstream-SUQHUZ
-519724 | src/myfs.cpp:40:fuseGetattr()
-519824 | path: /.goutputstream-SUQHUZ
-539382 | src/myfs.cpp:40:fuseGetattr()
-539414 | path: /
-539424 | step1
+682198 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+682288 | src/Logger.cpp:46:setLogfile()
+682304 | src/myfs.cpp:310:fuseInit()
+682315 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+684467 | src/myfs.cpp:40:fuseGetattr()
+684492 | path: /.Trash
+684520 | step2
+684531 | step3
+684647 | src/myfs.cpp:40:fuseGetattr()
+684667 | path: /.Trash-1000
+684689 | step2
+684698 | step3
+726906 | src/myfs.cpp:266:fuseOpendir()
+729012 | src/myfs.cpp:40:fuseGetattr()
+729027 | path: /
+729035 | step1
+731398 | src/myfs.cpp:271:fuseReaddir()
+731453 | src/myfs.cpp:40:fuseGetattr()
+731462 | path: /data1.txt
+731510 | src/myfs.cpp:293:fuseReleasedir()
+731536 | src/myfs.cpp:266:fuseOpendir()
+731551 | src/myfs.cpp:40:fuseGetattr()
+731558 | path: /
+731564 | step1
+731589 | src/myfs.cpp:271:fuseReaddir()
+731633 | src/myfs.cpp:293:fuseReleasedir()
+731675 | src/myfs.cpp:266:fuseOpendir()
+731690 | src/myfs.cpp:40:fuseGetattr()
+731696 | path: /
+731702 | step1
+731725 | src/myfs.cpp:271:fuseReaddir()
+731766 | src/myfs.cpp:293:fuseReleasedir()
+731791 | src/myfs.cpp:266:fuseOpendir()
+731805 | src/myfs.cpp:40:fuseGetattr()
+731812 | path: /
+731818 | step1
+731840 | src/myfs.cpp:271:fuseReaddir()
+731882 | src/myfs.cpp:293:fuseReleasedir()
+731907 | src/myfs.cpp:266:fuseOpendir()
+731921 | src/myfs.cpp:40:fuseGetattr()
+731927 | path: /
+731933 | step1
+731955 | src/myfs.cpp:271:fuseReaddir()
+731999 | src/myfs.cpp:293:fuseReleasedir()
+732024 | src/myfs.cpp:266:fuseOpendir()
+732038 | src/myfs.cpp:40:fuseGetattr()
+732044 | path: /
+732050 | step1
+732096 | src/myfs.cpp:271:fuseReaddir()
+732171 | src/myfs.cpp:293:fuseReleasedir()
+732198 | src/myfs.cpp:266:fuseOpendir()
+732213 | src/myfs.cpp:40:fuseGetattr()
+732219 | path: /
+732225 | step1
+732247 | src/myfs.cpp:271:fuseReaddir()
+732289 | src/myfs.cpp:293:fuseReleasedir()
+732313 | src/myfs.cpp:266:fuseOpendir()
+732327 | src/myfs.cpp:40:fuseGetattr()
+732333 | path: /
+732339 | step1
+732361 | src/myfs.cpp:271:fuseReaddir()
+732402 | src/myfs.cpp:293:fuseReleasedir()
+732426 | src/myfs.cpp:266:fuseOpendir()
+732440 | src/myfs.cpp:40:fuseGetattr()
+732446 | path: /
+732452 | step1
+732474 | src/myfs.cpp:271:fuseReaddir()
+732516 | src/myfs.cpp:293:fuseReleasedir()
+732537 | src/myfs.cpp:266:fuseOpendir()
+732551 | src/myfs.cpp:40:fuseGetattr()
+732558 | path: /
+732563 | step1
+732585 | src/myfs.cpp:271:fuseReaddir()
+732647 | src/myfs.cpp:293:fuseReleasedir()
+732677 | src/myfs.cpp:266:fuseOpendir()
+732693 | src/myfs.cpp:40:fuseGetattr()
+732699 | path: /
+732705 | step1
+732728 | src/myfs.cpp:271:fuseReaddir()
+732771 | src/myfs.cpp:293:fuseReleasedir()
+732792 | src/myfs.cpp:266:fuseOpendir()
+732806 | src/myfs.cpp:40:fuseGetattr()
+732813 | path: /
+732818 | step1
+732840 | src/myfs.cpp:271:fuseReaddir()
+732881 | src/myfs.cpp:293:fuseReleasedir()
+732902 | src/myfs.cpp:266:fuseOpendir()
+732916 | src/myfs.cpp:40:fuseGetattr()
+732923 | path: /
+732928 | step1
+732950 | src/myfs.cpp:271:fuseReaddir()
+732991 | src/myfs.cpp:293:fuseReleasedir()
+733010 | src/myfs.cpp:266:fuseOpendir()
+733024 | src/myfs.cpp:40:fuseGetattr()
+733030 | path: /
+733036 | step1
+733058 | src/myfs.cpp:271:fuseReaddir()
+733116 | src/myfs.cpp:293:fuseReleasedir()
+733138 | src/myfs.cpp:266:fuseOpendir()
+733152 | src/myfs.cpp:40:fuseGetattr()
+733159 | path: /
+733164 | step1
+733187 | src/myfs.cpp:271:fuseReaddir()
+733226 | src/myfs.cpp:293:fuseReleasedir()
+733244 | src/myfs.cpp:266:fuseOpendir()
+733258 | src/myfs.cpp:40:fuseGetattr()
+733264 | path: /
+733270 | step1
+733291 | src/myfs.cpp:271:fuseReaddir()
+733330 | src/myfs.cpp:293:fuseReleasedir()
+733356 | src/myfs.cpp:40:fuseGetattr()
+733363 | path: /.xdg-volume-info
+733371 | step2
+733376 | step3
+733393 | src/myfs.cpp:266:fuseOpendir()
+733407 | src/myfs.cpp:40:fuseGetattr()
+733413 | path: /
+733418 | step1
+733467 | src/myfs.cpp:40:fuseGetattr()
+733475 | path: /autorun.inf
+733484 | step2
+733489 | step3
+733514 | src/myfs.cpp:271:fuseReaddir()
+733555 | src/myfs.cpp:293:fuseReleasedir()
+733577 | src/myfs.cpp:266:fuseOpendir()
+733634 | src/myfs.cpp:40:fuseGetattr()
+733649 | path: /
+733655 | step1
+733680 | src/myfs.cpp:271:fuseReaddir()
+733725 | src/myfs.cpp:293:fuseReleasedir()
+733747 | src/myfs.cpp:266:fuseOpendir()
+733761 | src/myfs.cpp:40:fuseGetattr()
+733768 | path: /
+733774 | step1
+733795 | src/myfs.cpp:271:fuseReaddir()
+733836 | src/myfs.cpp:293:fuseReleasedir()
+733865 | src/myfs.cpp:266:fuseOpendir()
+733879 | src/myfs.cpp:40:fuseGetattr()
+733885 | path: /
+733891 | step1
+733913 | src/myfs.cpp:271:fuseReaddir()
+733954 | src/myfs.cpp:293:fuseReleasedir()
+733977 | src/myfs.cpp:266:fuseOpendir()
+733991 | src/myfs.cpp:40:fuseGetattr()
+733997 | path: /
+734003 | step1
+734025 | src/myfs.cpp:271:fuseReaddir()
+734084 | src/myfs.cpp:293:fuseReleasedir()
+734113 | src/myfs.cpp:266:fuseOpendir()
+734128 | src/myfs.cpp:40:fuseGetattr()
+734134 | path: /
+734140 | step1
+734162 | src/myfs.cpp:271:fuseReaddir()
+734204 | src/myfs.cpp:293:fuseReleasedir()
+737697 | src/myfs.cpp:266:fuseOpendir()
+740588 | src/myfs.cpp:40:fuseGetattr()
+740601 | path: /
+740607 | step1
+740664 | src/myfs.cpp:271:fuseReaddir()
+740757 | src/myfs.cpp:293:fuseReleasedir()
+740779 | src/myfs.cpp:40:fuseGetattr()
+740786 | path: /autorun.inf
+740795 | step2
+740800 | step3
+157299 | src/myfs.cpp:40:fuseGetattr()
+157386 | path: /
+157412 | step1
+274477 | src/myfs.cpp:226:fuseStatfs()
+298624 | src/myfs.cpp:266:fuseOpendir()
+299875 | src/myfs.cpp:40:fuseGetattr()
+299888 | path: /.Trash
+299899 | step2
+299905 | step3
+299926 | src/myfs.cpp:40:fuseGetattr()
+299933 | path: /.Trash-1000
+299941 | step2
+299946 | step3
+299975 | src/myfs.cpp:271:fuseReaddir()
+300008 | src/myfs.cpp:40:fuseGetattr()
+300015 | path: /data1.txt
+300041 | src/myfs.cpp:40:fuseGetattr()
+300048 | path: /.hidden
+300056 | step2
+300061 | step3
+300134 | src/myfs.cpp:40:fuseGetattr()
+300142 | path: /
+300148 | step1
+301023 | src/myfs.cpp:293:fuseReleasedir()
+309788 | src/myfs.cpp:40:fuseGetattr()
+309808 | path: /
+309814 | step1
+450834 | src/myfs.cpp:40:fuseGetattr()
+450926 | path: /data1.txt
+460561 | src/myfs.cpp:226:fuseStatfs()
+460712 | src/myfs.cpp:40:fuseGetattr()
+460741 | path: /
+460763 | step1
+513957 | src/myfs.cpp:266:fuseOpendir()
+521766 | src/myfs.cpp:40:fuseGetattr()
+521789 | path: /.Trash
+521805 | step2
+521812 | step3
+523258 | src/myfs.cpp:40:fuseGetattr()
+523274 | path: /.Trash-1000
+523288 | step2
+523295 | step3
+523326 | src/myfs.cpp:271:fuseReaddir()
+523391 | src/myfs.cpp:40:fuseGetattr()
+523402 | path: /.hidden
+523414 | step2
+523421 | step3
+523527 | src/myfs.cpp:40:fuseGetattr()
+523539 | path: /
+523547 | step1
+525003 | src/myfs.cpp:293:fuseReleasedir()
+129059 | src/myfs.cpp:40:fuseGetattr()
+129140 | path: /
+129168 | step1
+142074 | src/myfs.cpp:266:fuseOpendir()
+149762 | src/myfs.cpp:40:fuseGetattr()
+149794 | path: /.Trash
+149817 | step2
+149827 | step3
+151091 | src/myfs.cpp:40:fuseGetattr()
+151115 | path: /.Trash-1000
+151135 | step2
+151145 | step3
+151187 | src/myfs.cpp:271:fuseReaddir()
+151257 | src/myfs.cpp:40:fuseGetattr()
+151272 | path: /data1.txt
+151409 | src/myfs.cpp:40:fuseGetattr()
+151426 | path: /
+151437 | step1
+156099 | src/myfs.cpp:293:fuseReleasedir()
+301880 | src/myfs.cpp:40:fuseGetattr()
+301906 | path: /
+301912 | step1
+406007 | src/myfs.cpp:40:fuseGetattr()
+406034 | path: /.git
+406046 | step2
+406051 | step3
+406076 | src/myfs.cpp:40:fuseGetattr()
+406084 | path: /.git
+406092 | step2
+406115 | step3
+406135 | src/myfs.cpp:40:fuseGetattr()
+406141 | path: /HEAD
+406151 | step2
+406156 | step3
+2018.12.27 14:06:55.30861 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.30909 | path: /
+2018.12.27 14:06:55.30923 | step1
+2018.12.27 14:06:55.34307 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:06:55.36221 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:06:55.36277 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.36320 | path: /
+2018.12.27 14:06:55.36332 | step1
+2018.12.27 14:06:55.36375 | src/myfs.cpp:251:fuseGetxattr()
+2018.12.27 14:06:55.36403 | src/myfs.cpp:251:fuseGetxattr()
+2018.12.27 14:06:55.36426 | src/myfs.cpp:251:fuseGetxattr()
+2018.12.27 14:06:55.36960 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.36977 | path: /data1.txt
+2018.12.27 14:06:55.37024 | src/myfs.cpp:251:fuseGetxattr()
+2018.12.27 14:06:55.37064 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:06:55.40995 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.41019 | path: /
+2018.12.27 14:06:55.41031 | step1
+2018.12.27 14:06:55.43887 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.43911 | path: /.git
+2018.12.27 14:06:55.43929 | step2
+2018.12.27 14:06:55.43938 | step3
+2018.12.27 14:06:55.53476 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.53508 | path: /.git
+2018.12.27 14:06:55.53528 | step2
+2018.12.27 14:06:55.53537 | step3
+2018.12.27 14:06:55.53572 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:06:55.53584 | path: /HEAD
+2018.12.27 14:06:55.53599 | step2
+2018.12.27 14:06:55.53608 | step3
+748890 | src/myfs.cpp:40:fuseGetattr()
+748940 | path: /data1.txt
+478136 | src/myfs.cpp:40:fuseGetattr()
+478167 | path: /
+478174 | step1
+485279 | src/myfs.cpp:156:fuseOpen()
+518188 | src/myfs.cpp:266:fuseOpendir()
+678087 | src/myfs.cpp:271:fuseReaddir()
+684970 | src/myfs.cpp:40:fuseGetattr()
+684992 | path: /.hidden
+685003 | step2
+685008 | step3
+685786 | src/myfs.cpp:182:fuseRead()
+685799 | reading file: /data1.txt | size: 4096 | offset: 0
+685817 | from: 0 | TO: 512 | bufferOffset: 0
+685828 | from: 0 | TO: 512 | bufferOffset: 512
+685837 | from: 0 | TO: 512 | bufferOffset: 1024
+685846 | Inodepointer: 470
+685859 | buf offset : 1536
+688902 | src/myfs.cpp:40:fuseGetattr()
+688917 | path: /data1.txt
+693987 | src/myfs.cpp:40:fuseGetattr()
+694004 | path: /
+694010 | step1
+694187 | src/myfs.cpp:293:fuseReleasedir()
+698747 | src/myfs.cpp:231:fuseFlush()
+704674 | src/myfs.cpp:236:fuseRelease()
+292261 | src/myfs.cpp:40:fuseGetattr()
+292368 | path: /data1.txt
+331189 | src/myfs.cpp:40:fuseGetattr()
+331235 | path: /
+331249 | step1
+891965 | src/myfs.cpp:40:fuseGetattr()
+892016 | path: /data1.txt
+675001 | src/myfs.cpp:40:fuseGetattr()
+675030 | path: /
+675037 | step1
+684212 | src/myfs.cpp:156:fuseOpen()
+704310 | src/myfs.cpp:266:fuseOpendir()
+872981 | src/myfs.cpp:271:fuseReaddir()
+877631 | src/myfs.cpp:40:fuseGetattr()
+877661 | path: /.hidden
+877672 | step2
+877677 | step3
+877958 | src/myfs.cpp:182:fuseRead()
+877969 | reading file: /data1.txt | size: 4096 | offset: 0
+877977 | from: 0 | TO: 512 | bufferOffset: 0
+877986 | from: 0 | TO: 512 | bufferOffset: 512
+877995 | from: 0 | TO: 512 | bufferOffset: 1024
+878004 | Inodepointer: 470
+878017 | buf offset : 1536
+878063 | src/myfs.cpp:40:fuseGetattr()
+878072 | path: /data1.txt
+879350 | src/myfs.cpp:40:fuseGetattr()
+879363 | path: /
+879369 | step1
+879554 | src/myfs.cpp:293:fuseReleasedir()
+881890 | src/myfs.cpp:231:fuseFlush()
+881915 | src/myfs.cpp:236:fuseRelease()
+897626 | src/myfs.cpp:40:fuseGetattr()
+897654 | path: /data1.txt
+464140 | src/myfs.cpp:40:fuseGetattr()
+464229 | path: /data1.txt
+502883 | src/myfs.cpp:40:fuseGetattr()
+502926 | path: /
+502971 | step1
+283540 | src/myfs.cpp:40:fuseGetattr()
+283591 | path: /
+283605 | step1
+398898 | src/myfs.cpp:40:fuseGetattr()
+398926 | path: /mandb_nfmt
+398938 | step2
+398944 | step3
+413997 | src/myfs.cpp:40:fuseGetattr()
+414019 | path: /-
+414046 | step2
+414054 | step3
+580599 | src/myfs.cpp:40:fuseGetattr()
+580693 | path: /
+580722 | step1
+585736 | src/myfs.cpp:40:fuseGetattr()
+585792 | path: /
+585818 | step1
+588714 | src/myfs.cpp:40:fuseGetattr()
+588908 | path: /.git
+588953 | step2
+588974 | step3
+607397 | src/myfs.cpp:40:fuseGetattr()
+607467 | path: /.git
+607508 | step2
+607528 | step3
+607602 | src/myfs.cpp:40:fuseGetattr()
+607629 | path: /HEAD
+607723 | step2
+607750 | step3
+2018.12.27 14:09:54.44510 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:09:54.44557 | path: /
+2018.12.27 14:09:54.44571 | step1
+765306 | src/myfs.cpp:40:fuseGetattr()
+765351 | path: /
+765365 | step1
+772299 | src/myfs.cpp:40:fuseGetattr()
+772335 | path: /.git
+772356 | step2
+772366 | step3
+781557 | src/myfs.cpp:40:fuseGetattr()
+781590 | path: /.git
+781605 | step2
+781612 | step3
+781639 | src/myfs.cpp:40:fuseGetattr()
+781647 | path: /HEAD
+781658 | step2
+781665 | step3
+2018.12.27 14:10:03.64844 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:03.69019 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:10:03.69147 | path: /
+2018.12.27 14:10:03.69176 | step1
+2018.12.27 14:10:03.69437 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:10:03.69570 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:03.69766 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:10:03.69795 | path: /data1.txt
+2018.12.27 14:10:03.84448 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:03.84513 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:10:03.84529 | path: /
+2018.12.27 14:10:03.84542 | step1
+2018.12.27 14:10:03.84674 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:10:03.84751 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:03.86418 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:10:03.86446 | path: /
+2018.12.27 14:10:03.86460 | step1
+783538 | src/myfs.cpp:40:fuseGetattr()
+783567 | path: /.git
+783579 | step2
+783584 | step3
+789369 | src/myfs.cpp:40:fuseGetattr()
+789399 | path: /.git
+789411 | step2
+789416 | step3
+792559 | src/myfs.cpp:40:fuseGetattr()
+792577 | path: /HEAD
+792588 | step2
+792593 | step3
+410212 | src/myfs.cpp:40:fuseGetattr()
+410237 | path: /
+410245 | step1
+414188 | src/myfs.cpp:40:fuseGetattr()
+414205 | path: /.git
+414217 | step2
+414222 | step3
+416023 | src/myfs.cpp:40:fuseGetattr()
+416037 | path: /.git
+416047 | step2
+416053 | step3
+417640 | src/myfs.cpp:40:fuseGetattr()
+417653 | path: /HEAD
+417664 | step2
+417669 | step3
+2018.12.27 14:10:32.47397 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:10:32.47448 | path: /
+2018.12.27 14:10:32.47462 | step1
+2018.12.27 14:10:32.61002 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:10:32.61042 | path: /data1.txt
+2018.12.27 14:10:32.65783 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:32.69378 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:32.70762 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:32.70810 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:32.71981 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:32.72029 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:32.74413 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:32.74647 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:32.74672 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:32.76263 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:10:32.83147 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:10:32.83185 | src/myfs.cpp:293:fuseReleasedir()
+105004 | src/myfs.cpp:266:fuseOpendir()
+107808 | src/myfs.cpp:293:fuseReleasedir()
+107855 | src/myfs.cpp:266:fuseOpendir()
+107876 | src/myfs.cpp:293:fuseReleasedir()
+107898 | src/myfs.cpp:266:fuseOpendir()
+107915 | src/myfs.cpp:293:fuseReleasedir()
+107937 | src/myfs.cpp:266:fuseOpendir()
+107954 | src/myfs.cpp:293:fuseReleasedir()
+108197 | src/myfs.cpp:266:fuseOpendir()
+108223 | src/myfs.cpp:293:fuseReleasedir()
+108302 | src/myfs.cpp:266:fuseOpendir()
+108326 | src/myfs.cpp:293:fuseReleasedir()
+108745 | src/myfs.cpp:266:fuseOpendir()
+109324 | src/myfs.cpp:293:fuseReleasedir()
+109438 | src/myfs.cpp:266:fuseOpendir()
+109458 | src/myfs.cpp:293:fuseReleasedir()
+110051 | src/myfs.cpp:266:fuseOpendir()
+112716 | src/myfs.cpp:293:fuseReleasedir()
+112837 | src/myfs.cpp:266:fuseOpendir()
+112858 | src/myfs.cpp:293:fuseReleasedir()
+113003 | src/myfs.cpp:266:fuseOpendir()
+113023 | src/myfs.cpp:293:fuseReleasedir()
+113835 | src/myfs.cpp:266:fuseOpendir()
+115337 | src/myfs.cpp:293:fuseReleasedir()
+115498 | src/myfs.cpp:266:fuseOpendir()
+115827 | src/myfs.cpp:293:fuseReleasedir()
+116563 | src/myfs.cpp:266:fuseOpendir()
+117255 | src/myfs.cpp:293:fuseReleasedir()
+117720 | src/myfs.cpp:266:fuseOpendir()
+117746 | src/myfs.cpp:293:fuseReleasedir()
+117792 | src/myfs.cpp:266:fuseOpendir()
+117811 | src/myfs.cpp:293:fuseReleasedir()
+118162 | src/myfs.cpp:266:fuseOpendir()
+121674 | src/myfs.cpp:293:fuseReleasedir()
+122714 | src/myfs.cpp:266:fuseOpendir()
+125537 | src/myfs.cpp:293:fuseReleasedir()
+125636 | src/myfs.cpp:266:fuseOpendir()
+125659 | src/myfs.cpp:293:fuseReleasedir()
+125751 | src/myfs.cpp:266:fuseOpendir()
+125772 | src/myfs.cpp:293:fuseReleasedir()
+126120 | src/myfs.cpp:266:fuseOpendir()
+126142 | src/myfs.cpp:293:fuseReleasedir()
+126315 | src/myfs.cpp:266:fuseOpendir()
+126344 | src/myfs.cpp:293:fuseReleasedir()
+126695 | src/myfs.cpp:266:fuseOpendir()
+126719 | src/myfs.cpp:293:fuseReleasedir()
+129173 | src/myfs.cpp:156:fuseOpen()
+129215 | src/myfs.cpp:40:fuseGetattr()
+129223 | path: /.data1.txt.swp
+129231 | step2
+129236 | step3
+129253 | src/myfs.cpp:40:fuseGetattr()
+129260 | path: /.data1.txt.swp
+129268 | step2
+129273 | step3
+129291 | src/myfs.cpp:87:fuseMknod()
+129297 | Creating file: .data1.txt.swp
+129311 | FAT UPATE: SET: 538 WITH -1
+129323 | Write Inode of file: .data1.txt.swp
+129342 | src/myfs.cpp:40:fuseGetattr()
+129347 | path: /.data1.txt.swp
+129654 | src/myfs.cpp:40:fuseGetattr()
+129665 | path: /
+129672 | step1
+129694 | src/myfs.cpp:40:fuseGetattr()
+129701 | path: /.Trash
+129714 | step2
+129719 | step3
+129738 | src/myfs.cpp:40:fuseGetattr()
+129744 | path: /.Trash-1000
+129755 | step2
+129760 | step3
+131024 | src/myfs.cpp:156:fuseOpen()
+131057 | src/myfs.cpp:40:fuseGetattr()
+131065 | path: /.data1.txt.swx
+131075 | step2
+131080 | step3
+131096 | src/myfs.cpp:40:fuseGetattr()
+131103 | path: /.data1.txt.swx
+131113 | step2
+131118 | step3
+131129 | src/myfs.cpp:87:fuseMknod()
+131136 | Creating file: .data1.txt.swx
+131147 | FAT UPATE: SET: 539 WITH -1
+131156 | Write Inode of file: .data1.txt.swx
+131170 | src/myfs.cpp:40:fuseGetattr()
+131175 | path: /.data1.txt.swx
+131368 | src/myfs.cpp:40:fuseGetattr()
+131379 | path: /
+131385 | step1
+131407 | src/myfs.cpp:40:fuseGetattr()
+131413 | path: /.Trash
+131426 | step2
+131431 | step3
+131449 | src/myfs.cpp:40:fuseGetattr()
+131456 | path: /.Trash-1000
+131468 | step2
+131473 | step3
+132247 | src/myfs.cpp:156:fuseOpen()
+132282 | src/myfs.cpp:231:fuseFlush()
+132461 | src/myfs.cpp:40:fuseGetattr()
+132472 | path: /.Trash
+132485 | step2
+132490 | step3
+132511 | src/myfs.cpp:40:fuseGetattr()
+132518 | path: /.Trash-1000
+132530 | step2
+132535 | step3
+133347 | src/myfs.cpp:236:fuseRelease()
+133378 | src/myfs.cpp:99:fuseUnlink()
+133395 | removed File: 539
+133402 | Filled Block 539
+133412 | Max_unit?: -1
+133417 | Removed FATPOINTER: 539
+133423 | FAT UPATE: SET: 539 WITH 0
+133435 | Filled Block 472
+133600 | src/myfs.cpp:231:fuseFlush()
+133751 | src/myfs.cpp:40:fuseGetattr()
+133762 | path: /
+133768 | step1
+133788 | src/myfs.cpp:40:fuseGetattr()
+133795 | path: /.Trash
+133806 | step2
+133811 | step3
+133829 | src/myfs.cpp:40:fuseGetattr()
+133835 | path: /.Trash-1000
+133846 | step2
+133851 | step3
+134652 | src/myfs.cpp:236:fuseRelease()
+134677 | src/myfs.cpp:99:fuseUnlink()
+134691 | removed File: 538
+134697 | Filled Block 538
+134706 | Max_unit?: -1
+134711 | Removed FATPOINTER: 538
+134717 | FAT UPATE: SET: 538 WITH 0
+134728 | Filled Block 471
+134890 | src/myfs.cpp:40:fuseGetattr()
+134902 | path: /.data1.txt.swp
+134911 | step2
+134916 | step3
+134931 | src/myfs.cpp:40:fuseGetattr()
+134937 | path: /.data1.txt.swp
+134946 | step2
+134950 | step3
+134970 | src/myfs.cpp:40:fuseGetattr()
+134977 | path: /.data1.txt.swp
+134985 | step2
+134990 | step3
+135004 | src/myfs.cpp:40:fuseGetattr()
+135010 | path: /.data1.txt.swp
+135018 | step2
+135023 | step3
+135034 | src/myfs.cpp:87:fuseMknod()
+135041 | Creating file: .data1.txt.swp
+135050 | FAT UPATE: SET: 538 WITH -1
+135057 | Write Inode of file: .data1.txt.swp
+135070 | src/myfs.cpp:40:fuseGetattr()
+135075 | path: /.data1.txt.swp
+135138 | src/myfs.cpp:156:fuseOpen()
+135266 | src/myfs.cpp:40:fuseGetattr()
+135276 | path: /
+135282 | step1
+135302 | src/myfs.cpp:40:fuseGetattr()
+135309 | path: /.Trash
+135319 | step2
+135324 | step3
+135342 | src/myfs.cpp:40:fuseGetattr()
+135348 | path: /.Trash-1000
+135359 | step2
+135363 | step3
+136124 | src/myfs.cpp:251:fuseGetxattr()
+136151 | src/myfs.cpp:219:fuseWrite()
+136159 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0VIM 8.0'
+136169 | Inodepointer: 470
+136176 | Inodepointer: 471
+136185 | Target-Pointer: 538, buffer:
+b0VIM 8.0, (Alte size: 0)
+136193 | src/MyFSMgr.cpp:184:write()
+136203 | FAT UPATE: SET: 538 WITH -1
+136231 | FAT UPATE: SET: 538 WITH -1
+136241 | New Inode size: 4096
+136298 | src/myfs.cpp:136:fuseChmod()
+136307 | src/myfs.cpp:40:fuseGetattr()
+136313 | path: /.data1.txt.swp
+136401 | src/myfs.cpp:231:fuseFlush()
+136541 | src/myfs.cpp:40:fuseGetattr()
+136551 | path: /.Trash
+136562 | step2
+136567 | step3
+136582 | src/myfs.cpp:236:fuseRelease()
+136611 | src/myfs.cpp:156:fuseOpen()
+136697 | src/myfs.cpp:182:fuseRead()
+136707 | reading file: /data1.txt | size: 4096 | offset: 0
+136714 | from: 0 | TO: 512 | bufferOffset: 0
+136723 | from: 0 | TO: 512 | bufferOffset: 512
+136732 | from: 0 | TO: 512 | bufferOffset: 1024
+136740 | Inodepointer: 470
+136749 | buf offset : 1536
+136774 | src/myfs.cpp:40:fuseGetattr()
+136781 | path: /.Trash-1000
+136791 | step2
+136796 | step3
+136831 | src/myfs.cpp:40:fuseGetattr()
+136839 | path: /data1.txt
+136885 | src/myfs.cpp:156:fuseOpen()
+136917 | src/myfs.cpp:231:fuseFlush()
+136931 | src/myfs.cpp:236:fuseRelease()
+136996 | src/myfs.cpp:182:fuseRead()
+137006 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+137012 | from: 0 | TO: 512 | bufferOffset: 0
+137021 | Inodepointer: 470
+137029 | Inodepointer: 471
+137037 | buf offset : 512
+137053 | src/myfs.cpp:231:fuseFlush()
+137067 | src/myfs.cpp:236:fuseRelease()
+137160 | src/myfs.cpp:40:fuseGetattr()
+137168 | path: /.data1.txt.swp
+141751 | src/myfs.cpp:266:fuseOpendir()
+141789 | src/myfs.cpp:293:fuseReleasedir()
+143625 | src/myfs.cpp:266:fuseOpendir()
+149458 | src/myfs.cpp:293:fuseReleasedir()
+185407 | src/myfs.cpp:266:fuseOpendir()
+186205 | src/myfs.cpp:293:fuseReleasedir()
+189786 | src/myfs.cpp:251:fuseGetxattr()
+191339 | src/myfs.cpp:219:fuseWrite()
+191393 | path: '.data1.txt.swp', offset: 4096, buf: 
+'tp'
+191442 | Inodepointer: 470
+191471 | Inodepointer: 471
+906432 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+906490 | src/Logger.cpp:46:setLogfile()
+906499 | src/myfs.cpp:310:fuseInit()
+906505 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+908705 | src/myfs.cpp:40:fuseGetattr()
+908720 | path: /.Trash
+908737 | step2
+908777 | step3
+908824 | src/myfs.cpp:40:fuseGetattr()
+908833 | path: /.Trash-1000
+908848 | step2
+908854 | step3
+940056 | src/myfs.cpp:266:fuseOpendir()
+944899 | src/myfs.cpp:40:fuseGetattr()
+944917 | path: /
+944924 | step1
+944972 | src/myfs.cpp:271:fuseReaddir()
+945015 | src/myfs.cpp:40:fuseGetattr()
+945024 | path: /data1.txt
+945064 | src/myfs.cpp:40:fuseGetattr()
+945072 | path: /.data1.txt.swp
+945110 | src/myfs.cpp:293:fuseReleasedir()
+945140 | src/myfs.cpp:266:fuseOpendir()
+945155 | src/myfs.cpp:40:fuseGetattr()
+945161 | path: /
+945167 | step1
+945191 | src/myfs.cpp:271:fuseReaddir()
+945243 | src/myfs.cpp:293:fuseReleasedir()
+945268 | src/myfs.cpp:266:fuseOpendir()
+945283 | src/myfs.cpp:40:fuseGetattr()
+945289 | path: /
+945295 | step1
+945318 | src/myfs.cpp:271:fuseReaddir()
+945369 | src/myfs.cpp:293:fuseReleasedir()
+945393 | src/myfs.cpp:266:fuseOpendir()
+945407 | src/myfs.cpp:40:fuseGetattr()
+945414 | path: /
+945420 | step1
+945442 | src/myfs.cpp:271:fuseReaddir()
+945495 | src/myfs.cpp:293:fuseReleasedir()
+945521 | src/myfs.cpp:266:fuseOpendir()
+945536 | src/myfs.cpp:40:fuseGetattr()
+945542 | path: /
+945548 | step1
+945571 | src/myfs.cpp:271:fuseReaddir()
+945621 | src/myfs.cpp:293:fuseReleasedir()
+945645 | src/myfs.cpp:266:fuseOpendir()
+945659 | src/myfs.cpp:40:fuseGetattr()
+945666 | path: /
+945672 | step1
+945694 | src/myfs.cpp:271:fuseReaddir()
+945745 | src/myfs.cpp:293:fuseReleasedir()
+945769 | src/myfs.cpp:266:fuseOpendir()
+945783 | src/myfs.cpp:40:fuseGetattr()
+945790 | path: /
+945796 | step1
+945818 | src/myfs.cpp:271:fuseReaddir()
+945926 | src/myfs.cpp:293:fuseReleasedir()
+945953 | src/myfs.cpp:266:fuseOpendir()
+945968 | src/myfs.cpp:40:fuseGetattr()
+945974 | path: /
+945980 | step1
+946003 | src/myfs.cpp:271:fuseReaddir()
+946055 | src/myfs.cpp:293:fuseReleasedir()
+946079 | src/myfs.cpp:266:fuseOpendir()
+946093 | src/myfs.cpp:40:fuseGetattr()
+946100 | path: /
+946106 | step1
+946128 | src/myfs.cpp:271:fuseReaddir()
+946178 | src/myfs.cpp:293:fuseReleasedir()
+946201 | src/myfs.cpp:266:fuseOpendir()
+946215 | src/myfs.cpp:40:fuseGetattr()
+946222 | path: /
+946228 | step1
+946250 | src/myfs.cpp:271:fuseReaddir()
+946309 | src/myfs.cpp:293:fuseReleasedir()
+946331 | src/myfs.cpp:266:fuseOpendir()
+946345 | src/myfs.cpp:40:fuseGetattr()
+946351 | path: /
+946356 | step1
+946378 | src/myfs.cpp:271:fuseReaddir()
+946428 | src/myfs.cpp:293:fuseReleasedir()
+946449 | src/myfs.cpp:266:fuseOpendir()
+946463 | src/myfs.cpp:40:fuseGetattr()
+946469 | path: /
+946474 | step1
+946496 | src/myfs.cpp:271:fuseReaddir()
+946545 | src/myfs.cpp:293:fuseReleasedir()
+946567 | src/myfs.cpp:266:fuseOpendir()
+947836 | src/myfs.cpp:40:fuseGetattr()
+947849 | path: /
+947855 | step1
+947884 | src/myfs.cpp:271:fuseReaddir()
+947945 | src/myfs.cpp:293:fuseReleasedir()
+947966 | src/myfs.cpp:266:fuseOpendir()
+947981 | src/myfs.cpp:40:fuseGetattr()
+947987 | path: /
+947993 | step1
+948015 | src/myfs.cpp:271:fuseReaddir()
+949292 | src/myfs.cpp:293:fuseReleasedir()
+949323 | src/myfs.cpp:266:fuseOpendir()
+949339 | src/myfs.cpp:40:fuseGetattr()
+949345 | path: /
+949350 | step1
+949375 | src/myfs.cpp:271:fuseReaddir()
+949426 | src/myfs.cpp:293:fuseReleasedir()
+949446 | src/myfs.cpp:266:fuseOpendir()
+949459 | src/myfs.cpp:40:fuseGetattr()
+949465 | path: /
+949471 | step1
+949493 | src/myfs.cpp:271:fuseReaddir()
+949539 | src/myfs.cpp:293:fuseReleasedir()
+949558 | src/myfs.cpp:266:fuseOpendir()
+949571 | src/myfs.cpp:40:fuseGetattr()
+949577 | path: /
+949583 | step1
+949604 | src/myfs.cpp:271:fuseReaddir()
+949649 | src/myfs.cpp:293:fuseReleasedir()
+949671 | src/myfs.cpp:266:fuseOpendir()
+949685 | src/myfs.cpp:40:fuseGetattr()
+949691 | path: /
+949696 | step1
+949718 | src/myfs.cpp:271:fuseReaddir()
+949815 | src/myfs.cpp:293:fuseReleasedir()
+949839 | src/myfs.cpp:266:fuseOpendir()
+949853 | src/myfs.cpp:40:fuseGetattr()
+949859 | path: /.xdg-volume-info
+949870 | step2
+949875 | step3
+949907 | src/myfs.cpp:40:fuseGetattr()
+949915 | path: /autorun.inf
+949925 | step2
+949930 | step3
+949943 | src/myfs.cpp:40:fuseGetattr()
+949949 | path: /
+949954 | step1
+949991 | src/myfs.cpp:271:fuseReaddir()
+950044 | src/myfs.cpp:293:fuseReleasedir()
+950073 | src/myfs.cpp:266:fuseOpendir()
+950088 | src/myfs.cpp:40:fuseGetattr()
+950094 | path: /
+950099 | step1
+950121 | src/myfs.cpp:271:fuseReaddir()
+950172 | src/myfs.cpp:293:fuseReleasedir()
+950197 | src/myfs.cpp:266:fuseOpendir()
+950211 | src/myfs.cpp:40:fuseGetattr()
+950217 | path: /
+950222 | step1
+950244 | src/myfs.cpp:271:fuseReaddir()
+950294 | src/myfs.cpp:293:fuseReleasedir()
+950318 | src/myfs.cpp:266:fuseOpendir()
+950332 | src/myfs.cpp:40:fuseGetattr()
+950338 | path: /
+950343 | step1
+950364 | src/myfs.cpp:271:fuseReaddir()
+950414 | src/myfs.cpp:293:fuseReleasedir()
+957679 | src/myfs.cpp:266:fuseOpendir()
+957710 | src/myfs.cpp:40:fuseGetattr()
+957718 | path: /
+957723 | step1
+957773 | src/myfs.cpp:271:fuseReaddir()
+957880 | src/myfs.cpp:293:fuseReleasedir()
+957902 | src/myfs.cpp:40:fuseGetattr()
+957909 | path: /autorun.inf
+957920 | step2
+957924 | step3
+162417 | src/myfs.cpp:40:fuseGetattr()
+162465 | path: /
+162478 | step1
+233617 | src/myfs.cpp:40:fuseGetattr()
+233650 | path: /.data1.txt.swp
+233682 | src/myfs.cpp:226:fuseStatfs()
+255711 | src/myfs.cpp:266:fuseOpendir()
+257104 | src/myfs.cpp:40:fuseGetattr()
+257117 | path: /.Trash
+257131 | step2
+257137 | step3
+257159 | src/myfs.cpp:40:fuseGetattr()
+257166 | path: /.Trash-1000
+257177 | step2
+257182 | step3
+257199 | src/myfs.cpp:271:fuseReaddir()
+257235 | src/myfs.cpp:40:fuseGetattr()
+257242 | path: /data1.txt
+257274 | src/myfs.cpp:40:fuseGetattr()
+257281 | path: /.hidden
+257291 | step2
+257296 | step3
+257367 | src/myfs.cpp:40:fuseGetattr()
+257375 | path: /
+257381 | step1
+258038 | src/myfs.cpp:156:fuseOpen()
+258074 | src/myfs.cpp:182:fuseRead()
+258082 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+258113 | from: 0 | TO: 512 | bufferOffset: 0
+258123 | Inodepointer: 470
+258130 | Inodepointer: 471
+258143 | buf offset : 512
+258160 | src/myfs.cpp:231:fuseFlush()
+258174 | src/myfs.cpp:236:fuseRelease()
+258258 | src/myfs.cpp:40:fuseGetattr()
+258266 | path: /.data1.txt.swp
+258638 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:13:25.78924 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:25.78956 | path: /data1.txt
+797528 | src/myfs.cpp:40:fuseGetattr()
+797558 | path: /
+797564 | step1
+802183 | src/myfs.cpp:156:fuseOpen()
+823542 | src/myfs.cpp:266:fuseOpendir()
+972252 | src/myfs.cpp:271:fuseReaddir()
+972327 | src/myfs.cpp:40:fuseGetattr()
+972336 | path: /.hidden
+972346 | step2
+972351 | step3
+972413 | src/myfs.cpp:40:fuseGetattr()
+972421 | path: /.data1.txt.swp
+972477 | src/myfs.cpp:156:fuseOpen()
+972530 | src/myfs.cpp:182:fuseRead()
+972540 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+972547 | from: 0 | TO: 512 | bufferOffset: 0
+972557 | Inodepointer: 470
+972564 | Inodepointer: 471
+972576 | buf offset : 512
+972596 | src/myfs.cpp:231:fuseFlush()
+972610 | src/myfs.cpp:236:fuseRelease()
+973938 | src/myfs.cpp:182:fuseRead()
+973950 | reading file: /data1.txt | size: 4096 | offset: 0
+973957 | from: 0 | TO: 512 | bufferOffset: 0
+973968 | from: 0 | TO: 512 | bufferOffset: 512
+973977 | from: 0 | TO: 512 | bufferOffset: 1024
+973986 | Inodepointer: 470
+973994 | buf offset : 1536
+974081 | src/myfs.cpp:40:fuseGetattr()
+974092 | path: /.data1.txt.swp
+978901 | src/myfs.cpp:40:fuseGetattr()
+978919 | path: /data1.txt
+983840 | src/myfs.cpp:40:fuseGetattr()
+983858 | path: /
+983865 | step1
+986600 | src/myfs.cpp:293:fuseReleasedir()
+993822 | src/myfs.cpp:231:fuseFlush()
+993854 | src/myfs.cpp:236:fuseRelease()
+217192 | src/myfs.cpp:40:fuseGetattr()
+217286 | path: /data1.txt
+221637 | src/myfs.cpp:40:fuseGetattr()
+221664 | path: /
+221677 | step1
+2018.12.27 14:13:36.46951 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.47049 | path: /data1.txt
+2018.12.27 14:13:36.59006 | src/myfs.cpp:156:fuseOpen()
+2018.12.27 14:13:36.59116 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.59135 | path: /.goutputstream-URSNUZ
+2018.12.27 14:13:36.59160 | step2
+2018.12.27 14:13:36.59172 | step3
+2018.12.27 14:13:36.59216 | src/myfs.cpp:87:fuseMknod()
+2018.12.27 14:13:36.59231 | Creating file: .goutputstream-URSNUZ
+2018.12.27 14:13:36.59262 | FAT UPATE: SET: 539 WITH -1
+2018.12.27 14:13:36.59288 | Write Inode of file: .goutputstream-URSNUZ
+2018.12.27 14:13:36.59328 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.59341 | path: /.goutputstream-URSNUZ
+2018.12.27 14:13:36.59627 | src/myfs.cpp:156:fuseOpen()
+2018.12.27 14:13:36.60083 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.60108 | path: /
+2018.12.27 14:13:36.60122 | step1
+2018.12.27 14:13:36.61416 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.61444 | path: /.Trash
+2018.12.27 14:13:36.61509 | step2
+2018.12.27 14:13:36.61526 | step3
+2018.12.27 14:13:36.61586 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.61603 | path: /.Trash-1000
+2018.12.27 14:13:36.61632 | step2
+2018.12.27 14:13:36.61643 | step3
+2018.12.27 14:13:36.61681 | src/myfs.cpp:251:fuseGetxattr()
+2018.12.27 14:13:36.61713 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.61727 | path: /.goutputstream-URSNUZ
+2018.12.27 14:13:36.61769 | src/myfs.cpp:141:fuseChown()
+2018.12.27 14:13:36.61784 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.61796 | path: /.goutputstream-URSNUZ
+2018.12.27 14:13:36.64090 | src/myfs.cpp:136:fuseChmod()
+2018.12.27 14:13:36.64121 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.64134 | path: /.goutputstream-URSNUZ
+2018.12.27 14:13:36.64447 | src/myfs.cpp:231:fuseFlush()
+2018.12.27 14:13:36.65325 | src/myfs.cpp:236:fuseRelease()
+2018.12.27 14:13:36.66994 | src/myfs.cpp:251:fuseGetxattr()
+2018.12.27 14:13:36.69050 | src/myfs.cpp:219:fuseWrite()
+2018.12.27 14:13:36.69080 | path: '.goutputstream-URSNUZ', offset: 0, buf: 
+'viel text in dieser datei, mehr da hoffe du kannst es lesen #01
+viel text in dieser datei, mehr da hoffe du kannst es lesen #02
+viel text in dieser datei, mehr da hoffe du kannst es lesen #03
+viel text in dieser datei, mehr da hoffe du kannst es lesen #04
+viel text in dieser datei, mehr da hoffe du kannst es lesen #05
+viel text in dieser datei, mehr da hoffe du kannst es lesen #06
+viel text in dieser datei, mehr da hoffe du kannst es lesen #07
+viel text in dieser datei, mehr da hoffe du kannst es lesen #08
+viel text in dieser datei, mehr da hoffe du kannst es lesen #09
+viel text in dieser datei, mehr da hoffe du kannst es lesen #10
+viel text in dieser datei, mehr da hoffe du kannst es lesen #11
+viel text in dieser datei, mehr da hoffe du kannst es lesen #12
+viel text in dieser datei, mehr da hoffe du kannst es lesen #13
+viel text in dieser datei, mehr da hoffe du kannst es lesen #14
+viel text in dieser datei, mehr da hoffe du kannst es lesen #15
+viel text in dieser datei, mehr da hoffe du kannst es lesen #16
+viel text in dieser datei, mehr da hoffe du kannst es lesen #17
+viel text in dieser datei, mehr da hoffe du kannst es lesen #18
+.
+'
+2018.12.27 14:13:36.69182 | Inodepointer: 470
+2018.12.27 14:13:36.69211 | Inodepointer: 471
+2018.12.27 14:13:36.69228 | Inodepointer: 472
+2018.12.27 14:13:36.69244 | Target-Pointer: 539, buffer:
+viel text in dieser datei, mehr da hoffe du kannst es lesen #01
+viel text in dieser datei, mehr da hoffe du kannst es lesen #02
+viel text in dieser datei, mehr da hoffe du kannst es lesen #03
+viel text in dieser datei, mehr da hoffe du kannst es lesen #04
+viel text in dieser datei, mehr da hoffe du kannst es lesen #05
+viel text in dieser datei, mehr da hoffe du kannst es lesen #06
+viel text in dieser datei, mehr da hoffe du kannst es lesen #07
+viel text in dieser datei, mehr da hoffe du kannst es lesen #08
+viel text in dieser datei, mehr da hoffe du kannst es lesen #09
+viel text in dieser datei, mehr da hoffe du kannst es lesen #10
+viel text in dieser datei, mehr da hoffe du kannst es lesen #11
+viel text in dieser datei, mehr da hoffe du kannst es lesen #12
+viel text in dieser datei, mehr da hoffe du kannst es lesen #13
+viel text in dieser datei, mehr da hoffe du kannst es lesen #14
+viel text in dieser datei, mehr da hoffe du kannst es lesen #15
+viel text in dieser datei, mehr da hoffe du kannst es lesen #16
+viel text in dieser datei, mehr da hoffe du kannst es lesen #17
+viel text in dieser datei, mehr da hoffe du kannst es lesen #18
+.
+, (Alte size: 0)
+2018.12.27 14:13:36.69267 | src/MyFSMgr.cpp:184:write()
+2018.12.27 14:13:36.69296 | FAT UPATE: SET: 539 WITH -1
+2018.12.27 14:13:36.69318 | FAT UPATE: SET: 539 WITH 540
+2018.12.27 14:13:36.69345 | FAT UPATE: SET: 540 WITH -1
+2018.12.27 14:13:36.69366 | FAT UPATE: SET: 540 WITH 541
+2018.12.27 14:13:36.69393 | FAT UPATE: SET: 541 WITH -1
+2018.12.27 14:13:36.69418 | FAT UPATE: SET: 541 WITH -1
+2018.12.27 14:13:36.69434 | New Inode size: 1154
+2018.12.27 14:13:36.69847 | src/myfs.cpp:241:fuseFsync()
+2018.12.27 14:13:36.69908 | src/myfs.cpp:126:fuseRename()
+2018.12.27 14:13:36.70233 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.70258 | path: /data1.txt
+2018.12.27 14:13:36.70935 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.70961 | path: /
+2018.12.27 14:13:36.70975 | step1
+2018.12.27 14:13:36.73444 | src/myfs.cpp:231:fuseFlush()
+2018.12.27 14:13:36.73601 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.73625 | path: /.Trash
+2018.12.27 14:13:36.73659 | step2
+2018.12.27 14:13:36.73671 | step3
+2018.12.27 14:13:36.73706 | src/myfs.cpp:236:fuseRelease()
+2018.12.27 14:13:36.73799 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.73820 | path: /.Trash-1000
+2018.12.27 14:13:36.73850 | step2
+2018.12.27 14:13:36.73861 | step3
+2018.12.27 14:13:36.73943 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:13:36.73961 | path: /.hidden
+2018.12.27 14:13:36.73989 | step2
+2018.12.27 14:13:36.74000 | step3
+197705 | src/myfs.cpp:40:fuseGetattr()
+197739 | path: /data1.txt
+169701 | src/myfs.cpp:40:fuseGetattr()
+169730 | path: /data1.txt
+174034 | src/myfs.cpp:40:fuseGetattr()
+174111 | path: /data1.txt
+176320 | src/myfs.cpp:40:fuseGetattr()
+176346 | path: /
+176359 | step1
+2018.12.27 14:22:46.17039 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+2018.12.27 14:22:46.17082 | src/Logger.cpp:46:setLogfile()
+2018.12.27 14:22:46.17089 | src/myfs.cpp:310:fuseInit()
+2018.12.27 14:22:46.17094 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+2018.12.27 14:22:46.17199 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.17207 | path: /.Trash
+2018.12.27 14:22:46.17221 | step2
+2018.12.27 14:22:46.17232 | step3
+2018.12.27 14:22:46.17262 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.17269 | path: /.Trash-1000
+2018.12.27 14:22:46.17281 | step2
+2018.12.27 14:22:46.17285 | step3
+2018.12.27 14:22:46.46493 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.47723 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.47735 | path: /
+2018.12.27 14:22:46.47741 | step1
+2018.12.27 14:22:46.48775 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.48823 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.48830 | path: /data1.txt
+2018.12.27 14:22:46.50236 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.50247 | path: /.data1.txt.swp
+2018.12.27 14:22:46.50282 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.50289 | path: /.goutputstream-URSNUZ
+2018.12.27 14:22:46.50329 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.50353 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.50366 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.50371 | path: /
+2018.12.27 14:22:46.50376 | step1
+2018.12.27 14:22:46.50400 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.50479 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.51412 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.51432 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.51438 | path: /
+2018.12.27 14:22:46.51443 | step1
+2018.12.27 14:22:46.51469 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.51534 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.51558 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.51571 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.51576 | path: /
+2018.12.27 14:22:46.51581 | step1
+2018.12.27 14:22:46.51603 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.51663 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.51686 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.51699 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.51704 | path: /
+2018.12.27 14:22:46.51709 | step1
+2018.12.27 14:22:46.51731 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.51868 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.51897 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.51911 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.51916 | path: /
+2018.12.27 14:22:46.51921 | step1
+2018.12.27 14:22:46.51944 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.52163 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.52190 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.52204 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.52209 | path: /
+2018.12.27 14:22:46.52214 | step1
+2018.12.27 14:22:46.52237 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.52297 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.52320 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.52332 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.52338 | path: /
+2018.12.27 14:22:46.52343 | step1
+2018.12.27 14:22:46.52364 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.52555 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.52583 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.52595 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.52601 | path: /.xdg-volume-info
+2018.12.27 14:22:46.52612 | step2
+2018.12.27 14:22:46.52616 | step3
+2018.12.27 14:22:46.52646 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.52653 | path: /autorun.inf
+2018.12.27 14:22:46.52664 | step2
+2018.12.27 14:22:46.52668 | step3
+2018.12.27 14:22:46.52679 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.52685 | path: /
+2018.12.27 14:22:46.52690 | step1
+2018.12.27 14:22:46.52726 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.53536 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.53564 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.53578 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.53584 | path: /
+2018.12.27 14:22:46.53589 | step1
+2018.12.27 14:22:46.53612 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.53673 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.53695 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.53708 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.53720 | path: /
+2018.12.27 14:22:46.53725 | step1
+2018.12.27 14:22:46.53766 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.53831 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.53852 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.53865 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.53870 | path: /
+2018.12.27 14:22:46.53875 | step1
+2018.12.27 14:22:46.53897 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.53955 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.53982 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.53995 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.54000 | path: /
+2018.12.27 14:22:46.54005 | step1
+2018.12.27 14:22:46.54027 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.54084 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.54102 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.54114 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.54119 | path: /
+2018.12.27 14:22:46.54124 | step1
+2018.12.27 14:22:46.54145 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.54194 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.54211 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.57240 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.57254 | path: /
+2018.12.27 14:22:46.57260 | step1
+2018.12.27 14:22:46.57291 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.61320 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.61345 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.61359 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.61365 | path: /
+2018.12.27 14:22:46.61370 | step1
+2018.12.27 14:22:46.61393 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.61445 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.61463 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.61476 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.61481 | path: /
+2018.12.27 14:22:46.61486 | step1
+2018.12.27 14:22:46.61507 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.61557 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.61578 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.61591 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.61596 | path: /
+2018.12.27 14:22:46.61601 | step1
+2018.12.27 14:22:46.61623 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.61683 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.61703 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.61716 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.61721 | path: /
+2018.12.27 14:22:46.61726 | step1
+2018.12.27 14:22:46.61747 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.61805 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.61830 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.61843 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.61848 | path: /
+2018.12.27 14:22:46.61853 | step1
+2018.12.27 14:22:46.61874 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.61932 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.61956 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.61969 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.61974 | path: /
+2018.12.27 14:22:46.61979 | step1
+2018.12.27 14:22:46.62001 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.62058 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.62081 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.62094 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.62099 | path: /
+2018.12.27 14:22:46.62104 | step1
+2018.12.27 14:22:46.62125 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.62182 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.69733 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:22:46.69758 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.69765 | path: /
+2018.12.27 14:22:46.69770 | step1
+2018.12.27 14:22:46.69826 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:22:46.69950 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:22:46.69972 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:22:46.69978 | path: /autorun.inf
+2018.12.27 14:22:46.69989 | step2
+2018.12.27 14:22:46.69993 | step3
+944520 | src/myfs.cpp:40:fuseGetattr()
+944554 | path: /
+944560 | step1
+946901 | src/myfs.cpp:226:fuseStatfs()
+965071 | src/myfs.cpp:266:fuseOpendir()
+968253 | src/myfs.cpp:40:fuseGetattr()
+968268 | path: /.Trash
+968283 | step2
+968288 | step3
+968311 | src/myfs.cpp:40:fuseGetattr()
+968317 | path: /.Trash-1000
+968329 | step2
+968333 | step3
+968353 | src/myfs.cpp:271:fuseReaddir()
+968415 | src/myfs.cpp:40:fuseGetattr()
+968423 | path: /data1.txt
+968450 | src/myfs.cpp:40:fuseGetattr()
+968456 | path: /.hidden
+968467 | step2
+968472 | step3
+968546 | src/myfs.cpp:40:fuseGetattr()
+968554 | path: /
+968559 | step1
+969512 | src/myfs.cpp:40:fuseGetattr()
+969524 | path: /.data1.txt.swp
+969568 | src/myfs.cpp:156:fuseOpen()
+969595 | src/myfs.cpp:182:fuseRead()
+969602 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+969618 | from: 0 | TO: 512 | bufferOffset: 0
+969627 | Inodepointer: 470
+969634 | Inodepointer: 471
+969645 | buf offset : 512
+969662 | src/myfs.cpp:231:fuseFlush()
+969675 | src/myfs.cpp:236:fuseRelease()
+969757 | src/myfs.cpp:40:fuseGetattr()
+969764 | path: /.data1.txt.swp
+969810 | src/myfs.cpp:40:fuseGetattr()
+969817 | path: /.goutputstream-URSNUZ
+969849 | src/myfs.cpp:156:fuseOpen()
+970991 | src/myfs.cpp:182:fuseRead()
+971003 | reading file: /.goutputstream-URSNUZ | size: 4096 | offset: 0
+971009 | from: 0 | TO: 512 | bufferOffset: 0
+971018 | from: 0 | TO: 512 | bufferOffset: 512
+971026 | from: 0 | TO: 512 | bufferOffset: 1024
+971034 | Inodepointer: 470
+971041 | Inodepointer: 471
+971047 | Inodepointer: 472
+971055 | buf offset : 1536
+971073 | src/myfs.cpp:231:fuseFlush()
+971087 | src/myfs.cpp:236:fuseRelease()
+971176 | src/myfs.cpp:40:fuseGetattr()
+971183 | path: /.goutputstream-URSNUZ
+973860 | src/myfs.cpp:293:fuseReleasedir()
+270843 | src/myfs.cpp:40:fuseGetattr()
+270880 | path: /
+270891 | step1
+270960 | src/myfs.cpp:266:fuseOpendir()
+270998 | src/myfs.cpp:271:fuseReaddir()
+271047 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.48664 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+2018.12.27 14:23:25.48721 | src/Logger.cpp:46:setLogfile()
+2018.12.27 14:23:25.48729 | src/myfs.cpp:310:fuseInit()
+2018.12.27 14:23:25.48736 | Container file name: /home/pia/Documents/PiaFS/dummy.bin
+2018.12.27 14:23:25.48866 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.48878 | path: /.Trash
+2018.12.27 14:23:25.48894 | step2
+2018.12.27 14:23:25.48900 | step3
+2018.12.27 14:23:25.48940 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.48949 | path: /.Trash-1000
+2018.12.27 14:23:25.48962 | step2
+2018.12.27 14:23:25.48968 | step3
+2018.12.27 14:23:25.83576 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.85372 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.85384 | path: /
+2018.12.27 14:23:25.85390 | step1
+2018.12.27 14:23:25.85428 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.85465 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.85472 | path: /data1.txt
+2018.12.27 14:23:25.85516 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.85539 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.85552 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.85558 | path: /
+2018.12.27 14:23:25.85564 | step1
+2018.12.27 14:23:25.85586 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.85628 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.85652 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.85665 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.85671 | path: /
+2018.12.27 14:23:25.85676 | step1
+2018.12.27 14:23:25.85698 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.85738 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.85760 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.85774 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.85779 | path: /
+2018.12.27 14:23:25.85785 | step1
+2018.12.27 14:23:25.85806 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.85846 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.85869 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.85883 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.85888 | path: /
+2018.12.27 14:23:25.85901 | step1
+2018.12.27 14:23:25.85923 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.85966 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.85988 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86001 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86006 | path: /
+2018.12.27 14:23:25.86011 | step1
+2018.12.27 14:23:25.86032 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86071 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86092 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86105 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86110 | path: /
+2018.12.27 14:23:25.86115 | step1
+2018.12.27 14:23:25.86136 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86176 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86198 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86211 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86216 | path: /
+2018.12.27 14:23:25.86221 | step1
+2018.12.27 14:23:25.86241 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86280 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86303 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86334 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86340 | path: /
+2018.12.27 14:23:25.86345 | step1
+2018.12.27 14:23:25.86368 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86410 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86431 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86443 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86448 | path: /
+2018.12.27 14:23:25.86453 | step1
+2018.12.27 14:23:25.86474 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86513 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86534 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86546 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86551 | path: /
+2018.12.27 14:23:25.86556 | step1
+2018.12.27 14:23:25.86577 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86616 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86635 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86647 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86653 | path: /
+2018.12.27 14:23:25.86658 | step1
+2018.12.27 14:23:25.86678 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86717 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86736 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86749 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86754 | path: /
+2018.12.27 14:23:25.86759 | step1
+2018.12.27 14:23:25.86779 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86819 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86836 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86848 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86853 | path: /
+2018.12.27 14:23:25.86858 | step1
+2018.12.27 14:23:25.86883 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.86923 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.86941 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.86953 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.86959 | path: /
+2018.12.27 14:23:25.86964 | step1
+2018.12.27 14:23:25.86985 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87021 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87038 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87051 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87056 | path: /
+2018.12.27 14:23:25.87061 | step1
+2018.12.27 14:23:25.87081 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87118 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87135 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87147 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87152 | path: /
+2018.12.27 14:23:25.87157 | step1
+2018.12.27 14:23:25.87177 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87215 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87234 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87246 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87252 | path: /
+2018.12.27 14:23:25.87256 | step1
+2018.12.27 14:23:25.87277 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87342 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87363 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87376 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87381 | path: /
+2018.12.27 14:23:25.87386 | step1
+2018.12.27 14:23:25.87408 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87447 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87472 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87484 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87490 | path: /
+2018.12.27 14:23:25.87495 | step1
+2018.12.27 14:23:25.87515 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87554 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87576 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87589 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87594 | path: /
+2018.12.27 14:23:25.87599 | step1
+2018.12.27 14:23:25.87620 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87659 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87681 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.87693 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87699 | path: /
+2018.12.27 14:23:25.87704 | step1
+2018.12.27 14:23:25.87724 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.87764 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.87881 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87889 | path: /.xdg-volume-info
+2018.12.27 14:23:25.87897 | step2
+2018.12.27 14:23:25.87901 | step3
+2018.12.27 14:23:25.87935 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.87942 | path: /autorun.inf
+2018.12.27 14:23:25.87949 | step2
+2018.12.27 14:23:25.87953 | step3
+2018.12.27 14:23:25.93278 | src/myfs.cpp:266:fuseOpendir()
+2018.12.27 14:23:25.93303 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.93310 | path: /
+2018.12.27 14:23:25.93315 | step1
+2018.12.27 14:23:25.93363 | src/myfs.cpp:271:fuseReaddir()
+2018.12.27 14:23:25.93450 | src/myfs.cpp:293:fuseReleasedir()
+2018.12.27 14:23:25.93472 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:25.93478 | path: /autorun.inf
+2018.12.27 14:23:25.93486 | step2
+2018.12.27 14:23:25.93490 | step3
+233085 | src/myfs.cpp:40:fuseGetattr()
+233111 | path: /
+233117 | step1
+251287 | src/myfs.cpp:226:fuseStatfs()
+262464 | src/myfs.cpp:266:fuseOpendir()
+266306 | src/myfs.cpp:40:fuseGetattr()
+266319 | path: /.Trash
+266329 | step2
+266334 | step3
+266356 | src/myfs.cpp:40:fuseGetattr()
+266362 | path: /.Trash-1000
+266370 | step2
+266374 | step3
+266394 | src/myfs.cpp:271:fuseReaddir()
+266427 | src/myfs.cpp:40:fuseGetattr()
+266433 | path: /data1.txt
+266477 | src/myfs.cpp:40:fuseGetattr()
+266485 | path: /.hidden
+266493 | step2
+266497 | step3
+266568 | src/myfs.cpp:40:fuseGetattr()
+266576 | path: /
+266581 | step1
+267499 | src/myfs.cpp:293:fuseReleasedir()
+568335 | src/myfs.cpp:40:fuseGetattr()
+568370 | path: /data1.txt
+130183 | src/myfs.cpp:40:fuseGetattr()
+130225 | path: /
+130231 | step1
+132217 | src/myfs.cpp:156:fuseOpen()
+148880 | src/myfs.cpp:266:fuseOpendir()
+255362 | src/myfs.cpp:271:fuseReaddir()
+255431 | src/myfs.cpp:40:fuseGetattr()
+255438 | path: /.hidden
+255446 | step2
+255450 | step3
+257343 | src/myfs.cpp:182:fuseRead()
+257356 | reading file: /data1.txt | size: 4096 | offset: 0
+257372 | from: 0 | TO: 512 | bufferOffset: 0
+257381 | from: 0 | TO: 512 | bufferOffset: 512
+257390 | from: 0 | TO: 512 | bufferOffset: 1024
+257398 | Inodepointer: 470
+257408 | buf offset : 1536
+257454 | src/myfs.cpp:40:fuseGetattr()
+257462 | path: /data1.txt
+259913 | src/myfs.cpp:40:fuseGetattr()
+259924 | path: /
+259929 | step1
+260495 | src/myfs.cpp:293:fuseReleasedir()
+266649 | src/myfs.cpp:231:fuseFlush()
+266681 | src/myfs.cpp:236:fuseRelease()
+698009 | src/myfs.cpp:40:fuseGetattr()
+698050 | path: /data1.txt
+698199 | src/myfs.cpp:40:fuseGetattr()
+698214 | path: /
+698224 | step1
+309405 | src/myfs.cpp:40:fuseGetattr()
+309448 | path: /data1.txt
+310047 | src/myfs.cpp:156:fuseOpen()
+310122 | src/myfs.cpp:40:fuseGetattr()
+310136 | path: /.goutputstream-3EGIUZ
+310152 | step2
+310161 | step3
+310197 | src/myfs.cpp:87:fuseMknod()
+310209 | Creating file: .goutputstream-3EGIUZ
+310247 | FAT UPATE: SET: 538 WITH -1
+310263 | Write Inode of file: .goutputstream-3EGIUZ
+310291 | src/myfs.cpp:40:fuseGetattr()
+310301 | path: /.goutputstream-3EGIUZ
+310476 | src/myfs.cpp:156:fuseOpen()
+310877 | src/myfs.cpp:40:fuseGetattr()
+310898 | path: /
+310910 | step1
+310953 | src/myfs.cpp:40:fuseGetattr()
+310966 | path: /.Trash
+310986 | step2
+310996 | step3
+311033 | src/myfs.cpp:40:fuseGetattr()
+311046 | path: /.Trash-1000
+311065 | step2
+311074 | step3
+313657 | src/myfs.cpp:251:fuseGetxattr()
+313947 | src/myfs.cpp:40:fuseGetattr()
+313969 | path: /.goutputstream-3EGIUZ
+314010 | src/myfs.cpp:141:fuseChown()
+314022 | src/myfs.cpp:40:fuseGetattr()
+314031 | path: /.goutputstream-3EGIUZ
+314162 | src/myfs.cpp:136:fuseChmod()
+314180 | src/myfs.cpp:40:fuseGetattr()
+314189 | path: /.goutputstream-3EGIUZ
+314371 | src/myfs.cpp:231:fuseFlush()
+314495 | src/myfs.cpp:236:fuseRelease()
+315844 | src/myfs.cpp:251:fuseGetxattr()
+317343 | src/myfs.cpp:219:fuseWrite()
+317369 | path: '.goutputstream-3EGIUZ', offset: 0, buf: 
+'viel text in dieser datei, mehr da hoffe du kannst es lesen #01
+viel text in dieser datei, mehr da hoffe du kannst es lesen #02
+viel text in dieser datei, mehr da hoffe du kannst es lesen #03
+viel text in dieser datei, mehr da hoffe du kannst es lesen #04
+viel text in dieser datei, mehr da hoffe du kannst es lesen #05
+viel text in dieser datei, mehr da hoffe du kannst es lesen #06
+viel text in dieser datei, mehr da hoffe du kannst es lesen #07
+viel text in dieser datei, mehr da hoffe du kannst es lesen #08
+viel text in dieser datei, mehr da hoffe du kannst es lesen #09
+viel text in dieser datei, mehr da hoffe du kannst es lesen #10
+viel text in dieser datei, mehr da hoffe du kannst es lesen #11
+viel text in dieser datei, mehr da hoffe du kannst es lesen #12
+viel text in dieser datei, mehr da hoffe du kannst es lesen #13
+viel text in dieser datei, mehr da hoffe du kannst es lesen #14
+viel text in dieser datei, mehr da hoffe du kannst es lesen #15
+viel text in dieser datei, mehr da hoffe du kannst es lesen #16
+viel text in dieser datei, mehr da hoffe du kannst es lesen #17
+viel text in dieser datei, mehr da hoffe du kannst es lesen #18
+dhfjd
+'
+317391 | Inodepointer: 470
+317405 | Inodepointer: 471
+317418 | Target-Pointer: 538, buffer:
+viel text in dieser datei, mehr da hoffe du kannst es lesen #01
+viel text in dieser datei, mehr da hoffe du kannst es lesen #02
+viel text in dieser datei, mehr da hoffe du kannst es lesen #03
+viel text in dieser datei, mehr da hoffe du kannst es lesen #04
+viel text in dieser datei, mehr da hoffe du kannst es lesen #05
+viel text in dieser datei, mehr da hoffe du kannst es lesen #06
+viel text in dieser datei, mehr da hoffe du kannst es lesen #07
+viel text in dieser datei, mehr da hoffe du kannst es lesen #08
+viel text in dieser datei, mehr da hoffe du kannst es lesen #09
+viel text in dieser datei, mehr da hoffe du kannst es lesen #10
+viel text in dieser datei, mehr da hoffe du kannst es lesen #11
+viel text in dieser datei, mehr da hoffe du kannst es lesen #12
+viel text in dieser datei, mehr da hoffe du kannst es lesen #13
+viel text in dieser datei, mehr da hoffe du kannst es lesen #14
+viel text in dieser datei, mehr da hoffe du kannst es lesen #15
+viel text in dieser datei, mehr da hoffe du kannst es lesen #16
+viel text in dieser datei, mehr da hoffe du kannst es lesen #17
+viel text in dieser datei, mehr da hoffe du kannst es lesen #18
+dhfjd
+, (Alte size: 0)
+317467 | src/MyFSMgr.cpp:184:write()
+317490 | FAT UPATE: SET: 538 WITH -1
+317530 | FAT UPATE: SET: 538 WITH 539
+317554 | FAT UPATE: SET: 539 WITH -1
+317570 | FAT UPATE: SET: 539 WITH 540
+317613 | FAT UPATE: SET: 540 WITH -1
+317636 | FAT UPATE: SET: 540 WITH -1
+317649 | New Inode size: 1158
+318002 | src/myfs.cpp:241:fuseFsync()
+318051 | src/myfs.cpp:126:fuseRename()
+318901 | src/myfs.cpp:40:fuseGetattr()
+318920 | path: /
+318932 | step1
+321272 | src/myfs.cpp:40:fuseGetattr()
+321294 | path: /data1.txt
+321350 | src/myfs.cpp:40:fuseGetattr()
+321363 | path: /.Trash
+321382 | step2
+321391 | step3
+321460 | src/myfs.cpp:231:fuseFlush()
+321524 | src/myfs.cpp:40:fuseGetattr()
+321537 | path: /.Trash-1000
+321556 | step2
+321565 | step3
+321636 | src/myfs.cpp:40:fuseGetattr()
+321649 | path: /.hidden
+321668 | step2
+321677 | step3
+321741 | src/myfs.cpp:236:fuseRelease()
+545946 | src/myfs.cpp:40:fuseGetattr()
+546172 | path: /data1.txt
+576111 | src/myfs.cpp:40:fuseGetattr()
+576147 | path: /
+576159 | step1
+629376 | src/myfs.cpp:40:fuseGetattr()
+629452 | path: /data1.txt
+629536 | src/myfs.cpp:226:fuseStatfs()
+629705 | src/myfs.cpp:40:fuseGetattr()
+629738 | path: /
+629757 | step1
+665567 | src/myfs.cpp:266:fuseOpendir()
+669426 | src/myfs.cpp:40:fuseGetattr()
+669444 | path: /.Trash
+669460 | step2
+669467 | step3
+669496 | src/myfs.cpp:40:fuseGetattr()
+669504 | path: /.Trash-1000
+669517 | step2
+669523 | step3
+669548 | src/myfs.cpp:271:fuseReaddir()
+669608 | src/myfs.cpp:40:fuseGetattr()
+669617 | path: /.hidden
+669629 | step2
+669635 | step3
+669756 | src/myfs.cpp:40:fuseGetattr()
+669768 | path: /
+669775 | step1
+670672 | src/myfs.cpp:40:fuseGetattr()
+670686 | path: /.goutputstream-3EGIUZ
+670747 | src/myfs.cpp:156:fuseOpen()
+670786 | src/myfs.cpp:182:fuseRead()
+670795 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+670805 | from: 0 | TO: 512 | bufferOffset: 0
+670817 | from: 0 | TO: 512 | bufferOffset: 512
+670827 | from: 0 | TO: 512 | bufferOffset: 1024
+670838 | Inodepointer: 470
+670847 | Inodepointer: 471
+670860 | buf offset : 1536
+670934 | src/myfs.cpp:231:fuseFlush()
+670958 | src/myfs.cpp:236:fuseRelease()
+671074 | src/myfs.cpp:40:fuseGetattr()
+671083 | path: /.goutputstream-3EGIUZ
+671780 | src/myfs.cpp:293:fuseReleasedir()
+338485 | src/myfs.cpp:40:fuseGetattr()
+338525 | path: /.goutputstream-3EGIUZ
+338607 | src/myfs.cpp:156:fuseOpen()
+338676 | src/myfs.cpp:182:fuseRead()
+338691 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+338703 | from: 0 | TO: 512 | bufferOffset: 0
+338721 | from: 0 | TO: 512 | bufferOffset: 512
+338737 | from: 0 | TO: 512 | bufferOffset: 1024
+338754 | Inodepointer: 470
+338767 | Inodepointer: 471
+338783 | buf offset : 1536
+338818 | src/myfs.cpp:231:fuseFlush()
+338844 | src/myfs.cpp:236:fuseRelease()
+339468 | src/myfs.cpp:40:fuseGetattr()
+339489 | path: /.goutputstream-3EGIUZ
+339586 | src/myfs.cpp:156:fuseOpen()
+339645 | src/myfs.cpp:182:fuseRead()
+339658 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+339669 | from: 0 | TO: 512 | bufferOffset: 0
+339686 | from: 0 | TO: 512 | bufferOffset: 512
+339702 | from: 0 | TO: 512 | bufferOffset: 1024
+339718 | Inodepointer: 470
+339731 | Inodepointer: 471
+339746 | buf offset : 1536
+339777 | src/myfs.cpp:231:fuseFlush()
+339802 | src/myfs.cpp:236:fuseRelease()
+866611 | src/myfs.cpp:40:fuseGetattr()
+866638 | path: /.goutputstream-3EGIUZ
+866681 | src/myfs.cpp:40:fuseGetattr()
+866688 | path: /
+866693 | step1
+868610 | src/myfs.cpp:156:fuseOpen()
+886617 | src/myfs.cpp:266:fuseOpendir()
+987207 | src/myfs.cpp:156:fuseOpen()
+987260 | src/myfs.cpp:182:fuseRead()
+987267 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+987272 | from: 0 | TO: 512 | bufferOffset: 0
+987280 | from: 0 | TO: 512 | bufferOffset: 512
+987287 | from: 0 | TO: 512 | bufferOffset: 1024
+987294 | Inodepointer: 470
+987300 | Inodepointer: 471
+987308 | buf offset : 1536
+987324 | src/myfs.cpp:231:fuseFlush()
+987336 | src/myfs.cpp:236:fuseRelease()
+987428 | src/myfs.cpp:271:fuseReaddir()
+987461 | src/myfs.cpp:40:fuseGetattr()
+987466 | path: /data1.txt
+987488 | src/myfs.cpp:40:fuseGetattr()
+987494 | path: /.hidden
+987502 | step2
+987505 | step3
+987562 | src/myfs.cpp:40:fuseGetattr()
+987569 | path: /.goutputstream-3EGIUZ
+987603 | src/myfs.cpp:156:fuseOpen()
+987658 | src/myfs.cpp:182:fuseRead()
+987665 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+987670 | from: 0 | TO: 512 | bufferOffset: 0
+987677 | from: 0 | TO: 512 | bufferOffset: 512
+987684 | from: 0 | TO: 512 | bufferOffset: 1024
+987691 | Inodepointer: 470
+987697 | Inodepointer: 471
+987703 | buf offset : 1536
+987716 | src/myfs.cpp:231:fuseFlush()
+987727 | src/myfs.cpp:236:fuseRelease()
+990864 | src/myfs.cpp:40:fuseGetattr()
+990893 | path: /.goutputstream-3EGIUZ
+992232 | src/myfs.cpp:40:fuseGetattr()
+992242 | path: /
+992247 | step1
+992398 | src/myfs.cpp:293:fuseReleasedir()
+998537 | src/myfs.cpp:231:fuseFlush()
+998564 | src/myfs.cpp:236:fuseRelease()
+2018.12.27 14:23:43.9927 | src/myfs.cpp:156:fuseOpen()
+2018.12.27 14:23:43.9968 | src/myfs.cpp:182:fuseRead()
+2018.12.27 14:23:43.9975 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+2018.12.27 14:23:43.9981 | from: 0 | TO: 512 | bufferOffset: 0
+2018.12.27 14:23:43.9988 | from: 0 | TO: 512 | bufferOffset: 512
+2018.12.27 14:23:43.9995 | from: 0 | TO: 512 | bufferOffset: 1024
+2018.12.27 14:23:43.10003 | Inodepointer: 470
+2018.12.27 14:23:43.10008 | Inodepointer: 471
+2018.12.27 14:23:43.10016 | buf offset : 1536
+2018.12.27 14:23:43.10032 | src/myfs.cpp:231:fuseFlush()
+2018.12.27 14:23:43.10043 | src/myfs.cpp:236:fuseRelease()
+2018.12.27 14:23:43.15186 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:23:43.15197 | path: /.goutputstream-3EGIUZ
+276179 | src/myfs.cpp:40:fuseGetattr()
+276214 | path: /.goutputstream-3EGIUZ
+285231 | src/myfs.cpp:40:fuseGetattr()
+285255 | path: /
+285262 | step1
+645933 | src/myfs.cpp:40:fuseGetattr()
+645959 | path: /.goutputstream-3EGIUZ
+646048 | src/myfs.cpp:40:fuseGetattr()
+646057 | path: /data1.txt
+646248 | src/myfs.cpp:40:fuseGetattr()
+646258 | path: /.hidden
+646267 | step2
+646272 | step3
+646322 | src/myfs.cpp:40:fuseGetattr()
+646330 | path: /
+646335 | step1
+259193 | src/myfs.cpp:40:fuseGetattr()
+259219 | path: /
+259225 | step1
+400707 | src/myfs.cpp:40:fuseGetattr()
+400777 | path: /
+400801 | step1
+446443 | src/myfs.cpp:226:fuseStatfs()
+475410 | src/myfs.cpp:266:fuseOpendir()
+480382 | src/myfs.cpp:40:fuseGetattr()
+480404 | path: /.Trash
+480425 | step2
+480434 | step3
+480474 | src/myfs.cpp:40:fuseGetattr()
+480486 | path: /.Trash-1000
+480503 | step2
+480511 | step3
+480543 | src/myfs.cpp:271:fuseReaddir()
+480644 | src/myfs.cpp:40:fuseGetattr()
+480659 | path: /data1.txt
+480710 | src/myfs.cpp:40:fuseGetattr()
+480722 | path: /.hidden
+480739 | step2
+480747 | step3
+480863 | src/myfs.cpp:40:fuseGetattr()
+480878 | path: /
+480888 | step1
+482061 | src/myfs.cpp:40:fuseGetattr()
+482082 | path: /.goutputstream-3EGIUZ
+482154 | src/myfs.cpp:156:fuseOpen()
+482202 | src/myfs.cpp:182:fuseRead()
+482214 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+482225 | from: 0 | TO: 512 | bufferOffset: 0
+482240 | from: 0 | TO: 512 | bufferOffset: 512
+482255 | from: 0 | TO: 512 | bufferOffset: 1024
+482269 | Inodepointer: 470
+482281 | Inodepointer: 471
+482300 | buf offset : 1536
+482329 | src/myfs.cpp:231:fuseFlush()
+482353 | src/myfs.cpp:236:fuseRelease()
+482496 | src/myfs.cpp:40:fuseGetattr()
+482509 | path: /.goutputstream-3EGIUZ
+484257 | src/myfs.cpp:293:fuseReleasedir()
+880729 | src/myfs.cpp:40:fuseGetattr()
+880752 | path: /
+880759 | step1
+956576 | src/myfs.cpp:40:fuseGetattr()
+956596 | path: /.git
+956610 | step2
+956615 | step3
+956639 | src/myfs.cpp:40:fuseGetattr()
+956645 | path: /.git
+956654 | step2
+956658 | step3
+956672 | src/myfs.cpp:40:fuseGetattr()
+956678 | path: /HEAD
+956686 | step2
+956691 | step3
+847649 | src/myfs.cpp:266:fuseOpendir()
+847770 | src/myfs.cpp:40:fuseGetattr()
+847798 | path: /
+847819 | step1
+848018 | src/myfs.cpp:271:fuseReaddir()
+848146 | src/myfs.cpp:293:fuseReleasedir()
+848294 | src/myfs.cpp:40:fuseGetattr()
+848324 | path: /data1.txt
+850564 | src/myfs.cpp:266:fuseOpendir()
+850649 | src/myfs.cpp:40:fuseGetattr()
+850675 | path: /
+850696 | step1
+850921 | src/myfs.cpp:271:fuseReaddir()
+851054 | src/myfs.cpp:293:fuseReleasedir()
+853044 | src/myfs.cpp:40:fuseGetattr()
+853153 | path: /
+853176 | step1
+667782 | src/myfs.cpp:40:fuseGetattr()
+667802 | path: /.data1.txt.swp
+667815 | step2
+667820 | step3
+668101 | src/myfs.cpp:40:fuseGetattr()
+668111 | path: /.data1.txt.swp
+668121 | step2
+668126 | step3
+668143 | src/myfs.cpp:40:fuseGetattr()
+668149 | path: /.data1.txt.swp
+668158 | step2
+668163 | step3
+668175 | src/myfs.cpp:87:fuseMknod()
+668181 | Creating file: .data1.txt.swp
+668190 | FAT UPATE: SET: 541 WITH -1
+668200 | Write Inode of file: .data1.txt.swp
+668219 | src/myfs.cpp:40:fuseGetattr()
+668223 | path: /.data1.txt.swp
+668486 | src/myfs.cpp:40:fuseGetattr()
+668496 | path: /
+668501 | step1
+668539 | src/myfs.cpp:40:fuseGetattr()
+668546 | path: /.Trash
+668558 | step2
+668562 | step3
+668581 | src/myfs.cpp:40:fuseGetattr()
+668587 | path: /.Trash-1000
+668598 | step2
+668602 | step3
+669794 | src/myfs.cpp:156:fuseOpen()
+669834 | src/myfs.cpp:251:fuseGetxattr()
+669850 | src/myfs.cpp:219:fuseWrite()
+669857 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0nano 2.9.3'
+669864 | Inodepointer: 470
+669871 | Inodepointer: 471
+669877 | Inodepointer: 472
+669884 | Target-Pointer: 541, buffer:
+b0nano 2.9.3, (Alte size: 0)
+669890 | src/MyFSMgr.cpp:184:write()
+669899 | FAT UPATE: SET: 541 WITH -1
+669910 | FAT UPATE: SET: 541 WITH -1
+669916 | New Inode size: 1024
+669990 | src/myfs.cpp:231:fuseFlush()
+670160 | src/myfs.cpp:40:fuseGetattr()
+670169 | path: /.Trash
+670181 | step2
+670186 | step3
+670206 | src/myfs.cpp:40:fuseGetattr()
+670212 | path: /.Trash-1000
+670223 | step2
+670227 | step3
+670247 | src/myfs.cpp:40:fuseGetattr()
+670252 | path: /.data1.txt.swp
+670294 | src/myfs.cpp:156:fuseOpen()
+670322 | src/myfs.cpp:182:fuseRead()
+670328 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+670333 | from: 0 | TO: 512 | bufferOffset: 0
+670342 | Inodepointer: 470
+670348 | Inodepointer: 471
+670354 | Inodepointer: 472
+670361 | buf offset : 512
+670376 | src/myfs.cpp:231:fuseFlush()
+670480 | src/myfs.cpp:236:fuseRelease()
+670491 | src/myfs.cpp:40:fuseGetattr()
+670496 | path: /.data1.txt.swp
+671192 | src/myfs.cpp:236:fuseRelease()
+671223 | src/myfs.cpp:156:fuseOpen()
+671488 | src/myfs.cpp:182:fuseRead()
+671498 | reading file: /data1.txt | size: 4096 | offset: 0
+671503 | from: 0 | TO: 512 | bufferOffset: 0
+671512 | from: 0 | TO: 512 | bufferOffset: 512
+671520 | from: 0 | TO: 512 | bufferOffset: 1024
+671528 | Inodepointer: 470
+671535 | buf offset : 1536
+671573 | src/myfs.cpp:40:fuseGetattr()
+671579 | path: /data1.txt
+671594 | src/myfs.cpp:231:fuseFlush()
+671606 | src/myfs.cpp:236:fuseRelease()
+671626 | src/myfs.cpp:156:fuseOpen()
+671645 | src/myfs.cpp:231:fuseFlush()
+671688 | src/myfs.cpp:236:fuseRelease()
+146322 | src/myfs.cpp:40:fuseGetattr()
+146399 | path: /data1.txt
+146782 | src/myfs.cpp:40:fuseGetattr()
+146819 | path: /.data1.txt.swp
+146908 | src/myfs.cpp:99:fuseUnlink()
+146955 | removed File: 541
+146977 | Filled Block 541
+147006 | Max_unit?: -1
+147023 | Removed FATPOINTER: 541
+147042 | FAT UPATE: SET: 541 WITH 0
+147077 | Filled Block 472
+147943 | src/myfs.cpp:40:fuseGetattr()
+147986 | path: /.data1.txt.swp
+148024 | step2
+148040 | step3
+148260 | src/myfs.cpp:87:fuseMknod()
+148297 | Creating file: .data1.txt.swp
+148330 | FAT UPATE: SET: 541 WITH -1
+148352 | Write Inode of file: .data1.txt.swp
+148393 | src/myfs.cpp:40:fuseGetattr()
+148410 | path: /.data1.txt.swp
+149351 | src/myfs.cpp:156:fuseOpen()
+149447 | src/myfs.cpp:40:fuseGetattr()
+149468 | path: /
+149487 | step1
+149795 | src/myfs.cpp:251:fuseGetxattr()
+149852 | src/myfs.cpp:40:fuseGetattr()
+149872 | path: /.Trash
+149915 | step2
+149931 | step3
+150037 | src/myfs.cpp:219:fuseWrite()
+150064 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0nano 2.9.3'
+150093 | Inodepointer: 470
+150116 | Inodepointer: 471
+150139 | Inodepointer: 472
+150161 | Target-Pointer: 541, buffer:
+b0nano 2.9.3, (Alte size: 0)
+150184 | src/MyFSMgr.cpp:184:write()
+150217 | FAT UPATE: SET: 541 WITH -1
+150253 | FAT UPATE: SET: 541 WITH -1
+150275 | New Inode size: 1024
+150703 | src/myfs.cpp:40:fuseGetattr()
+150742 | path: /.Trash-1000
+150786 | step2
+150802 | step3
+150839 | src/myfs.cpp:231:fuseFlush()
+151637 | src/myfs.cpp:236:fuseRelease()
+151691 | src/myfs.cpp:40:fuseGetattr()
+151710 | path: /.data1.txt.swp
+151935 | src/myfs.cpp:156:fuseOpen()
+152047 | src/myfs.cpp:182:fuseRead()
+152072 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+152092 | from: 0 | TO: 512 | bufferOffset: 0
+152200 | Inodepointer: 470
+152230 | Inodepointer: 471
+152252 | Inodepointer: 472
+152278 | buf offset : 512
+152381 | src/myfs.cpp:231:fuseFlush()
+152779 | src/myfs.cpp:236:fuseRelease()
+152827 | src/myfs.cpp:40:fuseGetattr()
+152866 | path: /.data1.txt.swp
+167351 | src/myfs.cpp:40:fuseGetattr()
+167398 | path: /data1.txt
+167674 | src/myfs.cpp:156:fuseOpen()
+167723 | src/myfs.cpp:251:fuseGetxattr()
+167750 | src/myfs.cpp:146:fuseTruncate()
+167761 | src/myfs.cpp:40:fuseGetattr()
+167771 | path: /data1.txt
+168012 | src/myfs.cpp:251:fuseGetxattr()
+168055 | src/myfs.cpp:219:fuseWrite()
+168103 | path: 'data1.txt', offset: 0, buf: 
+'viel text in dieser datei, mehr da hoffe du kannst es lesen #01
+viel text in dieser datei, mehr da hoffe du kannst es lesen #02
+viel text in dieser datei, mehr da hoffe du kannst es lesen #03
+viel text in dieser datei, mehr da hoffe du kannst es lesen #04
+viel text in dieser datei, mehr da hoffe du kannst es lesen #05
+viel text in dieser datei, mehr da hoffe du kannst es lesen #06
+viel text in dieser datei, mehr da hoffe du kannst es lesen #07
+viel text in dieser datei, mehr da hoffe du kannst es lesen #08
+viel text in dieser datei, mehr da hoffe du kannst es lesen #09
+viel text in dieser datei, mehr da hoffe du kannst es lesen #10
+viel text in dieser datei, mehr da hoffe du kannst es lesen #11
+viel text in dieser datei, mehr da hoffe du kannst es lesen #12
+viel text in dieser datei, mehr da hoffe du kannst es lesen #13
+viel text in dieser datei, mehr da hoffe du kannst es lesen #14
+viel text in dieser datei, mehr da hoffe du kannst es lesen #15
+viel text in dieser datei, mehr da hoffe du kannst es lesen #16
+viel text in dieser datei, mehr da hoffe du kannst es lesen #17
+viel text in dieser datei, mehr da hoffe du kannst es lesen #18
+dfd
+'
+168128 | Inodepointer: 470
+168141 | Target-Pointer: 535, buffer:
+viel text in dieser datei, mehr da hoffe du kannst es lesen #01
+viel text in dieser datei, mehr da hoffe du kannst es lesen #02
+viel text in dieser datei, mehr da hoffe du kannst es lesen #03
+viel text in dieser datei, mehr da hoffe du kannst es lesen #04
+viel text in dieser datei, mehr da hoffe du kannst es lesen #05
+viel text in dieser datei, mehr da hoffe du kannst es lesen #06
+viel text in dieser datei, mehr da hoffe du kannst es lesen #07
+viel text in dieser datei, mehr da hoffe du kannst es lesen #08
+viel text in dieser datei, mehr da hoffe du kannst es lesen #09
+viel text in dieser datei, mehr da hoffe du kannst es lesen #10
+viel text in dieser datei, mehr da hoffe du kannst es lesen #11
+viel text in dieser datei, mehr da hoffe du kannst es lesen #12
+viel text in dieser datei, mehr da hoffe du kannst es lesen #13
+viel text in dieser datei, mehr da hoffe du kannst es lesen #14
+viel text in dieser datei, mehr da hoffe du kannst es lesen #15
+viel text in dieser datei, mehr da hoffe du kannst es lesen #16
+viel text in dieser datei, mehr da hoffe du kannst es lesen #17
+viel text in dieser datei, mehr da hoffe du kannst es lesen #18
+dfd
+, (Alte size: 1152)
+168159 | src/MyFSMgr.cpp:184:write()
+168181 | FAT UPATE: SET: 535 WITH 536
+168204 | FAT UPATE: SET: 536 WITH 537
+168221 | FAT UPATE: SET: 537 WITH -1
+168239 | FAT UPATE: SET: 537 WITH -1
+168251 | New Inode size: 1156
+168418 | src/myfs.cpp:231:fuseFlush()
+168845 | src/myfs.cpp:236:fuseRelease()
+168872 | src/myfs.cpp:40:fuseGetattr()
+168883 | path: /data1.txt
+168904 | src/myfs.cpp:40:fuseGetattr()
+168914 | path: /
+168923 | step1
+169152 | src/myfs.cpp:40:fuseGetattr()
+169169 | path: /.data1.txt.swp
+169211 | src/myfs.cpp:99:fuseUnlink()
+169236 | removed File: 541
+169247 | Filled Block 541
+169260 | Max_unit?: -1
+169269 | Removed FATPOINTER: 541
+169280 | FAT UPATE: SET: 541 WITH 0
+169297 | Filled Block 472
+170364 | src/myfs.cpp:40:fuseGetattr()
+170388 | path: /.Trash
+170442 | step2
+170454 | step3
+170507 | src/myfs.cpp:40:fuseGetattr()
+170521 | path: /.Trash-1000
+170538 | step2
+170547 | step3
+170609 | src/myfs.cpp:40:fuseGetattr()
+170623 | path: /.hidden
+170640 | step2
+170649 | step3
+170832 | src/myfs.cpp:40:fuseGetattr()
+170847 | path: /
+170858 | step1
+178336 | src/myfs.cpp:40:fuseGetattr()
+178363 | path: /.git
+178384 | step2
+178393 | step3
+178547 | src/myfs.cpp:40:fuseGetattr()
+178563 | path: /.git
+178582 | step2
+178591 | step3
+178621 | src/myfs.cpp:40:fuseGetattr()
+178641 | path: /HEAD
+178659 | step2
+178667 | step3
+112869 | src/myfs.cpp:40:fuseGetattr()
+112943 | path: /data1.txt
+113722 | src/myfs.cpp:226:fuseStatfs()
+113879 | src/myfs.cpp:40:fuseGetattr()
+113906 | path: /
+113926 | step1
+142211 | src/myfs.cpp:266:fuseOpendir()
+148408 | src/myfs.cpp:40:fuseGetattr()
+148435 | path: /.Trash
+148459 | step2
+148469 | step3
+148513 | src/myfs.cpp:40:fuseGetattr()
+148526 | path: /.Trash-1000
+148546 | step2
+148555 | step3
+148590 | src/myfs.cpp:271:fuseReaddir()
+148681 | src/myfs.cpp:40:fuseGetattr()
+148695 | path: /.hidden
+148714 | step2
+148755 | step3
+148907 | src/myfs.cpp:40:fuseGetattr()
+148923 | path: /
+148933 | step1
+150298 | src/myfs.cpp:40:fuseGetattr()
+150321 | path: /.goutputstream-3EGIUZ
+153243 | src/myfs.cpp:156:fuseOpen()
+153299 | src/myfs.cpp:182:fuseRead()
+153310 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+153320 | from: 0 | TO: 512 | bufferOffset: 0
+153334 | from: 0 | TO: 512 | bufferOffset: 512
+153347 | from: 0 | TO: 512 | bufferOffset: 1024
+153360 | Inodepointer: 470
+153371 | Inodepointer: 471
+153387 | buf offset : 1536
+153415 | src/myfs.cpp:231:fuseFlush()
+153437 | src/myfs.cpp:236:fuseRelease()
+153575 | src/myfs.cpp:40:fuseGetattr()
+153587 | path: /.goutputstream-3EGIUZ
+154392 | src/myfs.cpp:293:fuseReleasedir()
+701907 | src/myfs.cpp:40:fuseGetattr()
+701924 | path: /data1.txt
+221698 | src/myfs.cpp:40:fuseGetattr()
+221724 | path: /
+221730 | step1
+226094 | src/myfs.cpp:156:fuseOpen()
+243323 | src/myfs.cpp:266:fuseOpendir()
+355076 | src/myfs.cpp:271:fuseReaddir()
+355146 | src/myfs.cpp:40:fuseGetattr()
+355154 | path: /.hidden
+355163 | step2
+355167 | step3
+355217 | src/myfs.cpp:40:fuseGetattr()
+355225 | path: /.goutputstream-3EGIUZ
+355271 | src/myfs.cpp:156:fuseOpen()
+355296 | src/myfs.cpp:182:fuseRead()
+355302 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+355308 | from: 0 | TO: 512 | bufferOffset: 0
+355315 | from: 0 | TO: 512 | bufferOffset: 512
+355322 | from: 0 | TO: 512 | bufferOffset: 1024
+355329 | Inodepointer: 470
+355335 | Inodepointer: 471
+355343 | buf offset : 1536
+355358 | src/myfs.cpp:231:fuseFlush()
+355370 | src/myfs.cpp:236:fuseRelease()
+356884 | src/myfs.cpp:182:fuseRead()
+356895 | reading file: /data1.txt | size: 4096 | offset: 0
+356900 | from: 0 | TO: 512 | bufferOffset: 0
+356909 | from: 0 | TO: 512 | bufferOffset: 512
+356916 | from: 0 | TO: 512 | bufferOffset: 1024
+356923 | Inodepointer: 470
+356930 | buf offset : 1536
+356976 | src/myfs.cpp:40:fuseGetattr()
+356983 | path: /.goutputstream-3EGIUZ
+358046 | src/myfs.cpp:40:fuseGetattr()
+358057 | path: /data1.txt
+359902 | src/myfs.cpp:40:fuseGetattr()
+359912 | path: /
+359917 | step1
+360072 | src/myfs.cpp:293:fuseReleasedir()
+362879 | src/myfs.cpp:231:fuseFlush()
+362900 | src/myfs.cpp:236:fuseRelease()
+2018.12.27 14:27:42.71317 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 14:27:42.71398 | path: /data1.txt
+108372 | src/myfs.cpp:40:fuseGetattr()
+108432 | path: /
+108454 | step1
+910936 | src/myfs.cpp:40:fuseGetattr()
+910972 | path: /
+910980 | step1
+142556 | src/myfs.cpp:40:fuseGetattr()
+142641 | path: /
+142669 | step1
+189546 | src/myfs.cpp:226:fuseStatfs()
+220084 | src/myfs.cpp:266:fuseOpendir()
+222170 | src/myfs.cpp:40:fuseGetattr()
+222186 | path: /.Trash
+222200 | step2
+222206 | step3
+222230 | src/myfs.cpp:40:fuseGetattr()
+222238 | path: /.Trash-1000
+222249 | step2
+222254 | step3
+222274 | src/myfs.cpp:271:fuseReaddir()
+222312 | src/myfs.cpp:40:fuseGetattr()
+222320 | path: /data1.txt
+222347 | src/myfs.cpp:40:fuseGetattr()
+222355 | path: /.hidden
+222365 | step2
+222371 | step3
+222442 | src/myfs.cpp:40:fuseGetattr()
+222451 | path: /
+222458 | step1
+224198 | src/myfs.cpp:40:fuseGetattr()
+224212 | path: /.goutputstream-3EGIUZ
+224264 | src/myfs.cpp:156:fuseOpen()
+224301 | src/myfs.cpp:182:fuseRead()
+224309 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+224316 | from: 0 | TO: 512 | bufferOffset: 0
+224326 | from: 0 | TO: 512 | bufferOffset: 512
+224335 | from: 0 | TO: 512 | bufferOffset: 1024
+224345 | Inodepointer: 470
+224353 | Inodepointer: 471
+224367 | buf offset : 1536
+224392 | src/myfs.cpp:231:fuseFlush()
+224407 | src/myfs.cpp:236:fuseRelease()
+224496 | src/myfs.cpp:40:fuseGetattr()
+224504 | path: /.goutputstream-3EGIUZ
+224969 | src/myfs.cpp:293:fuseReleasedir()
+115787 | src/myfs.cpp:40:fuseGetattr()
+115838 | path: /
+115894 | step1
+376865 | src/myfs.cpp:40:fuseGetattr()
+376890 | path: /
+376897 | step1
+2018.12.27 15:35:51.92232 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 15:35:51.92264 | path: /
+2018.12.27 15:35:51.92274 | step1
+328503 | src/myfs.cpp:226:fuseStatfs()
+330288 | src/myfs.cpp:226:fuseStatfs()
+331943 | src/myfs.cpp:226:fuseStatfs()
+339206 | src/myfs.cpp:226:fuseStatfs()
+340953 | src/myfs.cpp:226:fuseStatfs()
+342612 | src/myfs.cpp:226:fuseStatfs()
+367388 | src/myfs.cpp:226:fuseStatfs()
+369152 | src/myfs.cpp:226:fuseStatfs()
+371029 | src/myfs.cpp:226:fuseStatfs()
+247517 | src/myfs.cpp:40:fuseGetattr()
+247602 | path: /
+247632 | step1
+349280 | src/myfs.cpp:40:fuseGetattr()
+349322 | path: /
+349329 | step1
+2018.12.27 15:43:22.92546 | src/myfs.cpp:40:fuseGetattr()
+2018.12.27 15:43:22.92578 | path: /
+2018.12.27 15:43:22.92974 | step1
+2018.12.27 15:43:22.98682 | src/myfs.cpp:266:fuseOpendir()
+103290 | src/myfs.cpp:40:fuseGetattr()
+103304 | path: /.Trash
+103320 | step2
+103325 | step3
+105153 | src/myfs.cpp:40:fuseGetattr()
+105165 | path: /.Trash-1000
+105175 | step2
+105180 | step3
+105199 | src/myfs.cpp:271:fuseReaddir()
+105231 | src/myfs.cpp:40:fuseGetattr()
+105238 | path: /data1.txt
+105260 | src/myfs.cpp:40:fuseGetattr()
+105266 | path: /.hidden
+105275 | step2
+105279 | step3
+105350 | src/myfs.cpp:40:fuseGetattr()
+105358 | path: /
+105363 | step1
+106930 | src/myfs.cpp:40:fuseGetattr()
+106942 | path: /.goutputstream-3EGIUZ
+107162 | src/myfs.cpp:156:fuseOpen()
+107191 | src/myfs.cpp:182:fuseRead()
+107197 | reading file: /.goutputstream-3EGIUZ | size: 4096 | offset: 0
+107204 | from: 0 | TO: 512 | bufferOffset: 0
+107212 | from: 0 | TO: 512 | bufferOffset: 512
+107219 | from: 0 | TO: 512 | bufferOffset: 1024
+107227 | Inodepointer: 470
+107233 | Inodepointer: 471
+107241 | buf offset : 1536
+107257 | src/myfs.cpp:231:fuseFlush()
+107268 | src/myfs.cpp:236:fuseRelease()
+107364 | src/myfs.cpp:40:fuseGetattr()
+107372 | path: /.goutputstream-3EGIUZ
+110245 | src/myfs.cpp:293:fuseReleasedir()
+648885 | src/myfs.cpp:40:fuseGetattr()
+648923 | path: /data1.txt
+650164 | src/myfs.cpp:40:fuseGetattr()
+650183 | path: /
+650191 | step1
+650232 | src/myfs.cpp:40:fuseGetattr()
+650241 | path: /.Trash
+650256 | step2
+650263 | step3
+650287 | src/myfs.cpp:40:fuseGetattr()
+650296 | path: /.Trash-1000
+650309 | step2
+650315 | step3
+650335 | src/myfs.cpp:40:fuseGetattr()
+650343 | path: /.Trash-1000
+650356 | step2
+650362 | step3
+650380 | src/myfs.cpp:94:fuseMkdir()
+650388 | src/myfs.cpp:40:fuseGetattr()
+650395 | path: /.Trash-1000
+650408 | step2
+650415 | step3
+801693 | src/myfs.cpp:40:fuseGetattr()
+801775 | path: /data1.txt
+805470 | src/myfs.cpp:99:fuseUnlink()
+805506 | removed File: 535
+805521 | Filled Block 535
+805545 | Filled Block 536
+805562 | FAT UPATE: SET: 535 WITH 0
+805581 | Filled Block 537
+805596 | FAT UPATE: SET: 536 WITH 0
+805612 | Max_unit?: -1
+805623 | Removed FATPOINTER: 537
+805635 | FAT UPATE: SET: 537 WITH 0
+805658 | Filled Block 470
+805851 | src/myfs.cpp:40:fuseGetattr()
+805871 | path: /
+805884 | step1
+810976 | src/myfs.cpp:40:fuseGetattr()
+811005 | path: /data1.txt
+811023 | step2
+811033 | step3
+627261 | src/myfs.cpp:40:fuseGetattr()
+627299 | path: /.goutputstream-3EGIUZ
+627312 | step2
+627319 | step3
+629891 | src/myfs.cpp:40:fuseGetattr()
+629910 | path: /.goutputstream-3EGIUZ
+629920 | step2
+629927 | step3
+629997 | src/myfs.cpp:40:fuseGetattr()
+630009 | path: /.goutputstream-3EGIUZ
+630018 | step2
+630025 | step3
+727229 | src/myfs.cpp:40:fuseGetattr()
+727277 | path: /.goutputstream-3EGIUZ
+727296 | step2
+727307 | step3

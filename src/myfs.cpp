@@ -35,7 +35,7 @@ MyFS::MyFS() {
 MyFS::~MyFS() {
 }
 
-
+//returns the name of the file within the directory
 int MyFS::fuseGetattr(const char *path, struct stat *statbuf) {
     LOGM();
     LOGF("path: %s\n", path);
@@ -47,11 +47,10 @@ int MyFS::fuseGetattr(const char *path, struct stat *statbuf) {
         statbuf->st_atime = time( NULL ); // The last "a"ccess of the file/directory is right now
         statbuf->st_mtime = time( NULL ); // The last "m"odification of the file/directory is right now
         statbuf->st_ctime = time( NULL );
-        statbuf->st_mode = S_IFDIR | 0555;
+        statbuf->st_mode = S_IFDIR | 0555; //TODO
         statbuf->st_nlink = 2; // Why "two" hardlinks instead of "one"? The answer is here: http://unix.stackexchange.com/a/101536
-        LOG("step1");
         return 0;
-    } else {
+    } else {                
         
         uint32_t pointer = -1;
         char copy[512];    // Max. größe 512 und auch immer 512 groß
@@ -72,9 +71,9 @@ int MyFS::fuseGetattr(const char *path, struct stat *statbuf) {
                 return 0;
             }
         }
-        LOG("step2");
+        
     }
-    LOG("step3");
+    
     return -ENOENT;
 }
 
@@ -95,6 +94,7 @@ int MyFS::fuseMkdir(const char *path, mode_t mode) {
     return 0;
 }
 
+//delete any references to an inode
 int MyFS::fuseUnlink(const char *path) {
     LOGM();
 
@@ -103,7 +103,7 @@ int MyFS::fuseUnlink(const char *path) {
     Inode* node = (Inode*)copy;
     while ((pointer = MyFSMgr::instance()->readNextRootPointer(pointer)) != 0) {
         MyFSMgr::BDInstance()->read(pointer, (char*)node);
-        if (strcmp(node->fileName, basename(path)) == 0) {
+        if (strcmp(node->fileName, basename(path)) == 0) {                  //check if it's the right file
             MyFSMgr::instance()->removeFile(pointer);
             return 0;
         }
@@ -136,7 +136,7 @@ int MyFS::fuseChmod(const char *path, mode_t mode) {
     LOGM();
     return 0;
 }
-
+//change owner of the file
 int MyFS::fuseChown(const char *path, uid_t uid, gid_t gid) {
     LOGM();
     return 0;
@@ -182,10 +182,11 @@ int MyFS::fuseRead(const char *path, char *buf, size_t size, off_t offset, struc
     LOGM();
     LOGF("reading file: %s | size: %u | offset: %u\n", path, size, offset);
 
-    int fh = fileInfo->fh;
-    if(dataBuffer[fh].dataPointer == MAX_UINT)
+    int fh = fileInfo->fh;                                      // File handle. 
+    if(dataBuffer[fh].dataPointer == MAX_UINT)                  //think of it as a sort of "null pointer"
         return 0;
     int bufferOffset = 0;
+
     MyFSMgr::instance()->moveBuffer(&dataBuffer[fh], offset);   //Before start reading move Buffer to the requestet Block
     int maxRead = 0;
     char* copy = new char[BLOCK_SIZE];
@@ -194,7 +195,7 @@ int MyFS::fuseRead(const char *path, char *buf, size_t size, off_t offset, struc
     uint32_t nodePointer;
 
     while (size > 0 && dataBuffer[fh].dataPointer != MAX_UINT) {  //Loop through the requestet size
-        if (size >= BLOCK_SIZE) //Can we read 512 Byte or less?
+        if (size >= BLOCK_SIZE) //always read one block and then the next block
             maxRead = BLOCK_SIZE;
         else
             maxRead = BLOCK_SIZE - size;
@@ -202,15 +203,14 @@ int MyFS::fuseRead(const char *path, char *buf, size_t size, off_t offset, struc
         if (maxRead == 0)   //This should never happen, but just to avoid an endless loop
             break;
         LOGF("from: %u | TO: %u | bufferOffset: %u\n", offset % 512, maxRead, bufferOffset);    //We copy byte by byte for easier handling
-        bufferOffset = MyFSMgr::instance()->copyDataToBuffer(buf, dataBuffer[fh].data, offset % 512, maxRead, bufferOffset);
+        bufferOffset = MyFSMgr::instance()->copyDataToBuffer(buf, dataBuffer[fh].data, offset % 512, maxRead, bufferOffset); //returns the new offset for the next block
         size -= maxRead;
-        MyFSMgr::instance()->moveBuffer(&dataBuffer[fh]);
+        MyFSMgr::instance()->moveBuffer(&dataBuffer[fh]); //move buffer to the next block
     }
 
     MyFSMgr::instance()->findInode((char*)basename(path), node, &nodePointer);
     MyFSMgr::instance()->changeTime(node, true, false, false);
-    MyFSMgr::instance()->BDInstance()->write(nodePointer, (char*)node);  //update access time
-    LOGF("buf offset : %u\n", bufferOffset);
+    MyFSMgr::instance()->BDInstance()->write(nodePointer, (char*)node);  //update access time  
 
     return bufferOffset;
 }
@@ -231,7 +231,7 @@ int MyFS::fuseFlush(const char *path, struct fuse_file_info *fileInfo) {
     LOGM();
     return 0;
 }
-
+//close a file - completly
 int MyFS::fuseRelease(const char *path, struct fuse_file_info *fileInfo) {      //TODO
     LOGM();
     return 0;

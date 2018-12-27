@@ -259,7 +259,7 @@ uint32_t MyFSMgr::changeFileContent(char *path, char *buf, uint32_t size, uint32
     }
 
     if(offset != 0){
-        // Inhalt des aktuellen Blocks (bis offseet) vorene an buff dranhängen;
+        // Inhalt des aktuellen Blocks (bis offseet) vorne an buff dranhängen;
         LOGF("offset ist nicht durch 512 teilbar (%i) -> innerhalb eines Blockes\n", offset);
         _blockDevice->read(pointer, copy);
         bufcopy = new char[offset + size + 1];
@@ -631,13 +631,13 @@ void MyFSMgr::removeFile(uint32_t nodePointer) {
     uint32_t pointer = node->pointer;
     uint32_t oldpointer = pointer;
     LOGF("removed File: %i\n", pointer);
-    fillBlocks(pointer, pointer + 1); //Der erste Datenblock wird gelöscht.
+
+    fillBlocks(pointer, pointer + 1);   //Der erste Datenblock wird gelöscht.
 
 
     while ((pointer = readNextFATPointer(pointer)) != MAX_UINT) { // Die Datei war größer als 1 Block, daher einträge in der FAT die gelöscht werden müssen
 
         fillBlocks(pointer, pointer + 1); //Der Folgeblock wird gelöscht.
-//        removeFatPointer(oldpointer);
         setFATBlockPointer(oldpointer, 0); // Der alte FAT Pointer wird gelöscht.
         oldpointer = pointer;
     }
@@ -735,13 +735,13 @@ int MyFSMgr::moveBuffer(DataBuffer* db, int off) {
 int MyFSMgr::moveBuffer(DataBuffer* db) {
     char read[BLOCK_SIZE];
 
-    db->dataPointer = MyFSMgr::instance()->readNextFATPointer(db->dataPointer);
+    db->dataPointer = MyFSMgr::instance()->readNextFATPointer(db->dataPointer); //get next block of the file
     if (db->dataPointer == MAX_UINT)
         return -1;
-    db->blockNumber++;
+    db->blockNumber++;          
 
-    MyFSMgr::BDInstance()->read(db->dataPointer, read);
-    memcpy(&db->data, read, BLOCK_SIZE);
+    MyFSMgr::BDInstance()->read(db->dataPointer, read); //write into temp buffer "read"
+    memcpy(&db->data, read, BLOCK_SIZE);                //copy data from temp buffer into the real buffer
     return 0;
 }
 
@@ -760,7 +760,7 @@ int MyFSMgr::moveBuffer(DataBuffer* db) {
 int MyFSMgr::copyDataToBuffer(char* buf, char data[512], int from, int to, int offset) {
     for (int i = from; i < to; i++) {
         memcpy(buf + offset, &data[i], 1);
-        offset++;
+        offset++;                           //new offset after reading the block
     }
     return offset;
 }

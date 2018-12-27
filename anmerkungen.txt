@@ -1,0 +1,5 @@
+- Ubuntu Bug #984785: Der Text editor triggert, dass Änderungen an einem File nicht in das File sondern in .goutputstream-xxxxx dateien geschrieben werden. 
+ Keine Lösung bisher. Ubunut ist auf dem neuesten Stand
+
+- Workaround: Dateien über nano ändern -> Funktioniert lt Log Datei wird 
+ die richtige Datei der fuse write methode übergeben 
