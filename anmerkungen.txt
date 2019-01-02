@@ -3,3 +3,6 @@
 
 - Workaround: Dateien über nano ändern -> Funktioniert lt Log Datei wird 
  die richtige Datei der fuse write methode übergeben 
+
+
+- NodeJS FS Docu: https://nodejs.org/api/fs.html

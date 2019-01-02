@@ -21,7 +21,7 @@ LINKFLAGS = -g -Wall
 LIBS = `pkg-config fuse --libs`
 
 # all targets in project TODO: add new targets here (and add objects and link target)
-TARGETS = mount.myfs mkfs.myfs
+TARGETS = mount.myfs mkfs.myfs unittests
 
 # object files for target mkfs.myfs TODO: add new object files here
 MKFS_MYFS_OBJS = $(OBJDIR)/blockdevice.o \
@@ -71,3 +71,29 @@ $(OBJDIR)/%.o :  $(SRCDIR)/%.c $(HEADERDIR)/%.h
 # compile c file with header dependency	
 $(OBJDIR)/%.o :  $(SRCDIR)/%.c
 	gcc -c $(CFLAGS) -o $@  $<
+
+	########## TESTING ##########
+
+# directory with test source files
+TSRCDIR = unittests
+
+# object files for target unittests TODO: add new object files here
+UNITTEST_OBJS = $(OBJDIR)/main.o \
+	$(OBJDIR)/blockdevice.o \
+	$(OBJDIR)/MyFSMgr.o \
+	$(OBJDIR)/test-blockdevice.o \
+	$(OBJDIR)/myfs.o \
+	$(OBJDIR)/test-myfs.o \
+	$(OBJDIR)/helper.o 
+
+
+# test targets
+TTARGETS = unittests
+
+# compile test files without header dependency
+$(OBJDIR)/%.o : $(TSRCDIR)/%.cpp
+	g++ -c $(CPPFLAGS) -o $@  $<
+
+# link target testing
+unittest: obj $(UNITTEST_OBJS)
+	g++ $(LINKFLAGS) -o $@ $(UNITTEST_OBJS) $(LIBS)

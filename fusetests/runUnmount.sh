@@ -1,0 +1,3 @@
+#!/bin/bash
+
+fusermount --unmount /home/pia/Documents/FS/

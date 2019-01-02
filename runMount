@@ -1,2 +1,2 @@
 #!/bin/bash
-./mount.myfs /home/pia/Documents/PiaFS/dummy.bin /home/pia/Documents/PiaFS/log.txt /home/pia/Documents/TEST/
+./mount.myfs /home/pia/Documents/PiaFS/container.bin /home/pia/Documents/PiaFS/log.txt /home/pia/Documents/FS/
