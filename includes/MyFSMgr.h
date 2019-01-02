@@ -106,6 +106,8 @@ private:
 
 
 public:
+    virtual ~MyFSMgr();
+
     static MyFSMgr* instance();
     static BlockDevice* BDInstance();
 

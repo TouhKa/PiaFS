@@ -4,8 +4,7 @@
  * PIAs TODO:
  * - Umschreiben der Bit Operationen
  * - Sinnvolle Return werte ERROR_CODES
- * - Bug Fixes für Aufg.2 (Schreiben / Löschen)
- * - Fuse Operationen anschauen & unlink / write anpassen
+ * - Fuse Operationen implementieren, die Waldhorst noch
  * 
  */
 using namespace std;
