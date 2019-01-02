@@ -21,7 +21,9 @@ TEST_CASE("read/write the superblock", "[superblock]"){
     BlockDevice bd;
     bd.create(BD_PATH);
     
-    MyFSMgr* fsHelper = fsHelper->instance();       //See: Method "changeSBFileCount"
+    MyFSMgr* fsHelper = fsHelper->instance();     
+    
+    //See: Method "changeSBFileCount".
     SECTION("writing superblock"){                  
         
         fsHelper->fillBlocks(0, BLOCK_COUNT);
@@ -43,24 +45,40 @@ TEST_CASE("read/write the superblock", "[superblock]"){
         REQUIRE(sb->pointerNode == NODE_START);
         REQUIRE(sb->fileCount == 0); 
 
-
         delete[] r;
-       
     }
-    delete[] fsHelper;  
 
+    delete[] fsHelper;  
     bd.close();
     remove(BD_PATH);
 }
 
-TEST_CASE("read/write", "[fat]"){
+TEST_CASE("read/write FAT", "[fat]"){
      remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
-    MyFS* fs = new MyFS();
+    MyFSMgr* fsHelper = fsHelper->instance();
 
-    SECTION("writing superblock"){
-        
+    SECTION("FAT"){
+
+        //read empty entry
+        REQUIRE(fsHelper->readNextFATPointer(3) == MAX_UINT);
+        REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
+        REQUIRE(fsHelper->readNextFATPointer(514) == MAX_UINT);
+    
+        //modify
+        fsHelper->setFATBlockPointer(2, 511);
+        fsHelper->setFATBlockPointer(511, 514);
+        REQUIRE(fsHelper->readNextFATPointer(3) == 511);
+        REQUIRE(fsHelper->readNextFATPointer(511) == 514);
+        REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
+
+
+        //delete ENTRY
+        fsHelper->removeFatPointer(3);
+        fsHelper->removeFatPointer(511);
+        REQUIRE(fsHelper->readNextFATPointer(3) == MAX_UINT);
+        REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
     }
  
 
@@ -69,13 +87,13 @@ TEST_CASE("read/write", "[fat]"){
 }
 
 
-TEST_CASE("read/write", "[dmap]"){
+TEST_CASE("read/write", "[dmap]"){ //Please note: As we read through the FAT Map for any empty entries, there is no real dmap.
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
     MyFS* fs = new MyFS();
 
-    SECTION("writing superblock"){
+    SECTION("dmap"){
         
     }
   
@@ -84,7 +102,7 @@ TEST_CASE("read/write", "[dmap]"){
 }
 
 
-TEST_CASE("read/write", "[blockdevice]"){
+TEST_CASE("read/write", "[imap]"){
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
@@ -100,16 +118,4 @@ TEST_CASE("read/write", "[blockdevice]"){
 }
 
 
-TEST_CASE("read/write", "[]"){
-    remove(BD_PATH);
-    BlockDevice bd;
-    bd.create(BD_PATH);
-    MyFS* fs = new MyFS();
-
-    SECTION("")
-
-    bd.close();
-    remove(BD_PATH);
-}
-
-
+//root block

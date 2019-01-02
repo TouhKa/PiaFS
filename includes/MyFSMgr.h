@@ -85,13 +85,21 @@
  */
 class MyFSMgr {
 private:
+
     static MyFSMgr* _instance;
     static BlockDevice* _blockDevice;
+public:
+    
 
     MyFSMgr();
     virtual ~MyFSMgr();
 
-    // Operations
+
+    static MyFSMgr* instance();
+    static BlockDevice* BDInstance();
+
+    void getAbsPath(char* arg, char* path);
+         // Operations
     int rootPointerCount();         
     uint32_t findNextFreeBlock();
     Inode* readNode(uint32_t nodePointer);
@@ -104,14 +112,6 @@ private:
     void removeRootPointer(uint32_t delPointer);
     void deleteFollowingBlocks(uint32_t dataPointer);
 
-
-public:
-    virtual ~MyFSMgr();
-
-    static MyFSMgr* instance();
-    static BlockDevice* BDInstance();
-
-    void getAbsPath(char* arg, char* path);
 
     // BlockDevice
     void fillBlocks(uint32_t startBlockIndex, uint32_t endBlockIndex);
