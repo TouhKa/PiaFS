@@ -25,7 +25,6 @@ private:
     static BlockDevice* _blockDevice;
 public:
     
-
     MyFSMgr();
     virtual ~MyFSMgr();
 
@@ -39,9 +38,9 @@ public:
     uint32_t findNextFreeBlock();
     Inode* readNode(uint32_t nodePointer);
     void createInode(char* path, uint32_t blockPointer);
-    void writeInode(Inode* node);
+    int writeInode(Inode* node);
     void write(char* content, uint32_t startBlock);
-    void writeRootPointer(uint32_t newPointer);
+    int writeRootPointer(uint32_t newPointer);
     void setFATBlockPointer(uint32_t blockPointer, uint32_t nextPointer);
     void removeFatPointer(uint32_t delPointer);
     void removeRootPointer(uint32_t delPointer);
@@ -60,7 +59,7 @@ public:
     void removeFile(uint32_t nodePointer);
     uint32_t readNextRootPointer(uint32_t position);
     uint32_t readNextFATPointer(uint32_t blockPointer);
-    void createNewInode(char* path, mode_t mode);
+    int createNewInode(char* path, mode_t mode);
     uint32_t changeFileContent(char *path, char *buf, uint32_t size, uint32_t offset);
     void changeTime(Inode* node, bool atim, bool mtim, bool ctim);
     int moveBuffer(DataBuffer* db, int offset);

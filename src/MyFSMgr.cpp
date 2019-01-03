@@ -232,7 +232,7 @@ uint32_t MyFSMgr::changeFileContent(char *path, char *buf, uint32_t size, uint32
     Inode* node = (Inode*) nodechar;
     if(!findInode(fileName, node, &inodePointer)){
         LOGF("Inode zum schreiben nicht gefunden '%s'.\n", fileName);
-        return -1;  //TODO file existiert nicht
+        return EBADF;  //file existiert nicht
     }
 
     uint32_t pointer = node->pointer;
@@ -343,12 +343,11 @@ void MyFSMgr::createInode(char* path, uint32_t blockPointer) {
 
 /**
  * Aufgabe 1
- * Called From FUSE GETATTR
- * [BUGGED]Creates an empty Inode for a new file.
+ * Called From FUSE GETATTR -> Updates a Inode
  *
  * @param path The name of the file.
  */
-void MyFSMgr::createNewInode(char* path, mode_t mode){	//Leere Datei, hat sie einen BlockPointer?
+int MyFSMgr::createNewInode(char* path, mode_t mode){	//Leere Datei, hat sie einen BlockPointer?
     char copy[BLOCK_SIZE];      
     Inode* node = (Inode*) copy;
 
@@ -373,7 +372,7 @@ void MyFSMgr::createNewInode(char* path, mode_t mode){	//Leere Datei, hat sie ei
 
     LOGF("Write Inode of file: %s\n", node->fileName);
 
-    writeInode(node);
+    return writeInode(node);
 }
 
 /**
@@ -382,7 +381,7 @@ void MyFSMgr::createNewInode(char* path, mode_t mode){	//Leere Datei, hat sie ei
  *
  * @param node The Inode to be written.
  */
-void MyFSMgr::writeInode(Inode* node) {
+int MyFSMgr::writeInode(Inode* node) {
     char read[BLOCK_SIZE];
     printf("inode written");
     for (uint32_t pointer = NODE_START; pointer <= NODE_ENDE; pointer++) {
@@ -390,10 +389,12 @@ void MyFSMgr::writeInode(Inode* node) {
 
         if (read[0] == 0) {                                         // Block is empty
             _blockDevice->write(pointer, (char*) node);             //update block with new inode
-            writeRootPointer(pointer);                              //add inode to root directory
-            return;
+            return writeRootPointer(pointer);                              //add inode to root directory
+         
         }
+       
     }
+     return -1;
 }
 
 /**
@@ -453,7 +454,7 @@ void MyFSMgr::setFATBlockPointer(uint32_t blockPointer, uint32_t nextPointer) {
  *
  * @param newPointer    The pointer that will be filled in the Rootblock.
  */
-void MyFSMgr::writeRootPointer(uint32_t newPointer) {
+int MyFSMgr::writeRootPointer(uint32_t newPointer) {
     char read[BLOCK_SIZE];                                      //buffer
     _blockDevice->read(ROOT_BLOCK, read);                       //read 1. root block
     RootDirect* root = (RootDirect*)read;                       //cast the buffer in the desired struct
@@ -464,10 +465,11 @@ void MyFSMgr::writeRootPointer(uint32_t newPointer) {
     }
     if(i >= NUM_DIR_ENTRIES){                                  //check if there are already max. amount of entries.
        LOG("ROOTDIRECTORY: Erlaubte Anzahl Eintraege ueberschritten.");
+       return -ENOSPC;
     }
 
     root->pointer[i] = newPointer;
-    _blockDevice->write(ROOT_BLOCK, (char*)root);
+    return _blockDevice->write(ROOT_BLOCK, (char*)root);
 
     }
 /**
@@ -486,7 +488,7 @@ bool MyFSMgr::findInode(char* fileName, Inode* node, uint32_t* nodePointer){
        _blockDevice->read(position, (char*)node);
        if (strcmp(fileName, node->fileName) == 0) {         //check if thereś arleady a inode for a file with the same name
 
-           *nodePointer = position;                //TODO check if necessary - is nodepointer überaupt ben.? //file already exists: set reference
+           *nodePointer = position;                
            return true;
        }
     }
@@ -520,7 +522,7 @@ bool MyFSMgr::fileExists(char* path) {
 }
 
 /**
- * Aufgabe 1                                                            //todo
+ * Aufgabe 1                                                          
  * Return the sum of all the pointers to an Inode inside the Rootblock.
  *
  * @return The sum of all pointers. 0 if none.
@@ -684,7 +686,7 @@ void MyFSMgr::removeRootPointer(uint32_t delPointer) {
     while(root->pointer[i] != delPointer && i < NUM_DIR_ENTRIES){ //loop throug root dir till there the pointer found, which should be deleted
         i++;
     }
-    if(i >= NUM_DIR_ENTRIES){                               //TODO needed?
+    if(i >= NUM_DIR_ENTRIES){                               
        LOG("Über maxEntries hinaus");
     }
 

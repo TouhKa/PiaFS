@@ -84,9 +84,16 @@ int MyFS::fuseReadlink(const char *path, char *link, size_t size) {
 //create a new inode
 int MyFS::fuseMknod(const char *path, mode_t mode, dev_t dev) {
     LOGM();
+    if (!MyFSMgr::instance()->fileExists((char*) path)){
+        if (MyFSMgr::instance()->createNewInode((char*) path, mode) == 0){
+            return 0;
+        }
+        else{
+            return -ENOSPC;          //no entries left
+        }
 
-    MyFSMgr::instance()->createNewInode((char*) path, mode);
-    return 0;
+    }
+    return -EBADF;
 }
 
 int MyFS::fuseMkdir(const char *path, mode_t mode) {

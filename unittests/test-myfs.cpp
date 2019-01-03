@@ -91,16 +91,24 @@ TEST_CASE("read/write", "[dmap]"){ //Please note: As we read through the FAT Map
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
-    MyFS* fs = new MyFS();
+    MyFSMgr* fsHelper = fsHelper->instance();
 
     SECTION("dmap"){
-        //finde next free block
+        
+        REQUIRE(fsHelper->findNextFreeBlock() == 0);                //finde next free block
 
-        //set this block as used
+        fsHelper->setFATBlockPointer(0, 55);                       //set the blocks as used
+        REQUIRE(fsHelper->findNextFreeBlock() == 1);
 
+        fsHelper->setFATBlockPointer(1, 14);
+        fsHelper->setFATBlockPointer(2, 6);
+        REQUIRE(fsHelper->findNextFreeBlock() == 3);
 
-        //free block
-
+        fsHelper->removeFatPointer(0);                              //free block
+        fsHelper->removeFatPointer(1);
+        fsHelper->removeFatPointer(2);
+   
+        REQUIRE(fsHelper->findNextFreeBlock() == 0);
     }
   
     bd.close();
@@ -112,20 +120,32 @@ TEST_CASE("read/write", "[imap]"){
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
-    MyFS* fs = new MyFS();
+    MyFSMgr* fsHelper = fsHelper->instance();
+    char* file = "data3.txt";
 
     SECTION("imap"){
         //find free inode
+        //createInode
+      
+        //find Inode
+        fsHelper->fillBlocks(0, BLOCK_COUNT);
+        fsHelper->writeSuperBlock();
+         
+        uint32_t blockPointer = fsHelper->findNextFreeBlock();
+        fsHelper->createInode(file, blockPointer);
 
 
-        //write inode
+        uint32_t inodePointer;
+        char nodechar[BLOCK_SIZE];
+        Inode* node = (Inode*) nodechar;
+        REQUIRE(fsHelper->findInode(file, node, &inodePointer) == true);
 
-        //read imap entry  and number of entrie in superblock 
-
+        fsHelper->createNewInode(file, 777);
+       
 
     }
  
-
+    delete[] file;
     bd.close();
     remove(BD_PATH);
 }
