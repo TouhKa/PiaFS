@@ -12,7 +12,7 @@ Es gibt drei bash scripte im master tree: run, runMount und runUnmount:
  3. runUnmount -> Entfernt das FS
  
 ## fuse tests
-Die im Ordner "Fusetests" vorfindbaren JS Datei testet, das Mounten, hinzufügen, ändern und löschen einer Datei in unserem FS 
+Die im Ordner "Fusetests" vorfindbaren JS Datei testet das Mounten, hinzufügen, ändern und löschen einer Datei in unserem FS 
 und vergleicht selbeige Änderungen an einer Datei im "normalen FS". 
 **Es wird nodejs und npm benötigt, sowie außerdem die in der Datei genutzten Module**, zum Zugriff auf das FS. 
 
@@ -28,7 +28,6 @@ Die Dokumentation des Catch2 Test Frameworks findet sich [hier](https://github.c
 Änderungen von Files über den Text Editor gehen bei mir nicht, da ein Fehler von Ubuntu **.goutputstream-xxxx Dateien** erzeugt,
 anstelle die Änderungen in die bestehende Datei zu übernehmen. 
 Wenn dieser Fehler bei jemandem auftritt -> **File über command line mit nano ändern.** Das funktioniert!
-
 
 # TODO
 
