@@ -1,6 +1,7 @@
 # FS
 
 ### Vergleiche:  https://github.com/DerNiccoo/MyFS 
+**Beachte: Wir verwenden keine DMAP, da die freien Blöcke aus der FAT ausgelesen werden!**
 
 ## Bash scripte
 Es gibt drei bash scripte im master tree: run, runMount und runUnmount:
