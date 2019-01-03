@@ -94,7 +94,13 @@ TEST_CASE("read/write", "[dmap]"){ //Please note: As we read through the FAT Map
     MyFS* fs = new MyFS();
 
     SECTION("dmap"){
-        
+        //finde next free block
+
+        //set this block as used
+
+
+        //free block
+
     }
   
     bd.close();
@@ -108,8 +114,15 @@ TEST_CASE("read/write", "[imap]"){
     bd.create(BD_PATH);
     MyFS* fs = new MyFS();
 
-    SECTION("writing superblock"){
-        
+    SECTION("imap"){
+        //find free inode
+
+
+        //write inode
+
+        //read imap entry  and number of entrie in superblock 
+
+
     }
  
 
@@ -117,5 +130,28 @@ TEST_CASE("read/write", "[imap]"){
     remove(BD_PATH);
 }
 
+TEST_CASE("read/write the rootblock", "[rootblock]"){
+    remove(BD_PATH);
+    BlockDevice bd;
+    bd.create(BD_PATH);
+    
+    MyFSMgr* fsHelper = fsHelper->instance();     
+    
+    //See: Method "changeSBFileCount".
+    SECTION("rootblock"){                  
+      //set inode
 
-//root block
+      //update inode
+
+
+      //exists file?
+
+      //get filename
+    }
+
+    delete[] fsHelper;  
+    bd.close();
+    remove(BD_PATH);
+}
+
+
