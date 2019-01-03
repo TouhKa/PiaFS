@@ -5,7 +5,7 @@
 
 ## Bash scripte
 Es gibt drei bash scripte im master tree: run, runMount und runUnmount:
-**Da der darin Pfad darin absolut ist, bitte ändert diesen auf euren Nutzer ab.**
+**Da der darin enthaltene Pfad absolut ist, bitte ändert diesen auf euren Nutzer ab.**
  1. run -> befüllt die container.bin 
  2. runMount -> Mountet das FS. 
   **Beachte der Ordner in dem nachher das FS liegt muss schon existent sein!!!**
