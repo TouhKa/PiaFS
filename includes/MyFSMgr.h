@@ -15,7 +15,7 @@
 
 // Project specific
 #include "blockdevice.h"
-#include "Logger.h"
+#include "logger.h"
 #include "myfs-structs.h"
 
 class MyFSMgr {

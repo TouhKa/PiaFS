@@ -14,7 +14,7 @@
 // Project specific
 #include "myfs.h"
 #include "myfs-info.h"
-
+#include "logger.h"
 using namespace std;
 
 MyFS* MyFS::_instance = NULL;
@@ -104,7 +104,7 @@ int MyFS::fuseMkdir(const char *path, mode_t mode) {
 //delete any references to an inode
 int MyFS::fuseUnlink(const char *path) {
     LOGM();
-
+    
     uint32_t pointer = -1;
     char copy[BLOCK_SIZE];
     Inode* node = (Inode*)copy;

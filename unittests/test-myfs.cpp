@@ -53,7 +53,7 @@ TEST_CASE("read/write the superblock", "[superblock]"){
     remove(BD_PATH);
 }
 
-TEST_CASE("read/write FAT", "[fat]"){
+TEST_CASE("FAT", "[fat]"){
      remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
@@ -87,7 +87,7 @@ TEST_CASE("read/write FAT", "[fat]"){
 }
 
 
-TEST_CASE("read/write", "[dmap]"){ //Please note: As we read through the FAT Map for any empty entries, there is no real dmap.
+TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for any empty entries, there is no real dmap.
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
@@ -116,13 +116,16 @@ TEST_CASE("read/write", "[dmap]"){ //Please note: As we read through the FAT Map
 }
 
 
-TEST_CASE("read/write", "[imap]"){
+TEST_CASE("imap", "[imap]"){
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
     MyFSMgr* fsHelper = fsHelper->instance();
-    char* file = "data3.txt";
-    char* file2 = "data4.txt";
+    char* file = new char[11];
+     char* file2 = new char[11];
+    strcpy(file, "data3.txt");
+    strcpy(file2, "data4.txt");
+   
     SECTION("imap"){
         
         uint32_t inodePointer; 
@@ -146,7 +149,6 @@ TEST_CASE("read/write", "[imap]"){
         REQUIRE(fsHelper->findInode(file, node, &inodePointer) == false);   
         REQUIRE(fsHelper->readNextFATPointer(fatPointer) == MAX_UINT);      //no FAT entry left
 
-        delete[] nodechar;
         delete[] node;
 
     }
@@ -159,11 +161,15 @@ TEST_CASE("read/write", "[imap]"){
     remove(BD_PATH);
 }
 
-TEST_CASE("read/write the rootblock", "[rootblock]"){
+TEST_CASE("rootblock", "[rootblock]"){
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
-     char* file = "data3.txt";
+    char* file = new char[11];
+    
+    strcpy(file, "data3.txt");
+ 
+   
     MyFSMgr* fsHelper = fsHelper->instance();     
    
     SECTION("rootblock"){                  

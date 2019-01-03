@@ -5,7 +5,7 @@
  *      Author: FireEmerald
  */
 
-#include "Logger.h"
+#include "logger.h"
 
 Logger* Logger::_logger = NULL;
 

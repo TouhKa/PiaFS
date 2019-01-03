@@ -11,8 +11,7 @@
 
 #include <stdio.h>
 #include <cstdint>
-
-#include "Logger.h"
+#include "logger.h"
 
 #define BD_BLOCK_SIZE 512
 

@@ -13,7 +13,6 @@
 #include <errno.h>
 
 #include "blockdevice.h"
-#include "Logger.h"
 #include "MyFSMgr.h"
 
 class MyFS {
