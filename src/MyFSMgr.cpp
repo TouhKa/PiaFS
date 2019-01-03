@@ -1,12 +1,4 @@
 #include "MyFSMgr.h"
-
-/**
- * PIAs TODO:
- * - Umschreiben der Bit Operationen
- * - Sinnvolle Return werte ERROR_CODES
- * - Fuse Operationen implementieren, die Waldhorst noch
- * 
- */
 using namespace std;
 
 MyFSMgr* MyFSMgr::_instance = NULL;     //static instance of this class

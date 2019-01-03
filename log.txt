@@ -92903,3 +92903,493 @@ test, (Alte size: 8)
 140146 | src/myfs.cpp:236:fuseRelease()
 140201 | src/myfs.cpp:40:fuseGetattr()
 140207 | path: /file1.txt
+756618 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+758849 | src/Logger.cpp:46:setLogfile()
+758861 | src/myfs.cpp:310:fuseInit()
+758867 | Container file name: /home/pia/Documents/PiaFS/container.bin
+760563 | src/myfs.cpp:40:fuseGetattr()
+760580 | path: /.Trash
+760618 | src/myfs.cpp:40:fuseGetattr()
+760625 | path: /.Trash-1000
+777195 | src/myfs.cpp:40:fuseGetattr()
+777241 | path: /.xdg-volume-info
+778984 | src/myfs.cpp:266:fuseOpendir()
+784355 | src/myfs.cpp:40:fuseGetattr()
+784380 | path: /
+784519 | src/myfs.cpp:40:fuseGetattr()
+784528 | path: /autorun.inf
+785840 | src/myfs.cpp:271:fuseReaddir()
+785879 | src/myfs.cpp:40:fuseGetattr()
+785887 | path: /data1.txt
+785933 | src/myfs.cpp:293:fuseReleasedir()
+785954 | src/myfs.cpp:266:fuseOpendir()
+785967 | src/myfs.cpp:40:fuseGetattr()
+785973 | path: /
+785995 | src/myfs.cpp:271:fuseReaddir()
+786031 | src/myfs.cpp:293:fuseReleasedir()
+786110 | src/myfs.cpp:266:fuseOpendir()
+786124 | src/myfs.cpp:40:fuseGetattr()
+786129 | path: /
+786151 | src/myfs.cpp:271:fuseReaddir()
+786188 | src/myfs.cpp:293:fuseReleasedir()
+786208 | src/myfs.cpp:266:fuseOpendir()
+786220 | src/myfs.cpp:40:fuseGetattr()
+786226 | path: /
+786246 | src/myfs.cpp:271:fuseReaddir()
+786280 | src/myfs.cpp:293:fuseReleasedir()
+786301 | src/myfs.cpp:266:fuseOpendir()
+786313 | src/myfs.cpp:40:fuseGetattr()
+786319 | path: /
+786340 | src/myfs.cpp:271:fuseReaddir()
+786376 | src/myfs.cpp:293:fuseReleasedir()
+786396 | src/myfs.cpp:266:fuseOpendir()
+786408 | src/myfs.cpp:40:fuseGetattr()
+786414 | path: /
+786434 | src/myfs.cpp:271:fuseReaddir()
+786468 | src/myfs.cpp:293:fuseReleasedir()
+786488 | src/myfs.cpp:266:fuseOpendir()
+786500 | src/myfs.cpp:40:fuseGetattr()
+786506 | path: /
+786525 | src/myfs.cpp:271:fuseReaddir()
+786559 | src/myfs.cpp:293:fuseReleasedir()
+786589 | src/myfs.cpp:266:fuseOpendir()
+786601 | src/myfs.cpp:40:fuseGetattr()
+786607 | path: /
+786626 | src/myfs.cpp:271:fuseReaddir()
+786662 | src/myfs.cpp:293:fuseReleasedir()
+786682 | src/myfs.cpp:266:fuseOpendir()
+786693 | src/myfs.cpp:40:fuseGetattr()
+786699 | path: /
+786718 | src/myfs.cpp:271:fuseReaddir()
+786752 | src/myfs.cpp:293:fuseReleasedir()
+786770 | src/myfs.cpp:266:fuseOpendir()
+786781 | src/myfs.cpp:40:fuseGetattr()
+786787 | path: /
+786806 | src/myfs.cpp:271:fuseReaddir()
+786840 | src/myfs.cpp:293:fuseReleasedir()
+786858 | src/myfs.cpp:266:fuseOpendir()
+786870 | src/myfs.cpp:40:fuseGetattr()
+786875 | path: /
+786894 | src/myfs.cpp:271:fuseReaddir()
+786927 | src/myfs.cpp:293:fuseReleasedir()
+786944 | src/myfs.cpp:266:fuseOpendir()
+786956 | src/myfs.cpp:40:fuseGetattr()
+786961 | path: /
+786980 | src/myfs.cpp:271:fuseReaddir()
+787047 | src/myfs.cpp:293:fuseReleasedir()
+787081 | src/myfs.cpp:266:fuseOpendir()
+787094 | src/myfs.cpp:40:fuseGetattr()
+787099 | path: /
+787119 | src/myfs.cpp:271:fuseReaddir()
+787154 | src/myfs.cpp:293:fuseReleasedir()
+787170 | src/myfs.cpp:266:fuseOpendir()
+787182 | src/myfs.cpp:40:fuseGetattr()
+787187 | path: /
+787206 | src/myfs.cpp:271:fuseReaddir()
+787238 | src/myfs.cpp:293:fuseReleasedir()
+787254 | src/myfs.cpp:266:fuseOpendir()
+787265 | src/myfs.cpp:40:fuseGetattr()
+787270 | path: /
+787289 | src/myfs.cpp:271:fuseReaddir()
+787321 | src/myfs.cpp:293:fuseReleasedir()
+787336 | src/myfs.cpp:266:fuseOpendir()
+787348 | src/myfs.cpp:40:fuseGetattr()
+787353 | path: /
+787372 | src/myfs.cpp:271:fuseReaddir()
+787403 | src/myfs.cpp:293:fuseReleasedir()
+787419 | src/myfs.cpp:266:fuseOpendir()
+787430 | src/myfs.cpp:40:fuseGetattr()
+787436 | path: /
+787454 | src/myfs.cpp:271:fuseReaddir()
+787486 | src/myfs.cpp:293:fuseReleasedir()
+787503 | src/myfs.cpp:266:fuseOpendir()
+787514 | src/myfs.cpp:40:fuseGetattr()
+787520 | path: /
+787542 | src/myfs.cpp:271:fuseReaddir()
+787579 | src/myfs.cpp:293:fuseReleasedir()
+787596 | src/myfs.cpp:266:fuseOpendir()
+787608 | src/myfs.cpp:40:fuseGetattr()
+787613 | path: /
+788533 | src/myfs.cpp:271:fuseReaddir()
+788583 | src/myfs.cpp:293:fuseReleasedir()
+788607 | src/myfs.cpp:266:fuseOpendir()
+788620 | src/myfs.cpp:40:fuseGetattr()
+788625 | path: /
+788645 | src/myfs.cpp:271:fuseReaddir()
+788681 | src/myfs.cpp:293:fuseReleasedir()
+788702 | src/myfs.cpp:266:fuseOpendir()
+788713 | src/myfs.cpp:40:fuseGetattr()
+788719 | path: /
+788738 | src/myfs.cpp:271:fuseReaddir()
+788772 | src/myfs.cpp:293:fuseReleasedir()
+788793 | src/myfs.cpp:266:fuseOpendir()
+788805 | src/myfs.cpp:40:fuseGetattr()
+788810 | path: /
+788829 | src/myfs.cpp:271:fuseReaddir()
+788863 | src/myfs.cpp:293:fuseReleasedir()
+792496 | src/myfs.cpp:266:fuseOpendir()
+792519 | src/myfs.cpp:40:fuseGetattr()
+792526 | path: /
+792569 | src/myfs.cpp:271:fuseReaddir()
+792645 | src/myfs.cpp:293:fuseReleasedir()
+792664 | src/myfs.cpp:40:fuseGetattr()
+792670 | path: /autorun.inf
+108898 | src/myfs.cpp:40:fuseGetattr()
+108933 | path: /
+127291 | src/myfs.cpp:226:fuseStatfs()
+142604 | src/myfs.cpp:266:fuseOpendir()
+148386 | src/myfs.cpp:40:fuseGetattr()
+148409 | path: /.Trash
+149768 | src/myfs.cpp:40:fuseGetattr()
+149780 | path: /.Trash-1000
+151107 | src/myfs.cpp:271:fuseReaddir()
+151146 | src/myfs.cpp:40:fuseGetattr()
+151154 | path: /data1.txt
+151176 | src/myfs.cpp:40:fuseGetattr()
+151182 | path: /.hidden
+151272 | src/myfs.cpp:40:fuseGetattr()
+151281 | path: /
+152128 | src/myfs.cpp:293:fuseReleasedir()
+287303 | src/myfs.cpp:40:fuseGetattr()
+287333 | path: /data1.txt
+824909 | src/myfs.cpp:40:fuseGetattr()
+824940 | path: /
+828564 | src/myfs.cpp:156:fuseOpen()
+851016 | src/myfs.cpp:266:fuseOpendir()
+959762 | src/myfs.cpp:271:fuseReaddir()
+962963 | src/myfs.cpp:40:fuseGetattr()
+962979 | path: /.hidden
+964544 | src/myfs.cpp:182:fuseRead()
+964558 | reading file: /data1.txt | size: 4096 | offset: 0
+964575 | from: 0 | TO: 512 | bufferOffset: 0
+964584 | from: 0 | TO: 512 | bufferOffset: 512
+964592 | from: 0 | TO: 512 | bufferOffset: 1024
+964599 | from: 0 | TO: 512 | bufferOffset: 1536
+964607 | from: 0 | TO: 512 | bufferOffset: 2048
+964620 | from: 0 | TO: 512 | bufferOffset: 2560
+964628 | from: 0 | TO: 512 | bufferOffset: 3072
+964635 | Inodepointer: 470
+966663 | src/myfs.cpp:40:fuseGetattr()
+966677 | path: /data1.txt
+969226 | src/myfs.cpp:40:fuseGetattr()
+969241 | path: /
+970685 | src/myfs.cpp:293:fuseReleasedir()
+980431 | src/myfs.cpp:231:fuseFlush()
+981889 | src/myfs.cpp:236:fuseRelease()
+212176 | src/myfs.cpp:40:fuseGetattr()
+212211 | path: /data1.txt
+222823 | src/myfs.cpp:40:fuseGetattr()
+222851 | path: /
+532986 | src/myfs.cpp:40:fuseGetattr()
+533017 | path: /
+536623 | src/myfs.cpp:40:fuseGetattr()
+536644 | path: /.git
+538039 | src/myfs.cpp:40:fuseGetattr()
+538051 | path: /.git
+538070 | src/myfs.cpp:40:fuseGetattr()
+538076 | path: /HEAD
+655620 | src/myfs.cpp:266:fuseOpendir()
+657135 | src/myfs.cpp:40:fuseGetattr()
+661688 | path: /
+663316 | src/myfs.cpp:271:fuseReaddir()
+663355 | src/myfs.cpp:293:fuseReleasedir()
+663374 | src/myfs.cpp:40:fuseGetattr()
+663380 | path: /data1.txt
+663921 | src/myfs.cpp:266:fuseOpendir()
+665622 | src/myfs.cpp:40:fuseGetattr()
+665636 | path: /
+665690 | src/myfs.cpp:271:fuseReaddir()
+665717 | src/myfs.cpp:293:fuseReleasedir()
+666164 | src/myfs.cpp:40:fuseGetattr()
+666175 | path: /
+157053 | src/myfs.cpp:40:fuseGetattr()
+157093 | path: /.data1.txt.swp
+159054 | src/myfs.cpp:40:fuseGetattr()
+159071 | path: /.data1.txt.swp
+160705 | src/myfs.cpp:40:fuseGetattr()
+160720 | path: /.data1.txt.swp
+162043 | src/myfs.cpp:86:fuseMknod()
+162058 | Creating file: .data1.txt.swp
+162071 | FAT UPATE: SET: 542 WITH -1
+162083 | Write Inode of file: .data1.txt.swp
+162100 | src/myfs.cpp:40:fuseGetattr()
+162105 | path: /.data1.txt.swp
+162414 | src/myfs.cpp:40:fuseGetattr()
+162426 | path: /
+162458 | src/myfs.cpp:40:fuseGetattr()
+162467 | path: /.Trash
+162501 | src/myfs.cpp:40:fuseGetattr()
+162510 | path: /.Trash-1000
+163661 | src/myfs.cpp:156:fuseOpen()
+163709 | src/myfs.cpp:251:fuseGetxattr()
+163736 | src/myfs.cpp:219:fuseWrite()
+163744 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0nano 2.9.3'
+163753 | Inodepointer: 470
+163760 | Inodepointer: 471
+163766 | Target-Pointer: 542, buffer:
+b0nano 2.9.3, (Alte size: 0)
+163774 | src/MyFSMgr.cpp:175:write()
+163783 | FAT UPATE: SET: 542 WITH -1
+163795 | FAT UPATE: SET: 542 WITH -1
+163802 | New Inode size: 1024
+163910 | src/myfs.cpp:231:fuseFlush()
+164721 | src/myfs.cpp:236:fuseRelease()
+164763 | src/myfs.cpp:156:fuseOpen()
+164962 | src/myfs.cpp:182:fuseRead()
+164973 | reading file: /data1.txt | size: 4096 | offset: 0
+164980 | from: 0 | TO: 512 | bufferOffset: 0
+164989 | from: 0 | TO: 512 | bufferOffset: 512
+164997 | from: 0 | TO: 512 | bufferOffset: 1024
+165005 | from: 0 | TO: 512 | bufferOffset: 1536
+165013 | from: 0 | TO: 512 | bufferOffset: 2048
+165020 | from: 0 | TO: 512 | bufferOffset: 2560
+165028 | from: 0 | TO: 512 | bufferOffset: 3072
+165036 | Inodepointer: 470
+165175 | src/myfs.cpp:40:fuseGetattr()
+165185 | path: /data1.txt
+165210 | src/myfs.cpp:231:fuseFlush()
+165233 | src/myfs.cpp:236:fuseRelease()
+165263 | src/myfs.cpp:156:fuseOpen()
+165293 | src/myfs.cpp:231:fuseFlush()
+165343 | src/myfs.cpp:236:fuseRelease()
+782980 | src/myfs.cpp:40:fuseGetattr()
+783017 | path: /data1.txt
+784186 | src/myfs.cpp:40:fuseGetattr()
+784201 | path: /.data1.txt.swp
+784287 | src/myfs.cpp:99:fuseUnlink()
+784303 | removed File: 542
+784310 | Filled Block 542
+784322 | Max_unit?: -1
+784328 | Removed FATPOINTER: 542
+784334 | FAT UPATE: SET: 542 WITH 0
+784347 | Filled Block 471
+784714 | src/myfs.cpp:40:fuseGetattr()
+784729 | path: /.data1.txt.swp
+784755 | src/myfs.cpp:86:fuseMknod()
+784762 | Creating file: .data1.txt.swp
+784773 | FAT UPATE: SET: 542 WITH -1
+784782 | Write Inode of file: .data1.txt.swp
+784796 | src/myfs.cpp:40:fuseGetattr()
+784802 | path: /.data1.txt.swp
+784986 | src/myfs.cpp:156:fuseOpen()
+785009 | src/myfs.cpp:40:fuseGetattr()
+785016 | path: /
+785041 | src/myfs.cpp:251:fuseGetxattr()
+785059 | src/myfs.cpp:219:fuseWrite()
+785066 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0nano 2.9.3'
+785076 | Inodepointer: 470
+785084 | Inodepointer: 471
+785092 | Target-Pointer: 542, buffer:
+b0nano 2.9.3, (Alte size: 0)
+785107 | src/MyFSMgr.cpp:175:write()
+785118 | FAT UPATE: SET: 542 WITH -1
+785130 | FAT UPATE: SET: 542 WITH -1
+785138 | New Inode size: 1024
+785218 | src/myfs.cpp:231:fuseFlush()
+785234 | src/myfs.cpp:40:fuseGetattr()
+785240 | path: /.Trash
+785458 | src/myfs.cpp:236:fuseRelease()
+785474 | src/myfs.cpp:40:fuseGetattr()
+785481 | path: /.Trash-1000
+785512 | src/myfs.cpp:40:fuseGetattr()
+785519 | path: /.data1.txt.swp
+785601 | src/myfs.cpp:156:fuseOpen()
+785666 | src/myfs.cpp:182:fuseRead()
+785676 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+785683 | from: 0 | TO: 512 | bufferOffset: 0
+785693 | Inodepointer: 470
+785701 | Inodepointer: 471
+785724 | src/myfs.cpp:231:fuseFlush()
+785818 | src/myfs.cpp:236:fuseRelease()
+785831 | src/myfs.cpp:40:fuseGetattr()
+785837 | path: /.data1.txt.swp
+545303 | src/myfs.cpp:40:fuseGetattr()
+545356 | path: /data1.txt
+546873 | src/myfs.cpp:156:fuseOpen()
+546902 | src/myfs.cpp:251:fuseGetxattr()
+546917 | src/myfs.cpp:146:fuseTruncate()
+546944 | src/myfs.cpp:40:fuseGetattr()
+546951 | path: /data1.txt
+547098 | src/myfs.cpp:251:fuseGetxattr()
+547120 | src/myfs.cpp:219:fuseWrite()
+547128 | path: 'data1.txt', offset: 0, buf: 
+'huhuDas ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+'
+547148 | Inodepointer: 470
+547156 | Target-Pointer: 535, buffer:
+huhuDas ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test. 
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+Das ist ein Test. Das ist ein Test. Das ist ein Test. Das ist ein Test.
+, (Alte size: 3461)
+547169 | src/MyFSMgr.cpp:175:write()
+547183 | FAT UPATE: SET: 535 WITH 536
+547196 | FAT UPATE: SET: 536 WITH 537
+547209 | FAT UPATE: SET: 537 WITH 538
+547222 | FAT UPATE: SET: 538 WITH 539
+547234 | FAT UPATE: SET: 539 WITH 540
+547247 | FAT UPATE: SET: 540 WITH 541
+547258 | FAT UPATE: SET: 541 WITH -1
+547295 | FAT UPATE: SET: 541 WITH -1
+547303 | New Inode size: 3466
+547368 | src/myfs.cpp:231:fuseFlush()
+547583 | src/myfs.cpp:236:fuseRelease()
+547598 | src/myfs.cpp:40:fuseGetattr()
+547603 | path: /data1.txt
+547615 | src/myfs.cpp:40:fuseGetattr()
+547620 | path: /
+547708 | src/myfs.cpp:40:fuseGetattr()
+547717 | path: /.data1.txt.swp
+547762 | src/myfs.cpp:99:fuseUnlink()
+547775 | removed File: 542
+547781 | Filled Block 542
+547789 | Max_unit?: -1
+547794 | Removed FATPOINTER: 542
+547800 | FAT UPATE: SET: 542 WITH 0
+547810 | Filled Block 471
+548898 | src/myfs.cpp:40:fuseGetattr()
+548911 | path: /
+548923 | src/myfs.cpp:40:fuseGetattr()
+548928 | path: /
+548937 | src/myfs.cpp:40:fuseGetattr()
+548942 | path: /.Trash
+548971 | src/myfs.cpp:40:fuseGetattr()
+548978 | path: /.Trash-1000
+549013 | src/myfs.cpp:40:fuseGetattr()
+549020 | path: /.hidden
+549113 | src/myfs.cpp:40:fuseGetattr()
+549121 | path: /
+551780 | src/myfs.cpp:40:fuseGetattr()
+551795 | path: /.git
+556619 | src/myfs.cpp:40:fuseGetattr()
+556642 | path: /.git
+556666 | src/myfs.cpp:40:fuseGetattr()
+556671 | path: /HEAD
+222068 | src/myfs.cpp:40:fuseGetattr()
+222101 | path: /data1.txt
+724983 | src/myfs.cpp:40:fuseGetattr()
+725015 | path: /
+728489 | src/myfs.cpp:156:fuseOpen()
+747918 | src/myfs.cpp:266:fuseOpendir()
+848600 | src/myfs.cpp:271:fuseReaddir()
+852653 | src/myfs.cpp:40:fuseGetattr()
+852670 | path: /.hidden
+856890 | src/myfs.cpp:182:fuseRead()
+856905 | reading file: /data1.txt | size: 4096 | offset: 0
+856912 | from: 0 | TO: 512 | bufferOffset: 0
+856921 | from: 0 | TO: 512 | bufferOffset: 512
+856928 | from: 0 | TO: 512 | bufferOffset: 1024
+856935 | from: 0 | TO: 512 | bufferOffset: 1536
+856942 | from: 0 | TO: 512 | bufferOffset: 2048
+856950 | from: 0 | TO: 512 | bufferOffset: 2560
+856957 | from: 0 | TO: 512 | bufferOffset: 3072
+856964 | Inodepointer: 470
+859808 | src/myfs.cpp:40:fuseGetattr()
+859822 | path: /data1.txt
+864366 | src/myfs.cpp:40:fuseGetattr()
+864388 | path: /
+865880 | src/myfs.cpp:293:fuseReleasedir()
+871731 | src/myfs.cpp:231:fuseFlush()
+873048 | src/myfs.cpp:236:fuseRelease()
+100270 | src/myfs.cpp:40:fuseGetattr()
+100331 | path: /data1.txt
+143365 | src/myfs.cpp:40:fuseGetattr()
+143415 | path: /
+404684 | src/myfs.cpp:40:fuseGetattr()
+404715 | path: /
+546110 | src/myfs.cpp:40:fuseGetattr()
+546134 | path: /
