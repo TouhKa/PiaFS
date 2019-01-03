@@ -347,10 +347,9 @@ void MyFSMgr::createInode(char* path, uint32_t blockPointer) {
  *
  * @param path The name of the file.
  */
-int MyFSMgr::createNewInode(char* path, mode_t mode){	//Leere Datei, hat sie einen BlockPointer?
+int MyFSMgr::createNewInode(char* path, mode_t mode){	
     char copy[BLOCK_SIZE];      
     Inode* node = (Inode*) copy;
-
 
     char* fileName = basename(path);
     LOGF("Creating file: %s\n", fileName);

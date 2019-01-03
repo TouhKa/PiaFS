@@ -18,6 +18,7 @@ const chalk = require("chalk");
 const crypto = require("crypto");
 
 
+
 let basePath = "/home/pia/Documents/FS";
 let testPath = "../";
 let input = ["data1.txt", "data2.txt"];
@@ -177,13 +178,20 @@ describe("Myfs", async function () {
               
             });
         });
-        // describe('Write one block offset', () => {
+        //  describe('Write one block offset', () => {
         //     it('short', () => {
         //         let files = fs.readdirSync(basePath);
+              
         //         files.forEach(file => {
-        //             writeByByte(path.join(basePath, file), 512, smallString, 512);
-        //             writeByByte(path.join(testPath, file), 512, smallString, 512);
-        //             expect(fs.readFileSync(path.join(basePath, file), "utf8") ).to.be.equal(fs.readFileSync(path.join(testPath, file), "utf8"));
+
+        //             console.log(fs.readFileSync(path.join(basePath, file), "utf8"));
+        //             console.log(fs.readFileSync(path.join(testPath, file), "utf8"));
+        //             writeByByte(path.join(basePath, file), 512, smallString, 0);
+        //             console.log(fs.readFileSync(path.join(basePath, file), "utf8"));
+        //             writeByByte(path.join(testPath, file), 512, smallString, 0);
+        //             console.log(fs.readFileSync(path.join(testPath, file), "utf8"));
+                
+        //             //expect(fs.readFileSync(path.join(basePath, file), "utf8") ).to.be.equal(fs.readFileSync(path.join(testPath, file), "utf8"));
         //         });
         //     });
             // it('block', () => {
@@ -280,7 +288,7 @@ describe("Myfs", async function () {
             });
         });
 
-        //schreiben geht!! 
+        
         //Problem: The test is so fast, so there are no time differences between reading a-, c- mtime the first time , change the content and reading  a-, c- mtime again.
         describe('mtime:', () => {
             it('append:', () => {
@@ -340,9 +348,12 @@ function readByByte(file, pos, length) {
 }
 
 function writeByByte(file, pos, string, offset) {
+    offset = 0;
     let fd = fs.openSync(file, "w");
-    let buffer = Buffer.from(string, 'utf8');
-    fs.writeSync(fd, buffer, offset, string.length, pos);
+    let buffer = new Buffer(string);
+
+    console.log(pos, string);
+    fs.writeSync(fd, buffer, 0, string.length, pos);
     fs.fsyncSync(fd);
     fs.closeSync(fd);
 }

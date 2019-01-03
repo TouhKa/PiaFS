@@ -122,30 +122,39 @@ TEST_CASE("read/write", "[imap]"){
     bd.create(BD_PATH);
     MyFSMgr* fsHelper = fsHelper->instance();
     char* file = "data3.txt";
-
+    char* file2 = "data4.txt";
     SECTION("imap"){
-        //find free inode
-        //createInode
-      
-        //find Inode
-        fsHelper->fillBlocks(0, BLOCK_COUNT);
-        fsHelper->writeSuperBlock();
-         
-        uint32_t blockPointer = fsHelper->findNextFreeBlock();
-        fsHelper->createInode(file, blockPointer);
-
-
-        uint32_t inodePointer;
+        
+        uint32_t inodePointer; 
+        uint32_t fatPointer;   
+        uint32_t blockPointer;                                  //inode
         char nodechar[BLOCK_SIZE];
         Inode* node = (Inode*) nodechar;
-        REQUIRE(fsHelper->findInode(file, node, &inodePointer) == true);
+        fsHelper->fillBlocks(0, BLOCK_COUNT);                      
+        fsHelper->writeSuperBlock();
+        blockPointer = fsHelper->findNextFreeBlock();
+        fsHelper->createInode(file, blockPointer);                   //createInode
 
-        fsHelper->createNewInode(file, 777);
-       
+        REQUIRE(fsHelper->findInode(file, node, &inodePointer) == true);    //check if inode exists
+        fatPointer = node->pointer ;
+        REQUIRE(fsHelper->rootPointerCount() == 1);                         //check if there is exact one entry
+        REQUIRE(fsHelper->createNewInode(file2, 777) == 0);                    //check if writing is correct
+        REQUIRE(fsHelper->rootPointerCount() == 2);         //check if there are exact two entries    
+
+        fsHelper->removeFile(inodePointer);                                 //remove first inode
+        REQUIRE(fsHelper->rootPointerCount() == 1);
+        REQUIRE(fsHelper->findInode(file, node, &inodePointer) == false);   
+        REQUIRE(fsHelper->readNextFATPointer(fatPointer) == MAX_UINT);      //no FAT entry left
+
+        delete[] nodechar;
+        delete[] node;
 
     }
  
     delete[] file;
+    delete[] file2;
+    delete[] fsHelper;
+
     bd.close();
     remove(BD_PATH);
 }
@@ -154,21 +163,27 @@ TEST_CASE("read/write the rootblock", "[rootblock]"){
     remove(BD_PATH);
     BlockDevice bd;
     bd.create(BD_PATH);
-    
+     char* file = "data3.txt";
     MyFSMgr* fsHelper = fsHelper->instance();     
-    
-    //See: Method "changeSBFileCount".
+   
     SECTION("rootblock"){                  
-      //set inode
+    
+        uint32_t inodePointer; 
+        uint32_t fatPointer;   
+        uint32_t blockPointer;                                  //inode
+        char nodechar[BLOCK_SIZE];
+        Inode* node = (Inode*) nodechar;
+        fsHelper->fillBlocks(0, BLOCK_COUNT);                      
+        fsHelper->writeSuperBlock();
 
-      //update inode
+        blockPointer = fsHelper->findNextFreeBlock();
+        fsHelper->createInode(file, blockPointer);                   //createInode
 
-
-      //exists file?
-
-      //get filename
+        REQUIRE(fsHelper->findInode(file, node, &inodePointer) == true);    //check if inode exists
+        int entries = fsHelper->readNextRootPointer(node->pointer);
+        REQUIRE(fsHelper->rootPointerCount() == entries);
     }
-
+    delete[] file;
     delete[] fsHelper;  
     bd.close();
     remove(BD_PATH);
