@@ -75,7 +75,7 @@ $(OBJDIR)/%.o :  $(SRCDIR)/%.c
 	########## TESTING ##########
 
 # directory with test source files
-TSRCDIR = unittest
+TSRCDIR = unittests
 
 # object files for target unittests TODO: add new object files here
 UNITTEST_OBJS = $(OBJDIR)/main.o \
@@ -84,8 +84,9 @@ UNITTEST_OBJS = $(OBJDIR)/main.o \
 	$(OBJDIR)/test-blockdevice.o \
 	$(OBJDIR)/Logger.o \
 	$(OBJDIR)/myfs.o \
-	$(OBJDIR)/test-myfs.o \
-	$(OBJDIR)/helper.o 
+	$(OBJDIR)/helper.o \
+	$(OBJDIR)/test-myfs.o 
+	
 
 
 # test targets
