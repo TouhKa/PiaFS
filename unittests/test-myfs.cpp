@@ -42,44 +42,47 @@ TEST_CASE("read/write the superblock", "[superblock]"){
         REQUIRE(sb->fileCount == 0); 
 
         MyFSMgr::instance()->BDInstance()->close(); 
-    }
+        
+            }
 
-    
     remove(BD_PATH);
 }
 
-// TEST_CASE("FAT", "[fat]"){
-//      remove(BD_PATH);
-//     BlockDevice bd;
-//     bd.create(BD_PATH);
-//     MyFSMgr* fsHelper = fsHelper->instance();
+TEST_CASE("FAT", "[fat]"){
+     remove(BD_PATH);
 
-//     SECTION("FAT"){
+    SECTION("FAT"){
+        MyFSMgr::instance()->BDInstance()->create(BD_PATH); //create container instance 
+        static BlockDevice * bd =  MyFSMgr::instance()->BDInstance();
+        static MyFSMgr* fs = MyFSMgr::instance();
+        MyFSMgr::instance()->fillBlocks(0, BLOCK_COUNT);
+        MyFSMgr::instance()->writeSuperBlock();
 
-//         //read empty entry
-//         REQUIRE(fsHelper->readNextFATPointer(3) == MAX_UINT);
-//         REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
-//         REQUIRE(fsHelper->readNextFATPointer(514) == MAX_UINT);
+        //read empty entry
+      //  REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 0);
+        REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 0);
+        REQUIRE(MyFSMgr::instance()->readNextFATPointer(514) == 0);
     
-//         //modify
-//         fsHelper->setFATBlockPointer(2, 511);
-//         fsHelper->setFATBlockPointer(511, 514);
-//         REQUIRE(fsHelper->readNextFATPointer(3) == 511);
-//         REQUIRE(fsHelper->readNextFATPointer(511) == 514);
-//         REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
+        //modify
+       // MyFSMgr::instance()->setFATBlockPointer(223, 511);
+        MyFSMgr::instance()->setFATBlockPointer(511, 514);
+        //REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 511);
+        REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 514);
+       
 
 
-//         //delete ENTRY
-//         fsHelper->removeFatPointer(3);
-//         fsHelper->removeFatPointer(511);
-//         REQUIRE(fsHelper->readNextFATPointer(3) == MAX_UINT);
-//         REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
-//     }
+    //     //delete ENTRY
+        //MyFSMgr::instance()->removeFatPointer(223);
+        MyFSMgr::instance()->removeFatPointer(511);
+        //REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 0);
+        REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 0);
+
+        MyFSMgr::instance()->BDInstance()->close();
+      
+    }
  
-
-//     bd.close();
-//     remove(BD_PATH);
-// }
+    remove(BD_PATH);
+}
 
 
 // TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for any empty entries, there is no real dmap.

@@ -35,6 +35,8 @@ MyFSMgr::MyFSMgr() {
 }
 
 MyFSMgr::~MyFSMgr() {
+    delete[] _instance;
+    delete[] _blockDevice;
 }
 
 
