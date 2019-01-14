@@ -71,47 +71,44 @@ TEST_CASE("FAT", "[fat]"){
        
 
 
-    //     //delete ENTRY
-        //MyFSMgr::instance()->removeFatPointer(223);
-        MyFSMgr::instance()->removeFatPointer(511);
-        //REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 0);
-        REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 0);
-
-        MyFSMgr::instance()->BDInstance()->close();
-      
+        //delete ENTRY
+        fsHelper->removeFatPointer(3);
+        fsHelper->removeFatPointer(511);
+        REQUIRE(fsHelper->readNextFATPointer(3) == MAX_UINT);
+        REQUIRE(fsHelper->readNextFATPointer(511) == MAX_UINT);
     }
  
     remove(BD_PATH);
 }
 
 
-// TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for any empty entries, there is no real dmap.
-//     remove(BD_PATH);
-//     BlockDevice bd;
-//     bd.create(BD_PATH);
-//     MyFSMgr* fsHelper = fsHelper->instance();
+TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for any empty entries, there is no real dmap.
+    remove(BD_PATH);
+    BlockDevice bd;
+    bd.create(BD_PATH);
+    MyFSMgr* fsHelper = fsHelper->instance();
 
-//     SECTION("dmap"){
+    SECTION("dmap"){
         
-//         REQUIRE(fsHelper->findNextFreeBlock() == 0);                //finde next free block
+        REQUIRE(fsHelper->findNextFreeBlock() == 0);                //finde next free block
 
-//         fsHelper->setFATBlockPointer(0, 55);                       //set the blocks as used
-//         REQUIRE(fsHelper->findNextFreeBlock() == 1);
+        fsHelper->setFATBlockPointer(0, 55);                       //set the blocks as used
+        REQUIRE(fsHelper->findNextFreeBlock() == 1);
 
-//         fsHelper->setFATBlockPointer(1, 14);
-//         fsHelper->setFATBlockPointer(2, 6);
-//         REQUIRE(fsHelper->findNextFreeBlock() == 3);
+        fsHelper->setFATBlockPointer(1, 14);
+        fsHelper->setFATBlockPointer(2, 6);
+        REQUIRE(fsHelper->findNextFreeBlock() == 3);
 
-//         fsHelper->removeFatPointer(0);                              //free block
-//         fsHelper->removeFatPointer(1);
-//         fsHelper->removeFatPointer(2);
+        fsHelper->removeFatPointer(0);                              //free block
+        fsHelper->removeFatPointer(1);
+        fsHelper->removeFatPointer(2);
    
-//         REQUIRE(fsHelper->findNextFreeBlock() == 0);
-//     }
+        REQUIRE(fsHelper->findNextFreeBlock() == 0);
+    }
   
-//     bd.close();
-//     remove(BD_PATH);
-// }
+    bd.close();
+    remove(BD_PATH);
+}
 
 
 // TEST_CASE("imap", "[imap]"){
