@@ -35,7 +35,7 @@ Wenn dieser Fehler bei jemandem auftritt -> **File über command line mit nano �
 - [x] Fehler Codes bei den FUSE Operationen zurückgeben
 
 - [ ] In diesem FS fehlen drei von Waldhorst geforderte FUSE-Implementierungen: fuseOpenDir, fuseReleaseDir und fuseRelease.
-  [x] Die ersten beiden werden nicht wirlich benötigt, daher sollte es passen wenn wir da nur ein Log-Eintrag machen, dass die Methode aufgerufen wird
+- [x] Die ersten beiden werden nicht wirlich benötigt, daher sollte es passen wenn wir da nur ein Log-Eintrag machen, dass die Methode aufgerufen wird
   Zur dritten Methode **fuseRelease**: es funktioniert auch ohne, also ...wenn wir erklären können wo wir quasi eine Datei anderswo schließen, sollte das passen.  
   
  - [nicht mehr gefixt - nur auskommentiert]die fuse test (fusetests.js) haben einen auskommentierten Bereich. Ich weiß nicht warum es mir in zwei identischen Dateien unterschiedliche Dinge schreibt, wenn ich ein Offset definiere. Einmal im FS steht es Richtig an Stelle X in der Datei, die Originaldatei die zum Abgleich ebenfalls geändert wird, wird komplett überschrieben...vllt hat da noch jmd eine Idee!^^"
