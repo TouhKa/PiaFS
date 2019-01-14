@@ -64539,3 +64539,3712 @@ test, (Alte size: 8)
 691706 | src/myfs.cpp:243:fuseRelease()
 691762 | src/myfs.cpp:40:fuseGetattr()
 691771 | path: /file1.txt
+928286 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+928328 | src/Logger.cpp:46:setLogfile()
+928334 | src/myfs.cpp:317:fuseInit()
+928339 | Container file name: /home/pia/Documents/PiaFS/container.bin
+312338 | src/myfs.cpp:40:fuseGetattr()
+312383 | path: /
+744040 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+744087 | src/Logger.cpp:46:setLogfile()
+744129 | src/myfs.cpp:317:fuseInit()
+744136 | Container file name: /home/pia/Documents/PiaFS/container.bin
+744231 | src/myfs.cpp:40:fuseGetattr()
+744240 | path: /.Trash
+744279 | src/myfs.cpp:40:fuseGetattr()
+744286 | path: /.Trash-1000
+767021 | src/myfs.cpp:273:fuseOpendir()
+768044 | src/myfs.cpp:40:fuseGetattr()
+768054 | path: /
+768109 | src/myfs.cpp:278:fuseReaddir()
+768152 | src/myfs.cpp:40:fuseGetattr()
+768159 | path: /data1.txt
+768204 | src/myfs.cpp:300:fuseReleasedir()
+768232 | src/myfs.cpp:273:fuseOpendir()
+768252 | src/myfs.cpp:40:fuseGetattr()
+768258 | path: /
+768285 | src/myfs.cpp:278:fuseReaddir()
+768333 | src/myfs.cpp:300:fuseReleasedir()
+768381 | src/myfs.cpp:273:fuseOpendir()
+768414 | src/myfs.cpp:40:fuseGetattr()
+768421 | path: /
+768447 | src/myfs.cpp:278:fuseReaddir()
+768506 | src/myfs.cpp:300:fuseReleasedir()
+768534 | src/myfs.cpp:273:fuseOpendir()
+768554 | src/myfs.cpp:40:fuseGetattr()
+768560 | path: /
+768587 | src/myfs.cpp:278:fuseReaddir()
+768632 | src/myfs.cpp:300:fuseReleasedir()
+768661 | src/myfs.cpp:273:fuseOpendir()
+768680 | src/myfs.cpp:40:fuseGetattr()
+768687 | path: /
+768713 | src/myfs.cpp:278:fuseReaddir()
+768760 | src/myfs.cpp:300:fuseReleasedir()
+768789 | src/myfs.cpp:273:fuseOpendir()
+768808 | src/myfs.cpp:40:fuseGetattr()
+768821 | path: /
+768847 | src/myfs.cpp:278:fuseReaddir()
+768892 | src/myfs.cpp:300:fuseReleasedir()
+768919 | src/myfs.cpp:273:fuseOpendir()
+768938 | src/myfs.cpp:40:fuseGetattr()
+768944 | path: /
+771695 | src/myfs.cpp:278:fuseReaddir()
+771745 | src/myfs.cpp:300:fuseReleasedir()
+771774 | src/myfs.cpp:273:fuseOpendir()
+771793 | src/myfs.cpp:40:fuseGetattr()
+771799 | path: /
+771826 | src/myfs.cpp:278:fuseReaddir()
+771870 | src/myfs.cpp:300:fuseReleasedir()
+771898 | src/myfs.cpp:273:fuseOpendir()
+771939 | src/myfs.cpp:40:fuseGetattr()
+771948 | path: /
+771978 | src/myfs.cpp:278:fuseReaddir()
+772023 | src/myfs.cpp:300:fuseReleasedir()
+772050 | src/myfs.cpp:273:fuseOpendir()
+772069 | src/myfs.cpp:40:fuseGetattr()
+772076 | path: /
+772101 | src/myfs.cpp:278:fuseReaddir()
+772145 | src/myfs.cpp:300:fuseReleasedir()
+772171 | src/myfs.cpp:273:fuseOpendir()
+772190 | src/myfs.cpp:40:fuseGetattr()
+772196 | path: /
+772222 | src/myfs.cpp:278:fuseReaddir()
+772268 | src/myfs.cpp:300:fuseReleasedir()
+772293 | src/myfs.cpp:273:fuseOpendir()
+772311 | src/myfs.cpp:40:fuseGetattr()
+772318 | path: /
+772343 | src/myfs.cpp:278:fuseReaddir()
+772387 | src/myfs.cpp:300:fuseReleasedir()
+772424 | src/myfs.cpp:273:fuseOpendir()
+772443 | src/myfs.cpp:40:fuseGetattr()
+772450 | path: /
+772475 | src/myfs.cpp:278:fuseReaddir()
+772520 | src/myfs.cpp:300:fuseReleasedir()
+772543 | src/myfs.cpp:273:fuseOpendir()
+772562 | src/myfs.cpp:40:fuseGetattr()
+772568 | path: /
+772593 | src/myfs.cpp:278:fuseReaddir()
+772635 | src/myfs.cpp:300:fuseReleasedir()
+772658 | src/myfs.cpp:273:fuseOpendir()
+772677 | src/myfs.cpp:40:fuseGetattr()
+772683 | path: /
+772709 | src/myfs.cpp:278:fuseReaddir()
+772751 | src/myfs.cpp:300:fuseReleasedir()
+772774 | src/myfs.cpp:273:fuseOpendir()
+772792 | src/myfs.cpp:40:fuseGetattr()
+772799 | path: /
+772824 | src/myfs.cpp:278:fuseReaddir()
+772866 | src/myfs.cpp:300:fuseReleasedir()
+772890 | src/myfs.cpp:273:fuseOpendir()
+772908 | src/myfs.cpp:40:fuseGetattr()
+772914 | path: /
+772940 | src/myfs.cpp:278:fuseReaddir()
+772982 | src/myfs.cpp:300:fuseReleasedir()
+773007 | src/myfs.cpp:273:fuseOpendir()
+773025 | src/myfs.cpp:40:fuseGetattr()
+773032 | path: /
+773057 | src/myfs.cpp:278:fuseReaddir()
+773101 | src/myfs.cpp:300:fuseReleasedir()
+773126 | src/myfs.cpp:273:fuseOpendir()
+773145 | src/myfs.cpp:40:fuseGetattr()
+773151 | path: /
+773177 | src/myfs.cpp:278:fuseReaddir()
+773221 | src/myfs.cpp:300:fuseReleasedir()
+773251 | src/myfs.cpp:273:fuseOpendir()
+773270 | src/myfs.cpp:40:fuseGetattr()
+773276 | path: /
+773302 | src/myfs.cpp:278:fuseReaddir()
+773346 | src/myfs.cpp:300:fuseReleasedir()
+773396 | src/myfs.cpp:273:fuseOpendir()
+773417 | src/myfs.cpp:40:fuseGetattr()
+773423 | path: /
+773449 | src/myfs.cpp:278:fuseReaddir()
+773494 | src/myfs.cpp:300:fuseReleasedir()
+773522 | src/myfs.cpp:273:fuseOpendir()
+773541 | src/myfs.cpp:40:fuseGetattr()
+773547 | path: /
+773573 | src/myfs.cpp:278:fuseReaddir()
+773617 | src/myfs.cpp:300:fuseReleasedir()
+773725 | src/myfs.cpp:40:fuseGetattr()
+773733 | path: /.xdg-volume-info
+773770 | src/myfs.cpp:40:fuseGetattr()
+773778 | path: /autorun.inf
+778503 | src/myfs.cpp:273:fuseOpendir()
+778536 | src/myfs.cpp:40:fuseGetattr()
+778543 | path: /
+778596 | src/myfs.cpp:278:fuseReaddir()
+778685 | src/myfs.cpp:300:fuseReleasedir()
+778712 | src/myfs.cpp:40:fuseGetattr()
+778719 | path: /autorun.inf
+899081 | src/myfs.cpp:40:fuseGetattr()
+899110 | path: /
+912938 | src/myfs.cpp:273:fuseOpendir()
+920551 | src/myfs.cpp:40:fuseGetattr()
+920568 | path: /.Trash
+920595 | src/myfs.cpp:40:fuseGetattr()
+920600 | path: /.Trash-1000
+920619 | src/myfs.cpp:278:fuseReaddir()
+920646 | src/myfs.cpp:40:fuseGetattr()
+920651 | path: /data1.txt
+920678 | src/myfs.cpp:40:fuseGetattr()
+920684 | path: /.hidden
+920745 | src/myfs.cpp:40:fuseGetattr()
+920752 | path: /
+921648 | src/myfs.cpp:300:fuseReleasedir()
+778133 | src/myfs.cpp:40:fuseGetattr()
+778175 | path: /data1.txt
+376173 | src/myfs.cpp:40:fuseGetattr()
+376201 | path: /
+379992 | src/myfs.cpp:163:fuseOpen()
+398051 | src/myfs.cpp:273:fuseOpendir()
+500005 | src/myfs.cpp:278:fuseReaddir()
+500140 | src/myfs.cpp:40:fuseGetattr()
+500148 | path: /.hidden
+501851 | src/myfs.cpp:189:fuseRead()
+501864 | reading file: /data1.txt | size: 4096 | offset: 0
+501880 | from: 0 | TO: 512 | bufferOffset: 0
+501889 | from: 0 | TO: 512 | bufferOffset: 512
+501896 | from: 0 | TO: 512 | bufferOffset: 1024
+501903 | Inodepointer: 470
+501958 | src/myfs.cpp:40:fuseGetattr()
+501966 | path: /data1.txt
+507042 | src/myfs.cpp:40:fuseGetattr()
+507060 | path: /
+507236 | src/myfs.cpp:300:fuseReleasedir()
+508945 | src/myfs.cpp:238:fuseFlush()
+508973 | src/myfs.cpp:243:fuseRelease()
+110649 | src/myfs.cpp:40:fuseGetattr()
+110701 | path: /data1.txt
+136975 | src/myfs.cpp:40:fuseGetattr()
+137009 | path: /
+373436 | src/myfs.cpp:40:fuseGetattr()
+373478 | path: /
+765640 | src/myfs.cpp:40:fuseGetattr()
+765682 | path: /.git
+767008 | src/myfs.cpp:40:fuseGetattr()
+767034 | path: /.git
+767091 | src/myfs.cpp:40:fuseGetattr()
+767108 | path: /HEAD
+119547 | src/myfs.cpp:273:fuseOpendir()
+119662 | src/myfs.cpp:40:fuseGetattr()
+119682 | path: /
+119825 | src/myfs.cpp:278:fuseReaddir()
+119917 | src/myfs.cpp:300:fuseReleasedir()
+119972 | src/myfs.cpp:40:fuseGetattr()
+119989 | path: /data1.txt
+121264 | src/myfs.cpp:273:fuseOpendir()
+121330 | src/myfs.cpp:40:fuseGetattr()
+121347 | path: /
+121483 | src/myfs.cpp:278:fuseReaddir()
+121567 | src/myfs.cpp:300:fuseReleasedir()
+122563 | src/myfs.cpp:40:fuseGetattr()
+122588 | path: /
+622896 | src/myfs.cpp:40:fuseGetattr()
+622917 | path: /.data1.txt.swp
+623180 | src/myfs.cpp:40:fuseGetattr()
+623190 | path: /.data1.txt.swp
+623216 | src/myfs.cpp:40:fuseGetattr()
+623223 | path: /.data1.txt.swp
+623271 | src/myfs.cpp:86:fuseMknod()
+623282 | Inodepointer: 470
+623290 | Creating file: .data1.txt.swp
+623334 | FAT UPATE: SET: 538 WITH -1
+623349 | Write Inode of file: .data1.txt.swp
+623382 | src/myfs.cpp:40:fuseGetattr()
+623401 | path: /.data1.txt.swp
+623656 | src/myfs.cpp:40:fuseGetattr()
+623666 | path: /
+623692 | src/myfs.cpp:40:fuseGetattr()
+623699 | path: /.Trash
+623726 | src/myfs.cpp:40:fuseGetattr()
+623734 | path: /.Trash-1000
+625391 | src/myfs.cpp:163:fuseOpen()
+625434 | src/myfs.cpp:258:fuseGetxattr()
+625456 | src/myfs.cpp:226:fuseWrite()
+625463 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0nano 2.9.3'
+625471 | Inodepointer: 470
+625477 | Inodepointer: 471
+625483 | Target-Pointer: 538, buffer:
+b0nano 2.9.3, (Alte size: 0)
+625490 | src/MyFSMgr.cpp:177:write()
+625499 | FAT UPATE: SET: 538 WITH -1
+625508 | FAT UPATE: SET: 538 WITH -1
+625514 | New Inode size: 1024
+625595 | src/myfs.cpp:238:fuseFlush()
+625751 | src/myfs.cpp:40:fuseGetattr()
+625760 | path: /.Trash
+625789 | src/myfs.cpp:40:fuseGetattr()
+625796 | path: /.Trash-1000
+625825 | src/myfs.cpp:40:fuseGetattr()
+625832 | path: /.data1.txt.swp
+625874 | src/myfs.cpp:163:fuseOpen()
+625907 | src/myfs.cpp:189:fuseRead()
+625914 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+625919 | from: 0 | TO: 512 | bufferOffset: 0
+625927 | Inodepointer: 470
+625933 | Inodepointer: 471
+625957 | src/myfs.cpp:238:fuseFlush()
+626036 | src/myfs.cpp:243:fuseRelease()
+626047 | src/myfs.cpp:40:fuseGetattr()
+626052 | path: /.data1.txt.swp
+626683 | src/myfs.cpp:243:fuseRelease()
+626717 | src/myfs.cpp:163:fuseOpen()
+626954 | src/myfs.cpp:189:fuseRead()
+626964 | reading file: /data1.txt | size: 4096 | offset: 0
+626970 | from: 0 | TO: 512 | bufferOffset: 0
+626978 | from: 0 | TO: 512 | bufferOffset: 512
+626985 | from: 0 | TO: 512 | bufferOffset: 1024
+626992 | Inodepointer: 470
+627034 | src/myfs.cpp:40:fuseGetattr()
+627042 | path: /data1.txt
+627061 | src/myfs.cpp:238:fuseFlush()
+627079 | src/myfs.cpp:243:fuseRelease()
+627103 | src/myfs.cpp:163:fuseOpen()
+627128 | src/myfs.cpp:238:fuseFlush()
+627169 | src/myfs.cpp:243:fuseRelease()
+358782 | src/myfs.cpp:40:fuseGetattr()
+358828 | path: /data1.txt
+358956 | src/myfs.cpp:40:fuseGetattr()
+358973 | path: /.data1.txt.swp
+359015 | src/myfs.cpp:106:fuseUnlink()
+359079 | removed File: 538
+359104 | Max_unit?: -1
+359115 | Removed FATPOINTER: 538
+359126 | FAT UPATE: SET: 538 WITH 0
+359583 | src/myfs.cpp:40:fuseGetattr()
+359605 | path: /.data1.txt.swp
+359661 | src/myfs.cpp:86:fuseMknod()
+359680 | Inodepointer: 470
+359693 | Creating file: .data1.txt.swp
+359709 | FAT UPATE: SET: 538 WITH -1
+359721 | Write Inode of file: .data1.txt.swp
+359743 | src/myfs.cpp:40:fuseGetattr()
+359752 | path: /.data1.txt.swp
+360144 | src/myfs.cpp:163:fuseOpen()
+360189 | src/myfs.cpp:40:fuseGetattr()
+360199 | path: /
+360265 | src/myfs.cpp:258:fuseGetxattr()
+360288 | src/myfs.cpp:40:fuseGetattr()
+360298 | path: /.Trash
+360358 | src/myfs.cpp:226:fuseWrite()
+360372 | path: '.data1.txt.swp', offset: 0, buf: 
+'b0nano 2.9.3'
+360387 | Inodepointer: 470
+360400 | Inodepointer: 471
+360411 | Target-Pointer: 538, buffer:
+b0nano 2.9.3, (Alte size: 0)
+360424 | src/MyFSMgr.cpp:177:write()
+360442 | FAT UPATE: SET: 538 WITH -1
+360462 | FAT UPATE: SET: 538 WITH -1
+360474 | New Inode size: 1024
+360494 | src/myfs.cpp:40:fuseGetattr()
+360503 | path: /.Trash-1000
+360700 | src/myfs.cpp:238:fuseFlush()
+360727 | src/myfs.cpp:40:fuseGetattr()
+360737 | path: /.data1.txt.swp
+361200 | src/myfs.cpp:243:fuseRelease()
+361227 | src/myfs.cpp:163:fuseOpen()
+361278 | src/myfs.cpp:189:fuseRead()
+361290 | reading file: /.data1.txt.swp | size: 4096 | offset: 0
+361301 | from: 0 | TO: 512 | bufferOffset: 0
+361317 | Inodepointer: 470
+361330 | Inodepointer: 471
+361453 | src/myfs.cpp:238:fuseFlush()
+361625 | src/myfs.cpp:243:fuseRelease()
+361646 | src/myfs.cpp:40:fuseGetattr()
+361656 | path: /.data1.txt.swp
+193567 | src/myfs.cpp:40:fuseGetattr()
+193614 | path: /data1.txt
+193799 | src/myfs.cpp:163:fuseOpen()
+193843 | src/myfs.cpp:258:fuseGetxattr()
+193869 | src/myfs.cpp:153:fuseTruncate()
+193879 | src/myfs.cpp:40:fuseGetattr()
+193888 | path: /data1.txt
+194163 | src/myfs.cpp:258:fuseGetxattr()
+194207 | src/myfs.cpp:226:fuseWrite()
+194219 | path: 'data1.txt', offset: 0, buf: 
+'ddDas ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsja
+'
+194239 | Inodepointer: 470
+194252 | Target-Pointer: 535, buffer:
+ddDas ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsja
+, (Alte size: 1180)
+194279 | src/MyFSMgr.cpp:177:write()
+194303 | FAT UPATE: SET: 535 WITH 536
+194327 | FAT UPATE: SET: 536 WITH 537
+194345 | FAT UPATE: SET: 537 WITH -1
+194365 | FAT UPATE: SET: 537 WITH -1
+194377 | New Inode size: 1183
+194495 | src/myfs.cpp:238:fuseFlush()
+194897 | src/myfs.cpp:243:fuseRelease()
+194925 | src/myfs.cpp:40:fuseGetattr()
+194935 | path: /data1.txt
+194957 | src/myfs.cpp:40:fuseGetattr()
+194966 | path: /
+195175 | src/myfs.cpp:40:fuseGetattr()
+195193 | path: /.data1.txt.swp
+195283 | src/myfs.cpp:106:fuseUnlink()
+195308 | removed File: 538
+195325 | Max_unit?: -1
+195334 | Removed FATPOINTER: 538
+195344 | FAT UPATE: SET: 538 WITH 0
+196448 | src/myfs.cpp:40:fuseGetattr()
+196472 | path: /.Trash
+196533 | src/myfs.cpp:40:fuseGetattr()
+196546 | path: /.Trash-1000
+196616 | src/myfs.cpp:40:fuseGetattr()
+196629 | path: /.hidden
+196804 | src/myfs.cpp:40:fuseGetattr()
+196820 | path: /
+205435 | src/myfs.cpp:40:fuseGetattr()
+205469 | path: /.git
+211410 | src/myfs.cpp:40:fuseGetattr()
+211434 | path: /.git
+211466 | src/myfs.cpp:40:fuseGetattr()
+211475 | path: /HEAD
+311186 | src/myfs.cpp:40:fuseGetattr()
+311228 | path: /data1.txt
+945480 | src/myfs.cpp:40:fuseGetattr()
+945507 | path: /
+947245 | src/myfs.cpp:163:fuseOpen()
+960992 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:09:36.63607 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:09:36.65802 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:09:36.65817 | path: /.hidden
+2019.01.14 15:09:36.66891 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:09:36.66918 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:09:36.66926 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:09:36.66936 | from: 0 | TO: 512 | bufferOffset: 512
+2019.01.14 15:09:36.66943 | from: 0 | TO: 512 | bufferOffset: 1024
+2019.01.14 15:09:36.66951 | Inodepointer: 470
+2019.01.14 15:09:36.70835 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:09:36.70857 | path: /data1.txt
+2019.01.14 15:09:36.74154 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:09:36.74169 | path: /
+2019.01.14 15:09:36.75265 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:09:36.80928 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:09:36.80995 | src/myfs.cpp:243:fuseRelease()
+572692 | src/myfs.cpp:40:fuseGetattr()
+572739 | path: /data1.txt
+594983 | src/myfs.cpp:40:fuseGetattr()
+595014 | path: /
+183739 | src/myfs.cpp:40:fuseGetattr()
+183761 | path: /
+680235 | src/myfs.cpp:40:fuseGetattr()
+680260 | path: /
+695304 | src/myfs.cpp:40:fuseGetattr()
+695333 | path: /
+695355 | src/myfs.cpp:40:fuseGetattr()
+695361 | path: /cd..
+695383 | src/myfs.cpp:40:fuseGetattr()
+695388 | path: /cd..
+695408 | src/myfs.cpp:40:fuseGetattr()
+695414 | path: /cd..
+695428 | src/myfs.cpp:40:fuseGetattr()
+695433 | path: /cd..
+690216 | src/myfs.cpp:40:fuseGetattr()
+690294 | path: /cd..
+690325 | src/myfs.cpp:40:fuseGetattr()
+690331 | path: /cd..
+690354 | src/myfs.cpp:40:fuseGetattr()
+690359 | path: /cd..
+690374 | src/myfs.cpp:40:fuseGetattr()
+690379 | path: /cd..
+981852 | src/myfs.cpp:40:fuseGetattr()
+981931 | path: /
+399361 | src/myfs.cpp:40:fuseGetattr()
+399402 | path: /
+485731 | src/myfs.cpp:273:fuseOpendir()
+485818 | src/myfs.cpp:40:fuseGetattr()
+485829 | path: /
+485856 | src/myfs.cpp:278:fuseReaddir()
+485894 | src/myfs.cpp:300:fuseReleasedir()
+488511 | src/myfs.cpp:273:fuseOpendir()
+488544 | src/myfs.cpp:40:fuseGetattr()
+488552 | path: /
+488572 | src/myfs.cpp:278:fuseReaddir()
+488605 | src/myfs.cpp:300:fuseReleasedir()
+495818 | src/myfs.cpp:273:fuseOpendir()
+497540 | src/myfs.cpp:40:fuseGetattr()
+497554 | path: /
+497571 | src/myfs.cpp:278:fuseReaddir()
+497597 | src/myfs.cpp:300:fuseReleasedir()
+497654 | src/myfs.cpp:40:fuseGetattr()
+497661 | path: /data1.txt
+497676 | src/myfs.cpp:163:fuseOpen()
+497710 | src/myfs.cpp:189:fuseRead()
+497716 | reading file: /data1.txt | size: 4096 | offset: 0
+497722 | from: 0 | TO: 512 | bufferOffset: 0
+497730 | from: 0 | TO: 512 | bufferOffset: 512
+497737 | from: 0 | TO: 512 | bufferOffset: 1024
+497745 | Inodepointer: 470
+497773 | src/myfs.cpp:238:fuseFlush()
+497784 | src/myfs.cpp:243:fuseRelease()
+529009 | src/myfs.cpp:163:fuseOpen()
+529128 | src/myfs.cpp:189:fuseRead()
+529137 | reading file: /data1.txt | size: 4096 | offset: 0
+529143 | from: 0 | TO: 512 | bufferOffset: 0
+529151 | from: 0 | TO: 512 | bufferOffset: 512
+529158 | from: 0 | TO: 512 | bufferOffset: 1024
+529165 | Inodepointer: 470
+529214 | src/myfs.cpp:248:fuseFsync()
+529230 | src/myfs.cpp:238:fuseFlush()
+529242 | src/myfs.cpp:243:fuseRelease()
+538617 | src/myfs.cpp:163:fuseOpen()
+539615 | src/myfs.cpp:189:fuseRead()
+539628 | reading file: /data1.txt | size: 4096 | offset: 0
+539634 | from: 0 | TO: 512 | bufferOffset: 0
+539642 | from: 0 | TO: 512 | bufferOffset: 512
+539649 | from: 0 | TO: 512 | bufferOffset: 1024
+539656 | Inodepointer: 470
+539681 | src/myfs.cpp:248:fuseFsync()
+539696 | src/myfs.cpp:238:fuseFlush()
+542056 | src/myfs.cpp:243:fuseRelease()
+546158 | src/myfs.cpp:163:fuseOpen()
+546203 | src/myfs.cpp:40:fuseGetattr()
+546210 | path: /data1.txt
+546226 | src/myfs.cpp:189:fuseRead()
+546231 | reading file: /data1.txt | size: 4096 | offset: 0
+546236 | from: 0 | TO: 512 | bufferOffset: 0
+546244 | from: 0 | TO: 512 | bufferOffset: 512
+546251 | from: 0 | TO: 512 | bufferOffset: 1024
+546258 | Inodepointer: 470
+546278 | src/myfs.cpp:248:fuseFsync()
+546291 | src/myfs.cpp:238:fuseFlush()
+546301 | src/myfs.cpp:243:fuseRelease()
+842449 | src/myfs.cpp:40:fuseGetattr()
+842480 | path: /data1.txt
+842534 | src/myfs.cpp:163:fuseOpen()
+842579 | src/myfs.cpp:189:fuseRead()
+842587 | reading file: /data1.txt | size: 4096 | offset: 0
+842593 | from: 0 | TO: 512 | bufferOffset: 0
+842601 | from: 0 | TO: 512 | bufferOffset: 512
+842608 | from: 0 | TO: 512 | bufferOffset: 1024
+842615 | Inodepointer: 470
+842647 | src/myfs.cpp:248:fuseFsync()
+842670 | src/myfs.cpp:238:fuseFlush()
+842689 | src/myfs.cpp:243:fuseRelease()
+572098 | src/myfs.cpp:40:fuseGetattr()
+572127 | path: /data1.txt
+572231 | src/myfs.cpp:163:fuseOpen()
+572315 | src/myfs.cpp:248:fuseFsync()
+572358 | src/myfs.cpp:238:fuseFlush()
+572376 | src/myfs.cpp:243:fuseRelease()
+573878 | src/myfs.cpp:163:fuseOpen()
+573927 | src/myfs.cpp:189:fuseRead()
+573935 | reading file: /data1.txt | size: 4096 | offset: 0
+573941 | from: 0 | TO: 512 | bufferOffset: 0
+573949 | from: 0 | TO: 512 | bufferOffset: 512
+573956 | from: 0 | TO: 512 | bufferOffset: 1024
+573963 | Inodepointer: 470
+573993 | src/myfs.cpp:248:fuseFsync()
+574014 | src/myfs.cpp:238:fuseFlush()
+574032 | src/myfs.cpp:243:fuseRelease()
+578080 | src/myfs.cpp:163:fuseOpen()
+578125 | src/myfs.cpp:189:fuseRead()
+578133 | reading file: /data1.txt | size: 4096 | offset: 0
+578141 | from: 0 | TO: 512 | bufferOffset: 0
+578149 | from: 0 | TO: 512 | bufferOffset: 512
+578155 | from: 0 | TO: 512 | bufferOffset: 1024
+578162 | Inodepointer: 470
+578190 | src/myfs.cpp:248:fuseFsync()
+578212 | src/myfs.cpp:238:fuseFlush()
+578230 | src/myfs.cpp:243:fuseRelease()
+579900 | src/myfs.cpp:163:fuseOpen()
+579940 | src/myfs.cpp:189:fuseRead()
+579948 | reading file: /data1.txt | size: 4096 | offset: 0
+579955 | from: 0 | TO: 512 | bufferOffset: 0
+579962 | from: 0 | TO: 512 | bufferOffset: 512
+579969 | from: 0 | TO: 512 | bufferOffset: 1024
+579976 | Inodepointer: 470
+580002 | src/myfs.cpp:248:fuseFsync()
+580024 | src/myfs.cpp:238:fuseFlush()
+580041 | src/myfs.cpp:243:fuseRelease()
+580997 | src/myfs.cpp:163:fuseOpen()
+581040 | src/myfs.cpp:40:fuseGetattr()
+581048 | path: /data1.txt
+581070 | src/myfs.cpp:189:fuseRead()
+581076 | reading file: /data1.txt | size: 4096 | offset: 0
+581081 | from: 0 | TO: 512 | bufferOffset: 0
+581088 | from: 0 | TO: 512 | bufferOffset: 512
+581095 | from: 0 | TO: 512 | bufferOffset: 1024
+581102 | Inodepointer: 470
+581126 | src/myfs.cpp:248:fuseFsync()
+581148 | src/myfs.cpp:238:fuseFlush()
+581166 | src/myfs.cpp:243:fuseRelease()
+890802 | src/myfs.cpp:40:fuseGetattr()
+890850 | path: /data1.txt
+890901 | src/myfs.cpp:163:fuseOpen()
+890992 | src/myfs.cpp:189:fuseRead()
+891001 | reading file: /data1.txt | size: 4096 | offset: 0
+891006 | from: 0 | TO: 512 | bufferOffset: 0
+891014 | from: 0 | TO: 512 | bufferOffset: 512
+891026 | from: 0 | TO: 512 | bufferOffset: 1024
+891034 | Inodepointer: 470
+891065 | src/myfs.cpp:248:fuseFsync()
+891088 | src/myfs.cpp:238:fuseFlush()
+891107 | src/myfs.cpp:243:fuseRelease()
+893677 | src/myfs.cpp:163:fuseOpen()
+893721 | src/myfs.cpp:189:fuseRead()
+893729 | reading file: /data1.txt | size: 4096 | offset: 0
+893735 | from: 0 | TO: 512 | bufferOffset: 0
+893742 | from: 0 | TO: 512 | bufferOffset: 512
+893749 | from: 0 | TO: 512 | bufferOffset: 1024
+893756 | Inodepointer: 470
+893782 | src/myfs.cpp:248:fuseFsync()
+893803 | src/myfs.cpp:238:fuseFlush()
+893821 | src/myfs.cpp:243:fuseRelease()
+897826 | src/myfs.cpp:163:fuseOpen()
+897874 | src/myfs.cpp:189:fuseRead()
+897882 | reading file: /data1.txt | size: 4096 | offset: 0
+897888 | from: 0 | TO: 512 | bufferOffset: 0
+897895 | from: 0 | TO: 512 | bufferOffset: 512
+897902 | from: 0 | TO: 512 | bufferOffset: 1024
+897909 | Inodepointer: 470
+897936 | src/myfs.cpp:248:fuseFsync()
+897958 | src/myfs.cpp:238:fuseFlush()
+897975 | src/myfs.cpp:243:fuseRelease()
+899644 | src/myfs.cpp:163:fuseOpen()
+899684 | src/myfs.cpp:40:fuseGetattr()
+899692 | path: /data1.txt
+899716 | src/myfs.cpp:189:fuseRead()
+899723 | reading file: /data1.txt | size: 4096 | offset: 0
+899773 | from: 0 | TO: 512 | bufferOffset: 0
+899782 | from: 0 | TO: 512 | bufferOffset: 512
+899789 | from: 0 | TO: 512 | bufferOffset: 1024
+899796 | Inodepointer: 470
+899822 | src/myfs.cpp:248:fuseFsync()
+899843 | src/myfs.cpp:238:fuseFlush()
+899861 | src/myfs.cpp:243:fuseRelease()
+145456 | src/myfs.cpp:40:fuseGetattr()
+145484 | path: /data1.txt
+145520 | src/myfs.cpp:163:fuseOpen()
+145562 | src/myfs.cpp:189:fuseRead()
+145570 | reading file: /data1.txt | size: 4096 | offset: 0
+145576 | from: 0 | TO: 512 | bufferOffset: 0
+145584 | from: 0 | TO: 512 | bufferOffset: 512
+145591 | from: 0 | TO: 512 | bufferOffset: 1024
+145598 | Inodepointer: 470
+145629 | src/myfs.cpp:248:fuseFsync()
+145651 | src/myfs.cpp:238:fuseFlush()
+145668 | src/myfs.cpp:243:fuseRelease()
+148119 | src/myfs.cpp:163:fuseOpen()
+148163 | src/myfs.cpp:248:fuseFsync()
+148219 | src/myfs.cpp:238:fuseFlush()
+148252 | src/myfs.cpp:243:fuseRelease()
+149403 | src/myfs.cpp:273:fuseOpendir()
+149430 | src/myfs.cpp:40:fuseGetattr()
+149437 | path: /
+149457 | src/myfs.cpp:278:fuseReaddir()
+149489 | src/myfs.cpp:300:fuseReleasedir()
+149828 | src/myfs.cpp:163:fuseOpen()
+150542 | src/myfs.cpp:258:fuseGetxattr()
+150568 | src/myfs.cpp:226:fuseWrite()
+150575 | path: 'data1.txt', offset: 1183, buf: 
+'testno 2.9.3'
+150583 | Inodepointer: 470
+150590 | offset ist nicht durch 512 teilbar (159) -> innerhalb eines Blockes
+150596 | Target-Pointer: 537, buffer:
+dlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsja
+test, (Alte size: 1183)
+150603 | src/MyFSMgr.cpp:177:write()
+150613 | FAT UPATE: SET: 537 WITH -1
+150622 | FAT UPATE: SET: 537 WITH -1
+150628 | New Inode size: 1187
+150717 | src/myfs.cpp:248:fuseFsync()
+150741 | src/myfs.cpp:238:fuseFlush()
+150787 | src/myfs.cpp:243:fuseRelease()
+152032 | src/myfs.cpp:163:fuseOpen()
+152067 | src/myfs.cpp:40:fuseGetattr()
+152075 | path: /data1.txt
+152165 | src/myfs.cpp:189:fuseRead()
+152177 | reading file: /data1.txt | size: 4096 | offset: 0
+152196 | from: 0 | TO: 512 | bufferOffset: 0
+152223 | from: 0 | TO: 512 | bufferOffset: 512
+152232 | from: 0 | TO: 512 | bufferOffset: 1024
+152241 | Inodepointer: 470
+152290 | src/myfs.cpp:238:fuseFlush()
+152330 | src/myfs.cpp:243:fuseRelease()
+163663 | src/myfs.cpp:273:fuseOpendir()
+163717 | src/myfs.cpp:40:fuseGetattr()
+163725 | path: /
+163745 | src/myfs.cpp:278:fuseReaddir()
+163781 | src/myfs.cpp:300:fuseReleasedir()
+163983 | src/myfs.cpp:163:fuseOpen()
+164036 | src/myfs.cpp:258:fuseGetxattr()
+164057 | src/myfs.cpp:226:fuseWrite()
+164064 | path: 'data1.txt', offset: 1187, buf: 
+'e12bfbb729a2d63e1b36ae691e08651f3b95765d'
+164072 | Inodepointer: 470
+164078 | offset ist nicht durch 512 teilbar (163) -> innerhalb eines Blockes
+164084 | Target-Pointer: 537, buffer:
+dlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsj
+Das ist eindsnfdlagdlksaklfjdsagjfhgjadsjkdjfkjsdajdfkjdsja
+teste12bfbb729a2d63e1b36ae691e08651f3b95765d, (Alte size: 1187)
+164098 | src/MyFSMgr.cpp:177:write()
+164106 | FAT UPATE: SET: 537 WITH -1
+164115 | FAT UPATE: SET: 537 WITH -1
+164121 | New Inode size: 1227
+164205 | src/myfs.cpp:248:fuseFsync()
+164230 | src/myfs.cpp:238:fuseFlush()
+164273 | src/myfs.cpp:243:fuseRelease()
+165472 | src/myfs.cpp:163:fuseOpen()
+165504 | src/myfs.cpp:40:fuseGetattr()
+165511 | path: /data1.txt
+165548 | src/myfs.cpp:189:fuseRead()
+165555 | reading file: /data1.txt | size: 4096 | offset: 0
+165560 | from: 0 | TO: 512 | bufferOffset: 0
+165568 | from: 0 | TO: 512 | bufferOffset: 512
+165575 | from: 0 | TO: 512 | bufferOffset: 1024
+165582 | Inodepointer: 470
+165607 | src/myfs.cpp:238:fuseFlush()
+165625 | src/myfs.cpp:243:fuseRelease()
+175072 | src/myfs.cpp:273:fuseOpendir()
+175102 | src/myfs.cpp:40:fuseGetattr()
+175110 | path: /
+175129 | src/myfs.cpp:278:fuseReaddir()
+175162 | src/myfs.cpp:300:fuseReleasedir()
+175329 | src/myfs.cpp:163:fuseOpen()
+176828 | src/myfs.cpp:258:fuseGetxattr()
+176872 | src/myfs.cpp:153:fuseTruncate()
+176893 | src/myfs.cpp:40:fuseGetattr()
+176897 | path: /data1.txt
+177209 | src/myfs.cpp:258:fuseGetxattr()
+177234 | src/myfs.cpp:226:fuseWrite()
+177241 | path: 'data1.txt', offset: 0, buf: 
+'test'
+177249 | Inodepointer: 470
+177254 | Target-Pointer: 535, buffer:
+test, (Alte size: 1227)
+177260 | src/MyFSMgr.cpp:177:write()
+177276 | FAT UPATE: SET: 536 WITH 0
+177281 | currentPointer: 537
+177289 | FAT UPATE: SET: 537 WITH 0
+177294 | currentPointer: 4294967295
+177299 | FAT UPATE: SET: 535 WITH -1
+177304 | New Inode size: 4
+177358 | src/myfs.cpp:248:fuseFsync()
+177381 | src/myfs.cpp:238:fuseFlush()
+177430 | src/myfs.cpp:243:fuseRelease()
+178784 | src/myfs.cpp:163:fuseOpen()
+178823 | src/myfs.cpp:40:fuseGetattr()
+178831 | path: /data1.txt
+178864 | src/myfs.cpp:189:fuseRead()
+178872 | reading file: /data1.txt | size: 4096 | offset: 0
+178878 | from: 0 | TO: 512 | bufferOffset: 0
+178885 | Inodepointer: 470
+178912 | src/myfs.cpp:238:fuseFlush()
+178931 | src/myfs.cpp:243:fuseRelease()
+179295 | src/myfs.cpp:273:fuseOpendir()
+179318 | src/myfs.cpp:40:fuseGetattr()
+179325 | path: /
+179344 | src/myfs.cpp:278:fuseReaddir()
+179374 | src/myfs.cpp:300:fuseReleasedir()
+179546 | src/myfs.cpp:163:fuseOpen()
+179573 | src/myfs.cpp:258:fuseGetxattr()
+179590 | src/myfs.cpp:153:fuseTruncate()
+179596 | src/myfs.cpp:40:fuseGetattr()
+179600 | path: /data1.txt
+179782 | src/myfs.cpp:258:fuseGetxattr()
+179805 | src/myfs.cpp:226:fuseWrite()
+179812 | path: 'data1.txt', offset: 0, buf: 
+'################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################'
+179820 | Inodepointer: 470
+179826 | Target-Pointer: 535, buffer:
+################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################, (Alte size: 4)
+179832 | src/MyFSMgr.cpp:177:write()
+179839 | FAT UPATE: SET: 535 WITH -1
+179848 | FAT UPATE: SET: 535 WITH -1
+179854 | New Inode size: 512
+179902 | src/myfs.cpp:248:fuseFsync()
+179924 | src/myfs.cpp:238:fuseFlush()
+179971 | src/myfs.cpp:243:fuseRelease()
+181166 | src/myfs.cpp:163:fuseOpen()
+181200 | src/myfs.cpp:40:fuseGetattr()
+181211 | path: /data1.txt
+181242 | src/myfs.cpp:189:fuseRead()
+181249 | reading file: /data1.txt | size: 4096 | offset: 0
+181254 | from: 0 | TO: 512 | bufferOffset: 0
+181261 | Inodepointer: 470
+181286 | src/myfs.cpp:238:fuseFlush()
+181305 | src/myfs.cpp:243:fuseRelease()
+181829 | src/myfs.cpp:273:fuseOpendir()
+181853 | src/myfs.cpp:40:fuseGetattr()
+181859 | path: /
+181878 | src/myfs.cpp:278:fuseReaddir()
+181907 | src/myfs.cpp:300:fuseReleasedir()
+182013 | src/myfs.cpp:163:fuseOpen()
+182040 | src/myfs.cpp:258:fuseGetxattr()
+182081 | src/myfs.cpp:153:fuseTruncate()
+182090 | src/myfs.cpp:40:fuseGetattr()
+182094 | path: /data1.txt
+182240 | src/myfs.cpp:258:fuseGetxattr()
+182262 | src/myfs.cpp:226:fuseWrite()
+182269 | path: 'data1.txt', offset: 0, buf: 
+'e12bfbb729a2d63e1b36ae691e08651f3b95765d'
+182276 | Inodepointer: 470
+182282 | Target-Pointer: 535, buffer:
+e12bfbb729a2d63e1b36ae691e08651f3b95765d, (Alte size: 512)
+182287 | src/MyFSMgr.cpp:177:write()
+182295 | FAT UPATE: SET: 535 WITH -1
+182304 | FAT UPATE: SET: 535 WITH -1
+182310 | New Inode size: 40
+182355 | src/myfs.cpp:248:fuseFsync()
+182421 | src/myfs.cpp:238:fuseFlush()
+182472 | src/myfs.cpp:243:fuseRelease()
+183651 | src/myfs.cpp:163:fuseOpen()
+183686 | src/myfs.cpp:40:fuseGetattr()
+183693 | path: /data1.txt
+183724 | src/myfs.cpp:189:fuseRead()
+183732 | reading file: /data1.txt | size: 4096 | offset: 0
+183737 | from: 0 | TO: 512 | bufferOffset: 0
+183744 | Inodepointer: 470
+183774 | src/myfs.cpp:238:fuseFlush()
+183792 | src/myfs.cpp:243:fuseRelease()
+184248 | src/myfs.cpp:273:fuseOpendir()
+184272 | src/myfs.cpp:40:fuseGetattr()
+184279 | path: /
+184297 | src/myfs.cpp:278:fuseReaddir()
+184379 | src/myfs.cpp:300:fuseReleasedir()
+184515 | src/myfs.cpp:106:fuseUnlink()
+184527 | removed File: 535
+184535 | Max_unit?: -1
+184539 | Removed FATPOINTER: 535
+184544 | FAT UPATE: SET: 535 WITH 0
+197857 | src/myfs.cpp:40:fuseGetattr()
+197880 | path: /file1.txt
+197912 | src/myfs.cpp:86:fuseMknod()
+197921 | Creating file: file1.txt
+197933 | FAT UPATE: SET: 535 WITH -1
+197940 | Write Inode of file: file1.txt
+197949 | src/myfs.cpp:40:fuseGetattr()
+197953 | path: /file1.txt
+198052 | src/myfs.cpp:163:fuseOpen()
+198112 | src/myfs.cpp:258:fuseGetxattr()
+198134 | src/myfs.cpp:226:fuseWrite()
+198140 | path: 'file1.txt', offset: 0, buf: 
+'ea6f2349516fc41884b956e896bec3f08e7faa1e72d8a19a89a98887a6d9eb4676c6e21c28495f8d73f6e590c93ce572bd0d2827973123575dbb05243e9f4749c59b431987c02c19dddadc465b9f7bb2b16872af53f2e7c983dc106b0a61c3e21f3bf9f42413fe03859de6fb160c9450634ce452fad07d07391168617ec7aefdeba6e229be337034c354fd0435c831ab7f0a3f05d9cda18a52a58e6094f1c3b65f30b88475fb91697d918d4180a9c7a571665d25befd25d02c91cad3225987be5196715d84dca3756acfc1742c8e9d9f106be27695bcba62e68d0dd9fec92ff76679d4414b09c44afa32d1bdb7863769e0a0eb86f5e19d5883b6b0ee41064cf20371be8a41fbac214f0912884136a328596330ec9ed9c28a0cbd51f7ae677e62ae1ec2a7ced56d5f872630b2b03eb064a482f02431f465711b269c1b0c5cbedb9548c1f481c102a8fb69ab25dde1afa40a40b4d1994d691bf516516e2209a9f445ff279eb6df0f59fb748b5dd801bad587f2f2964ee99b231a3a8e2ef6fab1ab146aae08cbd859ebfc0bb096564185ff3358279a6c519702aacb23215e93fb8b4e9e2eafe8eecc31c53f5555b8ce67c2893110819b04b8d8f98eb3ec60c018cdfef745eec1d9d0af23a5a053ce78de585e278c97ac59342e1fded088fe11a08bff82ac01434d83106ab100cd4a96b19d464d6356a872e87c2e07aa2e4a74a5b377'
+198149 | Inodepointer: 470
+198154 | Target-Pointer: 535, buffer:
+ea6f2349516fc41884b956e896bec3f08e7faa1e72d8a19a89a98887a6d9eb4676c6e21c28495f8d73f6e590c93ce572bd0d2827973123575dbb05243e9f4749c59b431987c02c19dddadc465b9f7bb2b16872af53f2e7c983dc106b0a61c3e21f3bf9f42413fe03859de6fb160c9450634ce452fad07d07391168617ec7aefdeba6e229be337034c354fd0435c831ab7f0a3f05d9cda18a52a58e6094f1c3b65f30b88475fb91697d918d4180a9c7a571665d25befd25d02c91cad3225987be5196715d84dca3756acfc1742c8e9d9f106be27695bcba62e68d0dd9fec92ff76679d4414b09c44afa32d1bdb7863769e0a0eb86f5e19d5883b6b0ee41064cf20371be8a41fbac214f0912884136a328596330ec9ed9c28a0cbd51f7ae677e62ae1ec2a7ced56d5f872630b2b03eb064a482f02431f465711b269c1b0c5cbedb9548c1f481c102a8fb69ab25dde1afa40a40b4d1994d691bf516516e2209a9f445ff279eb6df0f59fb748b5dd801bad587f2f2964ee99b231a3a8e2ef6fab1ab146aae08cbd859ebfc0bb096564185ff3358279a6c519702aacb23215e93fb8b4e9e2eafe8eecc31c53f5555b8ce67c2893110819b04b8d8f98eb3ec60c018cdfef745eec1d9d0af23a5a053ce78de585e278c97ac59342e1fded088fe11a08bff82ac01434d83106ab100cd4a96b19d464d6356a872e87c2e07aa2e4a74a5b377, (Alte size: 0)
+198166 | src/MyFSMgr.cpp:177:write()
+198173 | FAT UPATE: SET: 535 WITH -1
+198180 | FAT UPATE: SET: 535 WITH 536
+198190 | FAT UPATE: SET: 536 WITH -1
+198197 | FAT UPATE: SET: 536 WITH 537
+198205 | FAT UPATE: SET: 537 WITH -1
+198214 | FAT UPATE: SET: 537 WITH -1
+198219 | New Inode size: 1026
+198274 | src/myfs.cpp:238:fuseFlush()
+198324 | src/myfs.cpp:243:fuseRelease()
+198691 | src/myfs.cpp:40:fuseGetattr()
+198701 | path: /file1.txt
+198912 | src/myfs.cpp:143:fuseChmod()
+198921 | src/myfs.cpp:40:fuseGetattr()
+198926 | path: /file1.txt
+199002 | src/myfs.cpp:273:fuseOpendir()
+199024 | src/myfs.cpp:40:fuseGetattr()
+199030 | path: /
+199048 | src/myfs.cpp:278:fuseReaddir()
+199078 | src/myfs.cpp:300:fuseReleasedir()
+200421 | src/myfs.cpp:163:fuseOpen()
+200465 | src/myfs.cpp:189:fuseRead()
+200474 | reading file: /file1.txt | size: 4096 | offset: 0
+200479 | from: 0 | TO: 512 | bufferOffset: 0
+200487 | from: 0 | TO: 512 | bufferOffset: 512
+200494 | from: 0 | TO: 512 | bufferOffset: 1024
+200501 | Inodepointer: 470
+200530 | src/myfs.cpp:248:fuseFsync()
+200596 | src/myfs.cpp:238:fuseFlush()
+200631 | src/myfs.cpp:243:fuseRelease()
+200699 | src/myfs.cpp:40:fuseGetattr()
+200707 | path: /file1.txt
+201183 | src/myfs.cpp:163:fuseOpen()
+201223 | src/myfs.cpp:258:fuseGetxattr()
+201243 | src/myfs.cpp:226:fuseWrite()
+201250 | path: 'file1.txt', offset: 1026, buf: 
+'#kmd'
+201257 | Inodepointer: 470
+201264 | offset ist nicht durch 512 teilbar (2) -> innerhalb eines Blockes
+201269 | Target-Pointer: 537, buffer:
+77#kmd, (Alte size: 1026)
+201274 | src/MyFSMgr.cpp:177:write()
+201282 | FAT UPATE: SET: 537 WITH -1
+201291 | FAT UPATE: SET: 537 WITH -1
+201296 | New Inode size: 1030
+201352 | src/myfs.cpp:248:fuseFsync()
+201375 | src/myfs.cpp:238:fuseFlush()
+201418 | src/myfs.cpp:243:fuseRelease()
+201476 | src/myfs.cpp:40:fuseGetattr()
+201484 | path: /file1.txt
+201822 | src/myfs.cpp:163:fuseOpen()
+201849 | src/myfs.cpp:258:fuseGetxattr()
+201866 | src/myfs.cpp:153:fuseTruncate()
+201872 | src/myfs.cpp:40:fuseGetattr()
+201877 | path: /file1.txt
+202003 | src/myfs.cpp:258:fuseGetxattr()
+202026 | src/myfs.cpp:226:fuseWrite()
+202032 | path: 'file1.txt', offset: 0, buf: 
+'test'
+202040 | Inodepointer: 470
+202045 | Target-Pointer: 535, buffer:
+test, (Alte size: 1030)
+202051 | src/MyFSMgr.cpp:177:write()
+202065 | FAT UPATE: SET: 536 WITH 0
+202070 | currentPointer: 537
+202078 | FAT UPATE: SET: 537 WITH 0
+202083 | currentPointer: 4294967295
+202088 | FAT UPATE: SET: 535 WITH -1
+202093 | New Inode size: 4
+202140 | src/myfs.cpp:248:fuseFsync()
+202161 | src/myfs.cpp:238:fuseFlush()
+202209 | src/myfs.cpp:243:fuseRelease()
+202268 | src/myfs.cpp:40:fuseGetattr()
+202275 | path: /file1.txt
+203829 | src/myfs.cpp:163:fuseOpen()
+203870 | src/myfs.cpp:258:fuseGetxattr()
+203891 | src/myfs.cpp:226:fuseWrite()
+203897 | path: 'file1.txt', offset: 4, buf: 
+'#kmd'
+203905 | Inodepointer: 470
+203910 | offset ist nicht durch 512 teilbar (4) -> innerhalb eines Blockes
+203915 | Target-Pointer: 535, buffer:
+test#kmd, (Alte size: 4)
+203920 | src/MyFSMgr.cpp:177:write()
+203928 | FAT UPATE: SET: 535 WITH -1
+203936 | FAT UPATE: SET: 535 WITH -1
+203942 | New Inode size: 8
+203998 | src/myfs.cpp:248:fuseFsync()
+204020 | src/myfs.cpp:238:fuseFlush()
+204063 | src/myfs.cpp:243:fuseRelease()
+204124 | src/myfs.cpp:40:fuseGetattr()
+204132 | path: /file1.txt
+204725 | src/myfs.cpp:163:fuseOpen()
+206015 | src/myfs.cpp:258:fuseGetxattr()
+206041 | src/myfs.cpp:153:fuseTruncate()
+206047 | src/myfs.cpp:40:fuseGetattr()
+206052 | path: /file1.txt
+206186 | src/myfs.cpp:258:fuseGetxattr()
+206208 | src/myfs.cpp:226:fuseWrite()
+206215 | path: 'file1.txt', offset: 0, buf: 
+'test'
+206222 | Inodepointer: 470
+206228 | Target-Pointer: 535, buffer:
+test, (Alte size: 8)
+206239 | src/MyFSMgr.cpp:177:write()
+206248 | FAT UPATE: SET: 535 WITH -1
+206256 | FAT UPATE: SET: 535 WITH -1
+206262 | New Inode size: 4
+206307 | src/myfs.cpp:248:fuseFsync()
+206329 | src/myfs.cpp:238:fuseFlush()
+206375 | src/myfs.cpp:243:fuseRelease()
+206499 | src/myfs.cpp:40:fuseGetattr()
+206507 | path: /file1.txt
+615341 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+615378 | src/Logger.cpp:46:setLogfile()
+615385 | src/myfs.cpp:317:fuseInit()
+615390 | Container file name: /home/pia/Documents/PiaFS/container.bin
+615476 | src/myfs.cpp:40:fuseGetattr()
+615484 | path: /.Trash
+615530 | src/myfs.cpp:40:fuseGetattr()
+615538 | path: /.Trash-1000
+627347 | src/myfs.cpp:273:fuseOpendir()
+627922 | src/myfs.cpp:273:fuseOpendir()
+627951 | src/myfs.cpp:40:fuseGetattr()
+627958 | path: /
+627979 | src/myfs.cpp:278:fuseReaddir()
+628018 | src/myfs.cpp:300:fuseReleasedir()
+630025 | src/myfs.cpp:40:fuseGetattr()
+630037 | path: /
+630081 | src/myfs.cpp:278:fuseReaddir()
+630124 | src/myfs.cpp:40:fuseGetattr()
+630132 | path: /data1.txt
+630178 | src/myfs.cpp:300:fuseReleasedir()
+630210 | src/myfs.cpp:273:fuseOpendir()
+630230 | src/myfs.cpp:40:fuseGetattr()
+630237 | path: /
+630264 | src/myfs.cpp:278:fuseReaddir()
+630311 | src/myfs.cpp:300:fuseReleasedir()
+630339 | src/myfs.cpp:273:fuseOpendir()
+630359 | src/myfs.cpp:40:fuseGetattr()
+630365 | path: /
+630392 | src/myfs.cpp:278:fuseReaddir()
+630473 | src/myfs.cpp:300:fuseReleasedir()
+630518 | src/myfs.cpp:273:fuseOpendir()
+630538 | src/myfs.cpp:40:fuseGetattr()
+630544 | path: /
+630571 | src/myfs.cpp:278:fuseReaddir()
+630617 | src/myfs.cpp:300:fuseReleasedir()
+630645 | src/myfs.cpp:273:fuseOpendir()
+630664 | src/myfs.cpp:40:fuseGetattr()
+630671 | path: /
+630697 | src/myfs.cpp:278:fuseReaddir()
+630749 | src/myfs.cpp:300:fuseReleasedir()
+630777 | src/myfs.cpp:273:fuseOpendir()
+630796 | src/myfs.cpp:40:fuseGetattr()
+630803 | path: /
+630828 | src/myfs.cpp:278:fuseReaddir()
+630873 | src/myfs.cpp:300:fuseReleasedir()
+630901 | src/myfs.cpp:273:fuseOpendir()
+630920 | src/myfs.cpp:40:fuseGetattr()
+630927 | path: /
+630952 | src/myfs.cpp:278:fuseReaddir()
+630997 | src/myfs.cpp:300:fuseReleasedir()
+631025 | src/myfs.cpp:273:fuseOpendir()
+631044 | src/myfs.cpp:40:fuseGetattr()
+631050 | path: /
+631080 | src/myfs.cpp:278:fuseReaddir()
+631127 | src/myfs.cpp:300:fuseReleasedir()
+631157 | src/myfs.cpp:273:fuseOpendir()
+631176 | src/myfs.cpp:40:fuseGetattr()
+631183 | path: /
+631209 | src/myfs.cpp:278:fuseReaddir()
+631258 | src/myfs.cpp:300:fuseReleasedir()
+631284 | src/myfs.cpp:273:fuseOpendir()
+631303 | src/myfs.cpp:40:fuseGetattr()
+631310 | path: /
+631336 | src/myfs.cpp:278:fuseReaddir()
+631380 | src/myfs.cpp:300:fuseReleasedir()
+631407 | src/myfs.cpp:273:fuseOpendir()
+631440 | src/myfs.cpp:40:fuseGetattr()
+631447 | path: /
+631474 | src/myfs.cpp:278:fuseReaddir()
+631519 | src/myfs.cpp:300:fuseReleasedir()
+631544 | src/myfs.cpp:273:fuseOpendir()
+631563 | src/myfs.cpp:40:fuseGetattr()
+631570 | path: /
+631596 | src/myfs.cpp:278:fuseReaddir()
+631641 | src/myfs.cpp:300:fuseReleasedir()
+631666 | src/myfs.cpp:273:fuseOpendir()
+631685 | src/myfs.cpp:40:fuseGetattr()
+631692 | path: /
+631717 | src/myfs.cpp:278:fuseReaddir()
+631762 | src/myfs.cpp:300:fuseReleasedir()
+631786 | src/myfs.cpp:273:fuseOpendir()
+631805 | src/myfs.cpp:40:fuseGetattr()
+631811 | path: /
+631837 | src/myfs.cpp:278:fuseReaddir()
+631879 | src/myfs.cpp:300:fuseReleasedir()
+631903 | src/myfs.cpp:273:fuseOpendir()
+631921 | src/myfs.cpp:40:fuseGetattr()
+631928 | path: /
+631956 | src/myfs.cpp:278:fuseReaddir()
+631999 | src/myfs.cpp:300:fuseReleasedir()
+632022 | src/myfs.cpp:273:fuseOpendir()
+632041 | src/myfs.cpp:40:fuseGetattr()
+632048 | path: /
+632074 | src/myfs.cpp:278:fuseReaddir()
+632116 | src/myfs.cpp:300:fuseReleasedir()
+632140 | src/myfs.cpp:273:fuseOpendir()
+632159 | src/myfs.cpp:40:fuseGetattr()
+632166 | path: /
+632191 | src/myfs.cpp:278:fuseReaddir()
+632234 | src/myfs.cpp:300:fuseReleasedir()
+632259 | src/myfs.cpp:273:fuseOpendir()
+632278 | src/myfs.cpp:40:fuseGetattr()
+632290 | path: /
+632316 | src/myfs.cpp:278:fuseReaddir()
+632361 | src/myfs.cpp:300:fuseReleasedir()
+632399 | src/myfs.cpp:273:fuseOpendir()
+632466 | src/myfs.cpp:40:fuseGetattr()
+632474 | path: /
+632500 | src/myfs.cpp:278:fuseReaddir()
+632545 | src/myfs.cpp:300:fuseReleasedir()
+632575 | src/myfs.cpp:273:fuseOpendir()
+632594 | src/myfs.cpp:40:fuseGetattr()
+632600 | path: /
+632626 | src/myfs.cpp:278:fuseReaddir()
+632670 | src/myfs.cpp:300:fuseReleasedir()
+632697 | src/myfs.cpp:273:fuseOpendir()
+632716 | src/myfs.cpp:40:fuseGetattr()
+632722 | path: /
+632748 | src/myfs.cpp:278:fuseReaddir()
+632792 | src/myfs.cpp:300:fuseReleasedir()
+632819 | src/myfs.cpp:273:fuseOpendir()
+632838 | src/myfs.cpp:40:fuseGetattr()
+632845 | path: /
+632870 | src/myfs.cpp:278:fuseReaddir()
+632913 | src/myfs.cpp:300:fuseReleasedir()
+633031 | src/myfs.cpp:40:fuseGetattr()
+633040 | path: /.xdg-volume-info
+633080 | src/myfs.cpp:40:fuseGetattr()
+633087 | path: /autorun.inf
+637625 | src/myfs.cpp:273:fuseOpendir()
+637920 | src/myfs.cpp:40:fuseGetattr()
+637932 | path: /
+637982 | src/myfs.cpp:278:fuseReaddir()
+638071 | src/myfs.cpp:300:fuseReleasedir()
+638102 | src/myfs.cpp:40:fuseGetattr()
+638109 | path: /autorun.inf
+640631 | src/myfs.cpp:273:fuseOpendir()
+640662 | src/myfs.cpp:40:fuseGetattr()
+640669 | path: /
+640688 | src/myfs.cpp:278:fuseReaddir()
+640719 | src/myfs.cpp:300:fuseReleasedir()
+640785 | src/myfs.cpp:163:fuseOpen()
+640830 | src/myfs.cpp:189:fuseRead()
+640837 | reading file: /data1.txt | size: 4096 | offset: 0
+640853 | from: 0 | TO: 512 | bufferOffset: 0
+640861 | Inodepointer: 470
+640890 | src/myfs.cpp:238:fuseFlush()
+640909 | src/myfs.cpp:243:fuseRelease()
+641164 | src/myfs.cpp:163:fuseOpen()
+641236 | src/myfs.cpp:40:fuseGetattr()
+641244 | path: /data1.txt
+641287 | src/myfs.cpp:189:fuseRead()
+641295 | reading file: /data1.txt | size: 4096 | offset: 0
+641300 | from: 0 | TO: 512 | bufferOffset: 0
+641307 | Inodepointer: 470
+641332 | src/myfs.cpp:238:fuseFlush()
+641350 | src/myfs.cpp:243:fuseRelease()
+641483 | src/myfs.cpp:163:fuseOpen()
+641513 | src/myfs.cpp:40:fuseGetattr()
+641520 | path: /data1.txt
+641547 | src/myfs.cpp:189:fuseRead()
+641554 | reading file: /data1.txt | size: 4096 | offset: 0
+641558 | from: 0 | TO: 512 | bufferOffset: 0
+641566 | Inodepointer: 470
+641590 | src/myfs.cpp:238:fuseFlush()
+641609 | src/myfs.cpp:243:fuseRelease()
+641771 | src/myfs.cpp:163:fuseOpen()
+641801 | src/myfs.cpp:40:fuseGetattr()
+641808 | path: /data1.txt
+641835 | src/myfs.cpp:189:fuseRead()
+641842 | reading file: /data1.txt | size: 4096 | offset: 0
+641849 | from: 0 | TO: 512 | bufferOffset: 0
+641856 | Inodepointer: 470
+641881 | src/myfs.cpp:238:fuseFlush()
+641899 | src/myfs.cpp:243:fuseRelease()
+642024 | src/myfs.cpp:163:fuseOpen()
+642052 | src/myfs.cpp:40:fuseGetattr()
+642059 | path: /data1.txt
+642086 | src/myfs.cpp:189:fuseRead()
+642093 | reading file: /data1.txt | size: 4096 | offset: 0
+642098 | from: 0 | TO: 512 | bufferOffset: 0
+642105 | Inodepointer: 470
+642128 | src/myfs.cpp:238:fuseFlush()
+642167 | src/myfs.cpp:243:fuseRelease()
+642732 | src/myfs.cpp:163:fuseOpen()
+642762 | src/myfs.cpp:40:fuseGetattr()
+642769 | path: /data1.txt
+642796 | src/myfs.cpp:189:fuseRead()
+642803 | reading file: /data1.txt | size: 4096 | offset: 0
+642808 | from: 0 | TO: 512 | bufferOffset: 0
+642815 | Inodepointer: 470
+642840 | src/myfs.cpp:238:fuseFlush()
+642858 | src/myfs.cpp:243:fuseRelease()
+642978 | src/myfs.cpp:163:fuseOpen()
+643006 | src/myfs.cpp:40:fuseGetattr()
+643013 | path: /data1.txt
+643040 | src/myfs.cpp:189:fuseRead()
+643047 | reading file: /data1.txt | size: 4096 | offset: 0
+643051 | from: 0 | TO: 512 | bufferOffset: 0
+643059 | Inodepointer: 470
+643082 | src/myfs.cpp:238:fuseFlush()
+643100 | src/myfs.cpp:243:fuseRelease()
+643250 | src/myfs.cpp:163:fuseOpen()
+643278 | src/myfs.cpp:40:fuseGetattr()
+643285 | path: /data1.txt
+643312 | src/myfs.cpp:189:fuseRead()
+643319 | reading file: /data1.txt | size: 4096 | offset: 0
+643323 | from: 0 | TO: 512 | bufferOffset: 0
+643331 | Inodepointer: 470
+643354 | src/myfs.cpp:238:fuseFlush()
+643372 | src/myfs.cpp:243:fuseRelease()
+643497 | src/myfs.cpp:163:fuseOpen()
+645618 | src/myfs.cpp:40:fuseGetattr()
+645631 | path: /data1.txt
+645667 | src/myfs.cpp:189:fuseRead()
+645674 | reading file: /data1.txt | size: 4096 | offset: 0
+645679 | from: 0 | TO: 512 | bufferOffset: 0
+645687 | Inodepointer: 470
+645712 | src/myfs.cpp:238:fuseFlush()
+645730 | src/myfs.cpp:243:fuseRelease()
+645860 | src/myfs.cpp:163:fuseOpen()
+645889 | src/myfs.cpp:40:fuseGetattr()
+645896 | path: /data1.txt
+645922 | src/myfs.cpp:189:fuseRead()
+645929 | reading file: /data1.txt | size: 4096 | offset: 0
+645934 | from: 0 | TO: 512 | bufferOffset: 0
+645942 | Inodepointer: 470
+645965 | src/myfs.cpp:238:fuseFlush()
+645982 | src/myfs.cpp:243:fuseRelease()
+646164 | src/myfs.cpp:163:fuseOpen()
+646192 | src/myfs.cpp:40:fuseGetattr()
+646199 | path: /data1.txt
+646226 | src/myfs.cpp:189:fuseRead()
+646233 | reading file: /data1.txt | size: 4096 | offset: 0
+646239 | from: 0 | TO: 512 | bufferOffset: 0
+646246 | Inodepointer: 470
+646270 | src/myfs.cpp:238:fuseFlush()
+646292 | src/myfs.cpp:243:fuseRelease()
+646412 | src/myfs.cpp:163:fuseOpen()
+646439 | src/myfs.cpp:40:fuseGetattr()
+646446 | path: /data1.txt
+646473 | src/myfs.cpp:189:fuseRead()
+646480 | reading file: /data1.txt | size: 4096 | offset: 0
+646485 | from: 0 | TO: 512 | bufferOffset: 0
+646492 | Inodepointer: 470
+646516 | src/myfs.cpp:238:fuseFlush()
+646533 | src/myfs.cpp:243:fuseRelease()
+646656 | src/myfs.cpp:163:fuseOpen()
+646684 | src/myfs.cpp:40:fuseGetattr()
+646691 | path: /data1.txt
+646717 | src/myfs.cpp:189:fuseRead()
+646724 | reading file: /data1.txt | size: 4096 | offset: 0
+646729 | from: 0 | TO: 512 | bufferOffset: 0
+646736 | Inodepointer: 470
+646760 | src/myfs.cpp:238:fuseFlush()
+646777 | src/myfs.cpp:243:fuseRelease()
+646896 | src/myfs.cpp:163:fuseOpen()
+646924 | src/myfs.cpp:40:fuseGetattr()
+646931 | path: /data1.txt
+646957 | src/myfs.cpp:189:fuseRead()
+646964 | reading file: /data1.txt | size: 4096 | offset: 0
+646969 | from: 0 | TO: 512 | bufferOffset: 0
+646976 | Inodepointer: 470
+647000 | src/myfs.cpp:238:fuseFlush()
+647018 | src/myfs.cpp:243:fuseRelease()
+647151 | src/myfs.cpp:163:fuseOpen()
+647179 | src/myfs.cpp:40:fuseGetattr()
+647186 | path: /data1.txt
+647212 | src/myfs.cpp:189:fuseRead()
+647219 | reading file: /data1.txt | size: 4096 | offset: 0
+647224 | from: 0 | TO: 512 | bufferOffset: 0
+647231 | Inodepointer: 470
+647254 | src/myfs.cpp:238:fuseFlush()
+647272 | src/myfs.cpp:243:fuseRelease()
+647390 | src/myfs.cpp:163:fuseOpen()
+647418 | src/myfs.cpp:40:fuseGetattr()
+647425 | path: /data1.txt
+647451 | src/myfs.cpp:189:fuseRead()
+647458 | reading file: /data1.txt | size: 4096 | offset: 0
+647463 | from: 0 | TO: 512 | bufferOffset: 0
+647470 | Inodepointer: 470
+647493 | src/myfs.cpp:238:fuseFlush()
+647510 | src/myfs.cpp:243:fuseRelease()
+647632 | src/myfs.cpp:163:fuseOpen()
+647660 | src/myfs.cpp:40:fuseGetattr()
+647667 | path: /data1.txt
+647693 | src/myfs.cpp:189:fuseRead()
+647700 | reading file: /data1.txt | size: 4096 | offset: 0
+647705 | from: 0 | TO: 512 | bufferOffset: 0
+647712 | Inodepointer: 470
+647736 | src/myfs.cpp:238:fuseFlush()
+647754 | src/myfs.cpp:243:fuseRelease()
+647872 | src/myfs.cpp:163:fuseOpen()
+647899 | src/myfs.cpp:40:fuseGetattr()
+647906 | path: /data1.txt
+647933 | src/myfs.cpp:189:fuseRead()
+647940 | reading file: /data1.txt | size: 4096 | offset: 0
+647944 | from: 0 | TO: 512 | bufferOffset: 0
+647951 | Inodepointer: 470
+647975 | src/myfs.cpp:238:fuseFlush()
+647992 | src/myfs.cpp:243:fuseRelease()
+648223 | src/myfs.cpp:163:fuseOpen()
+648251 | src/myfs.cpp:40:fuseGetattr()
+648258 | path: /data1.txt
+648285 | src/myfs.cpp:189:fuseRead()
+648292 | reading file: /data1.txt | size: 4096 | offset: 0
+648297 | from: 0 | TO: 512 | bufferOffset: 0
+648304 | Inodepointer: 470
+648327 | src/myfs.cpp:238:fuseFlush()
+648345 | src/myfs.cpp:243:fuseRelease()
+648464 | src/myfs.cpp:163:fuseOpen()
+648492 | src/myfs.cpp:40:fuseGetattr()
+648498 | path: /data1.txt
+648525 | src/myfs.cpp:189:fuseRead()
+648532 | reading file: /data1.txt | size: 4096 | offset: 0
+648538 | from: 0 | TO: 512 | bufferOffset: 0
+648550 | Inodepointer: 470
+648574 | src/myfs.cpp:238:fuseFlush()
+648592 | src/myfs.cpp:243:fuseRelease()
+648711 | src/myfs.cpp:163:fuseOpen()
+648738 | src/myfs.cpp:40:fuseGetattr()
+648745 | path: /data1.txt
+648772 | src/myfs.cpp:189:fuseRead()
+648779 | reading file: /data1.txt | size: 4096 | offset: 0
+648783 | from: 0 | TO: 512 | bufferOffset: 0
+648791 | Inodepointer: 470
+648814 | src/myfs.cpp:238:fuseFlush()
+648831 | src/myfs.cpp:243:fuseRelease()
+648949 | src/myfs.cpp:163:fuseOpen()
+648977 | src/myfs.cpp:40:fuseGetattr()
+648998 | path: /data1.txt
+649045 | src/myfs.cpp:189:fuseRead()
+649052 | reading file: /data1.txt | size: 4096 | offset: 0
+649076 | from: 0 | TO: 512 | bufferOffset: 0
+649098 | Inodepointer: 470
+649157 | src/myfs.cpp:238:fuseFlush()
+649206 | src/myfs.cpp:243:fuseRelease()
+649398 | src/myfs.cpp:163:fuseOpen()
+649439 | src/myfs.cpp:40:fuseGetattr()
+649446 | path: /data1.txt
+649472 | src/myfs.cpp:189:fuseRead()
+649479 | reading file: /data1.txt | size: 4096 | offset: 0
+649484 | from: 0 | TO: 512 | bufferOffset: 0
+649491 | Inodepointer: 470
+649519 | src/myfs.cpp:238:fuseFlush()
+649536 | src/myfs.cpp:243:fuseRelease()
+649655 | src/myfs.cpp:163:fuseOpen()
+653187 | src/myfs.cpp:40:fuseGetattr()
+653199 | path: /data1.txt
+653232 | src/myfs.cpp:189:fuseRead()
+653239 | reading file: /data1.txt | size: 4096 | offset: 0
+653244 | from: 0 | TO: 512 | bufferOffset: 0
+653252 | Inodepointer: 470
+653278 | src/myfs.cpp:238:fuseFlush()
+653296 | src/myfs.cpp:243:fuseRelease()
+653426 | src/myfs.cpp:163:fuseOpen()
+653455 | src/myfs.cpp:40:fuseGetattr()
+653462 | path: /data1.txt
+653490 | src/myfs.cpp:189:fuseRead()
+653497 | reading file: /data1.txt | size: 4096 | offset: 0
+653502 | from: 0 | TO: 512 | bufferOffset: 0
+653509 | Inodepointer: 470
+653533 | src/myfs.cpp:238:fuseFlush()
+653551 | src/myfs.cpp:243:fuseRelease()
+653673 | src/myfs.cpp:163:fuseOpen()
+653701 | src/myfs.cpp:40:fuseGetattr()
+653708 | path: /data1.txt
+653735 | src/myfs.cpp:189:fuseRead()
+653743 | reading file: /data1.txt | size: 4096 | offset: 0
+653747 | from: 0 | TO: 512 | bufferOffset: 0
+653755 | Inodepointer: 470
+653778 | src/myfs.cpp:238:fuseFlush()
+653795 | src/myfs.cpp:243:fuseRelease()
+653988 | src/myfs.cpp:163:fuseOpen()
+654019 | src/myfs.cpp:40:fuseGetattr()
+654026 | path: /data1.txt
+654053 | src/myfs.cpp:189:fuseRead()
+654060 | reading file: /data1.txt | size: 4096 | offset: 0
+654066 | from: 0 | TO: 512 | bufferOffset: 0
+654074 | Inodepointer: 470
+654100 | src/myfs.cpp:238:fuseFlush()
+654119 | src/myfs.cpp:243:fuseRelease()
+654238 | src/myfs.cpp:163:fuseOpen()
+654267 | src/myfs.cpp:40:fuseGetattr()
+654274 | path: /data1.txt
+654300 | src/myfs.cpp:189:fuseRead()
+654307 | reading file: /data1.txt | size: 4096 | offset: 0
+654312 | from: 0 | TO: 512 | bufferOffset: 0
+654319 | Inodepointer: 470
+654343 | src/myfs.cpp:238:fuseFlush()
+654360 | src/myfs.cpp:243:fuseRelease()
+654482 | src/myfs.cpp:163:fuseOpen()
+654510 | src/myfs.cpp:40:fuseGetattr()
+654517 | path: /data1.txt
+654544 | src/myfs.cpp:189:fuseRead()
+654552 | reading file: /data1.txt | size: 4096 | offset: 0
+654556 | from: 0 | TO: 512 | bufferOffset: 0
+654563 | Inodepointer: 470
+654587 | src/myfs.cpp:238:fuseFlush()
+654604 | src/myfs.cpp:243:fuseRelease()
+654722 | src/myfs.cpp:163:fuseOpen()
+654750 | src/myfs.cpp:40:fuseGetattr()
+654756 | path: /data1.txt
+654783 | src/myfs.cpp:189:fuseRead()
+654790 | reading file: /data1.txt | size: 4096 | offset: 0
+654794 | from: 0 | TO: 512 | bufferOffset: 0
+654802 | Inodepointer: 470
+654830 | src/myfs.cpp:238:fuseFlush()
+654861 | src/myfs.cpp:243:fuseRelease()
+654980 | src/myfs.cpp:163:fuseOpen()
+655008 | src/myfs.cpp:40:fuseGetattr()
+655015 | path: /data1.txt
+655042 | src/myfs.cpp:189:fuseRead()
+655049 | reading file: /data1.txt | size: 4096 | offset: 0
+655053 | from: 0 | TO: 512 | bufferOffset: 0
+655061 | Inodepointer: 470
+655084 | src/myfs.cpp:238:fuseFlush()
+655101 | src/myfs.cpp:243:fuseRelease()
+655220 | src/myfs.cpp:163:fuseOpen()
+655249 | src/myfs.cpp:40:fuseGetattr()
+655255 | path: /data1.txt
+655284 | src/myfs.cpp:189:fuseRead()
+655291 | reading file: /data1.txt | size: 4096 | offset: 0
+655300 | from: 0 | TO: 512 | bufferOffset: 0
+655307 | Inodepointer: 470
+655331 | src/myfs.cpp:238:fuseFlush()
+655349 | src/myfs.cpp:243:fuseRelease()
+655472 | src/myfs.cpp:163:fuseOpen()
+655501 | src/myfs.cpp:40:fuseGetattr()
+655511 | path: /data1.txt
+655538 | src/myfs.cpp:189:fuseRead()
+655545 | reading file: /data1.txt | size: 4096 | offset: 0
+655550 | from: 0 | TO: 512 | bufferOffset: 0
+655557 | Inodepointer: 470
+655580 | src/myfs.cpp:238:fuseFlush()
+655598 | src/myfs.cpp:243:fuseRelease()
+655716 | src/myfs.cpp:163:fuseOpen()
+655744 | src/myfs.cpp:40:fuseGetattr()
+655750 | path: /data1.txt
+655777 | src/myfs.cpp:189:fuseRead()
+655784 | reading file: /data1.txt | size: 4096 | offset: 0
+655790 | from: 0 | TO: 512 | bufferOffset: 0
+655798 | Inodepointer: 470
+655835 | src/myfs.cpp:238:fuseFlush()
+655854 | src/myfs.cpp:243:fuseRelease()
+655973 | src/myfs.cpp:163:fuseOpen()
+656005 | src/myfs.cpp:40:fuseGetattr()
+656012 | path: /data1.txt
+656039 | src/myfs.cpp:189:fuseRead()
+656046 | reading file: /data1.txt | size: 4096 | offset: 0
+656050 | from: 0 | TO: 512 | bufferOffset: 0
+656058 | Inodepointer: 470
+656081 | src/myfs.cpp:238:fuseFlush()
+656099 | src/myfs.cpp:243:fuseRelease()
+656219 | src/myfs.cpp:163:fuseOpen()
+656247 | src/myfs.cpp:40:fuseGetattr()
+656254 | path: /data1.txt
+656280 | src/myfs.cpp:189:fuseRead()
+656287 | reading file: /data1.txt | size: 4096 | offset: 0
+656292 | from: 0 | TO: 512 | bufferOffset: 0
+656299 | Inodepointer: 470
+656326 | src/myfs.cpp:238:fuseFlush()
+656343 | src/myfs.cpp:243:fuseRelease()
+656463 | src/myfs.cpp:163:fuseOpen()
+656491 | src/myfs.cpp:40:fuseGetattr()
+656498 | path: /data1.txt
+656524 | src/myfs.cpp:189:fuseRead()
+656532 | reading file: /data1.txt | size: 4096 | offset: 0
+656536 | from: 0 | TO: 512 | bufferOffset: 0
+656543 | Inodepointer: 470
+656567 | src/myfs.cpp:238:fuseFlush()
+656584 | src/myfs.cpp:243:fuseRelease()
+656702 | src/myfs.cpp:163:fuseOpen()
+656729 | src/myfs.cpp:40:fuseGetattr()
+656736 | path: /data1.txt
+656762 | src/myfs.cpp:189:fuseRead()
+656769 | reading file: /data1.txt | size: 4096 | offset: 0
+656774 | from: 0 | TO: 512 | bufferOffset: 0
+656781 | Inodepointer: 470
+656819 | src/myfs.cpp:238:fuseFlush()
+656837 | src/myfs.cpp:243:fuseRelease()
+656957 | src/myfs.cpp:163:fuseOpen()
+656985 | src/myfs.cpp:40:fuseGetattr()
+656992 | path: /data1.txt
+657018 | src/myfs.cpp:189:fuseRead()
+657025 | reading file: /data1.txt | size: 4096 | offset: 0
+657030 | from: 0 | TO: 512 | bufferOffset: 0
+657037 | Inodepointer: 470
+657060 | src/myfs.cpp:238:fuseFlush()
+657077 | src/myfs.cpp:243:fuseRelease()
+657195 | src/myfs.cpp:163:fuseOpen()
+657223 | src/myfs.cpp:40:fuseGetattr()
+657229 | path: /data1.txt
+657256 | src/myfs.cpp:189:fuseRead()
+657263 | reading file: /data1.txt | size: 4096 | offset: 0
+657268 | from: 0 | TO: 512 | bufferOffset: 0
+657275 | Inodepointer: 470
+657302 | src/myfs.cpp:238:fuseFlush()
+657320 | src/myfs.cpp:243:fuseRelease()
+657438 | src/myfs.cpp:163:fuseOpen()
+657466 | src/myfs.cpp:40:fuseGetattr()
+657473 | path: /data1.txt
+657499 | src/myfs.cpp:189:fuseRead()
+657507 | reading file: /data1.txt | size: 4096 | offset: 0
+657511 | from: 0 | TO: 512 | bufferOffset: 0
+657518 | Inodepointer: 470
+657542 | src/myfs.cpp:238:fuseFlush()
+657559 | src/myfs.cpp:243:fuseRelease()
+657677 | src/myfs.cpp:163:fuseOpen()
+657705 | src/myfs.cpp:40:fuseGetattr()
+657712 | path: /data1.txt
+657738 | src/myfs.cpp:189:fuseRead()
+657745 | reading file: /data1.txt | size: 4096 | offset: 0
+657750 | from: 0 | TO: 512 | bufferOffset: 0
+657757 | Inodepointer: 470
+657811 | src/myfs.cpp:238:fuseFlush()
+657831 | src/myfs.cpp:243:fuseRelease()
+657960 | src/myfs.cpp:163:fuseOpen()
+657989 | src/myfs.cpp:40:fuseGetattr()
+657996 | path: /data1.txt
+658023 | src/myfs.cpp:189:fuseRead()
+658030 | reading file: /data1.txt | size: 4096 | offset: 0
+658036 | from: 0 | TO: 512 | bufferOffset: 0
+658043 | Inodepointer: 470
+658067 | src/myfs.cpp:238:fuseFlush()
+658086 | src/myfs.cpp:243:fuseRelease()
+658203 | src/myfs.cpp:163:fuseOpen()
+658231 | src/myfs.cpp:40:fuseGetattr()
+658238 | path: /data1.txt
+658268 | src/myfs.cpp:189:fuseRead()
+658275 | reading file: /data1.txt | size: 4096 | offset: 0
+658280 | from: 0 | TO: 512 | bufferOffset: 0
+658287 | Inodepointer: 470
+658311 | src/myfs.cpp:238:fuseFlush()
+658328 | src/myfs.cpp:243:fuseRelease()
+658447 | src/myfs.cpp:163:fuseOpen()
+658475 | src/myfs.cpp:40:fuseGetattr()
+658482 | path: /data1.txt
+658508 | src/myfs.cpp:189:fuseRead()
+658516 | reading file: /data1.txt | size: 4096 | offset: 0
+658520 | from: 0 | TO: 512 | bufferOffset: 0
+658527 | Inodepointer: 470
+658551 | src/myfs.cpp:238:fuseFlush()
+658568 | src/myfs.cpp:243:fuseRelease()
+658688 | src/myfs.cpp:163:fuseOpen()
+658715 | src/myfs.cpp:40:fuseGetattr()
+658722 | path: /data1.txt
+659201 | src/myfs.cpp:189:fuseRead()
+659211 | reading file: /data1.txt | size: 4096 | offset: 0
+659216 | from: 0 | TO: 512 | bufferOffset: 0
+659224 | Inodepointer: 470
+659250 | src/myfs.cpp:238:fuseFlush()
+659272 | src/myfs.cpp:243:fuseRelease()
+659396 | src/myfs.cpp:163:fuseOpen()
+659424 | src/myfs.cpp:40:fuseGetattr()
+659431 | path: /data1.txt
+659458 | src/myfs.cpp:189:fuseRead()
+659465 | reading file: /data1.txt | size: 4096 | offset: 0
+659470 | from: 0 | TO: 512 | bufferOffset: 0
+659477 | Inodepointer: 470
+659501 | src/myfs.cpp:238:fuseFlush()
+659518 | src/myfs.cpp:243:fuseRelease()
+659637 | src/myfs.cpp:163:fuseOpen()
+661706 | src/myfs.cpp:40:fuseGetattr()
+661715 | path: /data1.txt
+661746 | src/myfs.cpp:189:fuseRead()
+661753 | reading file: /data1.txt | size: 4096 | offset: 0
+661758 | from: 0 | TO: 512 | bufferOffset: 0
+661765 | Inodepointer: 470
+661790 | src/myfs.cpp:238:fuseFlush()
+661808 | src/myfs.cpp:243:fuseRelease()
+661929 | src/myfs.cpp:163:fuseOpen()
+661958 | src/myfs.cpp:40:fuseGetattr()
+661965 | path: /data1.txt
+661992 | src/myfs.cpp:189:fuseRead()
+661999 | reading file: /data1.txt | size: 4096 | offset: 0
+662003 | from: 0 | TO: 512 | bufferOffset: 0
+662011 | Inodepointer: 470
+662035 | src/myfs.cpp:238:fuseFlush()
+662052 | src/myfs.cpp:243:fuseRelease()
+662171 | src/myfs.cpp:163:fuseOpen()
+662198 | src/myfs.cpp:40:fuseGetattr()
+662205 | path: /data1.txt
+662232 | src/myfs.cpp:189:fuseRead()
+662239 | reading file: /data1.txt | size: 4096 | offset: 0
+662245 | from: 0 | TO: 512 | bufferOffset: 0
+662252 | Inodepointer: 470
+662276 | src/myfs.cpp:238:fuseFlush()
+662293 | src/myfs.cpp:243:fuseRelease()
+662411 | src/myfs.cpp:163:fuseOpen()
+662439 | src/myfs.cpp:40:fuseGetattr()
+662446 | path: /data1.txt
+662472 | src/myfs.cpp:189:fuseRead()
+662479 | reading file: /data1.txt | size: 4096 | offset: 0
+662484 | from: 0 | TO: 512 | bufferOffset: 0
+662491 | Inodepointer: 470
+662514 | src/myfs.cpp:238:fuseFlush()
+662536 | src/myfs.cpp:243:fuseRelease()
+662675 | src/myfs.cpp:163:fuseOpen()
+662744 | src/myfs.cpp:40:fuseGetattr()
+662751 | path: /data1.txt
+662778 | src/myfs.cpp:189:fuseRead()
+662785 | reading file: /data1.txt | size: 4096 | offset: 0
+662790 | from: 0 | TO: 512 | bufferOffset: 0
+662797 | Inodepointer: 470
+662821 | src/myfs.cpp:238:fuseFlush()
+662857 | src/myfs.cpp:243:fuseRelease()
+662989 | src/myfs.cpp:163:fuseOpen()
+663016 | src/myfs.cpp:40:fuseGetattr()
+663023 | path: /data1.txt
+663063 | src/myfs.cpp:189:fuseRead()
+663071 | reading file: /data1.txt | size: 4096 | offset: 0
+663075 | from: 0 | TO: 512 | bufferOffset: 0
+663083 | Inodepointer: 470
+663106 | src/myfs.cpp:238:fuseFlush()
+663123 | src/myfs.cpp:243:fuseRelease()
+663241 | src/myfs.cpp:163:fuseOpen()
+663269 | src/myfs.cpp:40:fuseGetattr()
+663276 | path: /data1.txt
+663302 | src/myfs.cpp:189:fuseRead()
+663309 | reading file: /data1.txt | size: 4096 | offset: 0
+663314 | from: 0 | TO: 512 | bufferOffset: 0
+663321 | Inodepointer: 470
+663345 | src/myfs.cpp:238:fuseFlush()
+663362 | src/myfs.cpp:243:fuseRelease()
+663488 | src/myfs.cpp:163:fuseOpen()
+663516 | src/myfs.cpp:40:fuseGetattr()
+663522 | path: /data1.txt
+663549 | src/myfs.cpp:189:fuseRead()
+663556 | reading file: /data1.txt | size: 4096 | offset: 0
+663561 | from: 0 | TO: 512 | bufferOffset: 0
+663568 | Inodepointer: 470
+663592 | src/myfs.cpp:238:fuseFlush()
+663610 | src/myfs.cpp:243:fuseRelease()
+663743 | src/myfs.cpp:163:fuseOpen()
+663775 | src/myfs.cpp:40:fuseGetattr()
+663782 | path: /data1.txt
+663809 | src/myfs.cpp:189:fuseRead()
+663816 | reading file: /data1.txt | size: 4096 | offset: 0
+663820 | from: 0 | TO: 512 | bufferOffset: 0
+663828 | Inodepointer: 470
+663851 | src/myfs.cpp:238:fuseFlush()
+663869 | src/myfs.cpp:243:fuseRelease()
+663986 | src/myfs.cpp:163:fuseOpen()
+664015 | src/myfs.cpp:40:fuseGetattr()
+664021 | path: /data1.txt
+664048 | src/myfs.cpp:189:fuseRead()
+664055 | reading file: /data1.txt | size: 4096 | offset: 0
+664060 | from: 0 | TO: 512 | bufferOffset: 0
+664067 | Inodepointer: 470
+664090 | src/myfs.cpp:238:fuseFlush()
+664108 | src/myfs.cpp:243:fuseRelease()
+664229 | src/myfs.cpp:163:fuseOpen()
+664257 | src/myfs.cpp:40:fuseGetattr()
+664263 | path: /data1.txt
+664293 | src/myfs.cpp:189:fuseRead()
+664301 | reading file: /data1.txt | size: 4096 | offset: 0
+664305 | from: 0 | TO: 512 | bufferOffset: 0
+664313 | Inodepointer: 470
+664336 | src/myfs.cpp:238:fuseFlush()
+664353 | src/myfs.cpp:243:fuseRelease()
+664471 | src/myfs.cpp:163:fuseOpen()
+664499 | src/myfs.cpp:40:fuseGetattr()
+664505 | path: /data1.txt
+664532 | src/myfs.cpp:189:fuseRead()
+664539 | reading file: /data1.txt | size: 4096 | offset: 0
+664545 | from: 0 | TO: 512 | bufferOffset: 0
+664552 | Inodepointer: 470
+664576 | src/myfs.cpp:238:fuseFlush()
+664593 | src/myfs.cpp:243:fuseRelease()
+664732 | src/myfs.cpp:163:fuseOpen()
+664760 | src/myfs.cpp:40:fuseGetattr()
+664766 | path: /data1.txt
+664793 | src/myfs.cpp:189:fuseRead()
+664800 | reading file: /data1.txt | size: 4096 | offset: 0
+664805 | from: 0 | TO: 512 | bufferOffset: 0
+664812 | Inodepointer: 470
+664836 | src/myfs.cpp:238:fuseFlush()
+664853 | src/myfs.cpp:243:fuseRelease()
+664970 | src/myfs.cpp:163:fuseOpen()
+664998 | src/myfs.cpp:40:fuseGetattr()
+665005 | path: /data1.txt
+665034 | src/myfs.cpp:189:fuseRead()
+665041 | reading file: /data1.txt | size: 4096 | offset: 0
+665046 | from: 0 | TO: 512 | bufferOffset: 0
+665053 | Inodepointer: 470
+665076 | src/myfs.cpp:238:fuseFlush()
+665094 | src/myfs.cpp:243:fuseRelease()
+665215 | src/myfs.cpp:163:fuseOpen()
+665243 | src/myfs.cpp:40:fuseGetattr()
+665250 | path: /data1.txt
+665276 | src/myfs.cpp:189:fuseRead()
+665283 | reading file: /data1.txt | size: 4096 | offset: 0
+665288 | from: 0 | TO: 512 | bufferOffset: 0
+665295 | Inodepointer: 470
+665319 | src/myfs.cpp:238:fuseFlush()
+665336 | src/myfs.cpp:243:fuseRelease()
+665456 | src/myfs.cpp:163:fuseOpen()
+665484 | src/myfs.cpp:40:fuseGetattr()
+665491 | path: /data1.txt
+665517 | src/myfs.cpp:189:fuseRead()
+665524 | reading file: /data1.txt | size: 4096 | offset: 0
+665529 | from: 0 | TO: 512 | bufferOffset: 0
+665536 | Inodepointer: 470
+665559 | src/myfs.cpp:238:fuseFlush()
+665604 | src/myfs.cpp:243:fuseRelease()
+665728 | src/myfs.cpp:163:fuseOpen()
+670008 | src/myfs.cpp:40:fuseGetattr()
+670018 | path: /data1.txt
+670047 | src/myfs.cpp:189:fuseRead()
+670055 | reading file: /data1.txt | size: 4096 | offset: 0
+670059 | from: 0 | TO: 512 | bufferOffset: 0
+670067 | Inodepointer: 470
+670092 | src/myfs.cpp:238:fuseFlush()
+670109 | src/myfs.cpp:243:fuseRelease()
+670233 | src/myfs.cpp:163:fuseOpen()
+670262 | src/myfs.cpp:40:fuseGetattr()
+670269 | path: /data1.txt
+670296 | src/myfs.cpp:189:fuseRead()
+670303 | reading file: /data1.txt | size: 4096 | offset: 0
+670308 | from: 0 | TO: 512 | bufferOffset: 0
+670315 | Inodepointer: 470
+670342 | src/myfs.cpp:238:fuseFlush()
+670360 | src/myfs.cpp:243:fuseRelease()
+670495 | src/myfs.cpp:163:fuseOpen()
+670523 | src/myfs.cpp:40:fuseGetattr()
+670530 | path: /data1.txt
+670556 | src/myfs.cpp:189:fuseRead()
+670563 | reading file: /data1.txt | size: 4096 | offset: 0
+670570 | from: 0 | TO: 512 | bufferOffset: 0
+670577 | Inodepointer: 470
+670601 | src/myfs.cpp:238:fuseFlush()
+670618 | src/myfs.cpp:243:fuseRelease()
+670736 | src/myfs.cpp:163:fuseOpen()
+670765 | src/myfs.cpp:40:fuseGetattr()
+670771 | path: /data1.txt
+670798 | src/myfs.cpp:189:fuseRead()
+670805 | reading file: /data1.txt | size: 4096 | offset: 0
+670810 | from: 0 | TO: 512 | bufferOffset: 0
+670817 | Inodepointer: 470
+670844 | src/myfs.cpp:238:fuseFlush()
+670862 | src/myfs.cpp:243:fuseRelease()
+670982 | src/myfs.cpp:163:fuseOpen()
+671010 | src/myfs.cpp:40:fuseGetattr()
+671016 | path: /data1.txt
+671043 | src/myfs.cpp:189:fuseRead()
+671050 | reading file: /data1.txt | size: 4096 | offset: 0
+671055 | from: 0 | TO: 512 | bufferOffset: 0
+671062 | Inodepointer: 470
+671085 | src/myfs.cpp:238:fuseFlush()
+671102 | src/myfs.cpp:243:fuseRelease()
+671223 | src/myfs.cpp:163:fuseOpen()
+671250 | src/myfs.cpp:40:fuseGetattr()
+671257 | path: /data1.txt
+671284 | src/myfs.cpp:189:fuseRead()
+671291 | reading file: /data1.txt | size: 4096 | offset: 0
+671295 | from: 0 | TO: 512 | bufferOffset: 0
+671303 | Inodepointer: 470
+671326 | src/myfs.cpp:238:fuseFlush()
+671343 | src/myfs.cpp:243:fuseRelease()
+671526 | src/myfs.cpp:163:fuseOpen()
+671555 | src/myfs.cpp:40:fuseGetattr()
+671562 | path: /data1.txt
+671588 | src/myfs.cpp:189:fuseRead()
+671595 | reading file: /data1.txt | size: 4096 | offset: 0
+671600 | from: 0 | TO: 512 | bufferOffset: 0
+671607 | Inodepointer: 470
+671631 | src/myfs.cpp:238:fuseFlush()
+671649 | src/myfs.cpp:243:fuseRelease()
+671770 | src/myfs.cpp:163:fuseOpen()
+671798 | src/myfs.cpp:40:fuseGetattr()
+671804 | path: /data1.txt
+671831 | src/myfs.cpp:189:fuseRead()
+671838 | reading file: /data1.txt | size: 4096 | offset: 0
+671843 | from: 0 | TO: 512 | bufferOffset: 0
+671850 | Inodepointer: 470
+671873 | src/myfs.cpp:238:fuseFlush()
+671891 | src/myfs.cpp:243:fuseRelease()
+672012 | src/myfs.cpp:163:fuseOpen()
+672039 | src/myfs.cpp:40:fuseGetattr()
+672046 | path: /data1.txt
+672073 | src/myfs.cpp:189:fuseRead()
+672080 | reading file: /data1.txt | size: 4096 | offset: 0
+672084 | from: 0 | TO: 512 | bufferOffset: 0
+672091 | Inodepointer: 470
+672115 | src/myfs.cpp:238:fuseFlush()
+672132 | src/myfs.cpp:243:fuseRelease()
+672253 | src/myfs.cpp:163:fuseOpen()
+672286 | src/myfs.cpp:40:fuseGetattr()
+672293 | path: /data1.txt
+672319 | src/myfs.cpp:189:fuseRead()
+672327 | reading file: /data1.txt | size: 4096 | offset: 0
+672333 | from: 0 | TO: 512 | bufferOffset: 0
+672340 | Inodepointer: 470
+672363 | src/myfs.cpp:238:fuseFlush()
+672381 | src/myfs.cpp:243:fuseRelease()
+672513 | src/myfs.cpp:163:fuseOpen()
+672541 | src/myfs.cpp:40:fuseGetattr()
+672547 | path: /data1.txt
+672574 | src/myfs.cpp:189:fuseRead()
+672581 | reading file: /data1.txt | size: 4096 | offset: 0
+672586 | from: 0 | TO: 512 | bufferOffset: 0
+672593 | Inodepointer: 470
+672617 | src/myfs.cpp:238:fuseFlush()
+672634 | src/myfs.cpp:243:fuseRelease()
+672753 | src/myfs.cpp:163:fuseOpen()
+672781 | src/myfs.cpp:40:fuseGetattr()
+672788 | path: /data1.txt
+672814 | src/myfs.cpp:189:fuseRead()
+672821 | reading file: /data1.txt | size: 4096 | offset: 0
+672826 | from: 0 | TO: 512 | bufferOffset: 0
+672833 | Inodepointer: 470
+672856 | src/myfs.cpp:238:fuseFlush()
+672875 | src/myfs.cpp:243:fuseRelease()
+672997 | src/myfs.cpp:163:fuseOpen()
+673024 | src/myfs.cpp:40:fuseGetattr()
+673031 | path: /data1.txt
+673058 | src/myfs.cpp:189:fuseRead()
+673065 | reading file: /data1.txt | size: 4096 | offset: 0
+673070 | from: 0 | TO: 512 | bufferOffset: 0
+673077 | Inodepointer: 470
+673100 | src/myfs.cpp:238:fuseFlush()
+673118 | src/myfs.cpp:243:fuseRelease()
+673235 | src/myfs.cpp:163:fuseOpen()
+673263 | src/myfs.cpp:40:fuseGetattr()
+673269 | path: /data1.txt
+673296 | src/myfs.cpp:189:fuseRead()
+673303 | reading file: /data1.txt | size: 4096 | offset: 0
+673308 | from: 0 | TO: 512 | bufferOffset: 0
+673315 | Inodepointer: 470
+673338 | src/myfs.cpp:238:fuseFlush()
+673355 | src/myfs.cpp:243:fuseRelease()
+673550 | src/myfs.cpp:163:fuseOpen()
+673578 | src/myfs.cpp:40:fuseGetattr()
+673585 | path: /data1.txt
+673612 | src/myfs.cpp:189:fuseRead()
+673619 | reading file: /data1.txt | size: 4096 | offset: 0
+673624 | from: 0 | TO: 512 | bufferOffset: 0
+673631 | Inodepointer: 470
+673655 | src/myfs.cpp:238:fuseFlush()
+673673 | src/myfs.cpp:243:fuseRelease()
+673791 | src/myfs.cpp:163:fuseOpen()
+673819 | src/myfs.cpp:40:fuseGetattr()
+673826 | path: /data1.txt
+673853 | src/myfs.cpp:189:fuseRead()
+673860 | reading file: /data1.txt | size: 4096 | offset: 0
+673867 | from: 0 | TO: 512 | bufferOffset: 0
+673875 | Inodepointer: 470
+673898 | src/myfs.cpp:238:fuseFlush()
+673916 | src/myfs.cpp:243:fuseRelease()
+674064 | src/myfs.cpp:163:fuseOpen()
+674094 | src/myfs.cpp:40:fuseGetattr()
+674101 | path: /data1.txt
+674128 | src/myfs.cpp:189:fuseRead()
+674135 | reading file: /data1.txt | size: 4096 | offset: 0
+674140 | from: 0 | TO: 512 | bufferOffset: 0
+674147 | Inodepointer: 470
+674171 | src/myfs.cpp:238:fuseFlush()
+674189 | src/myfs.cpp:243:fuseRelease()
+674311 | src/myfs.cpp:163:fuseOpen()
+674339 | src/myfs.cpp:40:fuseGetattr()
+674346 | path: /data1.txt
+674385 | src/myfs.cpp:189:fuseRead()
+674393 | reading file: /data1.txt | size: 4096 | offset: 0
+674398 | from: 0 | TO: 512 | bufferOffset: 0
+674405 | Inodepointer: 470
+674432 | src/myfs.cpp:238:fuseFlush()
+674450 | src/myfs.cpp:243:fuseRelease()
+674569 | src/myfs.cpp:163:fuseOpen()
+674597 | src/myfs.cpp:40:fuseGetattr()
+674604 | path: /data1.txt
+674630 | src/myfs.cpp:189:fuseRead()
+674637 | reading file: /data1.txt | size: 4096 | offset: 0
+674643 | from: 0 | TO: 512 | bufferOffset: 0
+674651 | Inodepointer: 470
+674674 | src/myfs.cpp:238:fuseFlush()
+674692 | src/myfs.cpp:243:fuseRelease()
+674812 | src/myfs.cpp:163:fuseOpen()
+674840 | src/myfs.cpp:40:fuseGetattr()
+674847 | path: /data1.txt
+674876 | src/myfs.cpp:189:fuseRead()
+674884 | reading file: /data1.txt | size: 4096 | offset: 0
+674888 | from: 0 | TO: 512 | bufferOffset: 0
+674895 | Inodepointer: 470
+674919 | src/myfs.cpp:238:fuseFlush()
+674937 | src/myfs.cpp:243:fuseRelease()
+675056 | src/myfs.cpp:163:fuseOpen()
+675084 | src/myfs.cpp:40:fuseGetattr()
+675091 | path: /data1.txt
+675117 | src/myfs.cpp:189:fuseRead()
+675124 | reading file: /data1.txt | size: 4096 | offset: 0
+675129 | from: 0 | TO: 512 | bufferOffset: 0
+675136 | Inodepointer: 470
+675160 | src/myfs.cpp:238:fuseFlush()
+675178 | src/myfs.cpp:243:fuseRelease()
+675295 | src/myfs.cpp:163:fuseOpen()
+675323 | src/myfs.cpp:40:fuseGetattr()
+675330 | path: /data1.txt
+675697 | src/myfs.cpp:189:fuseRead()
+675706 | reading file: /data1.txt | size: 4096 | offset: 0
+675711 | from: 0 | TO: 512 | bufferOffset: 0
+675719 | Inodepointer: 470
+675744 | src/myfs.cpp:238:fuseFlush()
+675761 | src/myfs.cpp:243:fuseRelease()
+675887 | src/myfs.cpp:163:fuseOpen()
+675915 | src/myfs.cpp:40:fuseGetattr()
+675922 | path: /data1.txt
+675949 | src/myfs.cpp:189:fuseRead()
+675956 | reading file: /data1.txt | size: 4096 | offset: 0
+675961 | from: 0 | TO: 512 | bufferOffset: 0
+675968 | Inodepointer: 470
+675992 | src/myfs.cpp:238:fuseFlush()
+676010 | src/myfs.cpp:243:fuseRelease()
+676130 | src/myfs.cpp:163:fuseOpen()
+676158 | src/myfs.cpp:40:fuseGetattr()
+676165 | path: /data1.txt
+676192 | src/myfs.cpp:189:fuseRead()
+676199 | reading file: /data1.txt | size: 4096 | offset: 0
+676204 | from: 0 | TO: 512 | bufferOffset: 0
+676211 | Inodepointer: 470
+676235 | src/myfs.cpp:238:fuseFlush()
+676253 | src/myfs.cpp:243:fuseRelease()
+676389 | src/myfs.cpp:163:fuseOpen()
+676417 | src/myfs.cpp:40:fuseGetattr()
+676423 | path: /data1.txt
+676450 | src/myfs.cpp:189:fuseRead()
+676457 | reading file: /data1.txt | size: 4096 | offset: 0
+676462 | from: 0 | TO: 512 | bufferOffset: 0
+676469 | Inodepointer: 470
+676493 | src/myfs.cpp:238:fuseFlush()
+676510 | src/myfs.cpp:243:fuseRelease()
+676631 | src/myfs.cpp:163:fuseOpen()
+676659 | src/myfs.cpp:40:fuseGetattr()
+676666 | path: /data1.txt
+676693 | src/myfs.cpp:189:fuseRead()
+676700 | reading file: /data1.txt | size: 4096 | offset: 0
+676706 | from: 0 | TO: 512 | bufferOffset: 0
+676714 | Inodepointer: 470
+676737 | src/myfs.cpp:238:fuseFlush()
+676755 | src/myfs.cpp:243:fuseRelease()
+676876 | src/myfs.cpp:163:fuseOpen()
+676904 | src/myfs.cpp:40:fuseGetattr()
+676911 | path: /data1.txt
+676938 | src/myfs.cpp:189:fuseRead()
+676945 | reading file: /data1.txt | size: 4096 | offset: 0
+676950 | from: 0 | TO: 512 | bufferOffset: 0
+676957 | Inodepointer: 470
+676981 | src/myfs.cpp:238:fuseFlush()
+676998 | src/myfs.cpp:243:fuseRelease()
+677117 | src/myfs.cpp:163:fuseOpen()
+677145 | src/myfs.cpp:40:fuseGetattr()
+677152 | path: /data1.txt
+677179 | src/myfs.cpp:189:fuseRead()
+677189 | reading file: /data1.txt | size: 4096 | offset: 0
+677194 | from: 0 | TO: 512 | bufferOffset: 0
+677201 | Inodepointer: 470
+677225 | src/myfs.cpp:238:fuseFlush()
+677243 | src/myfs.cpp:243:fuseRelease()
+677382 | src/myfs.cpp:163:fuseOpen()
+677410 | src/myfs.cpp:40:fuseGetattr()
+677417 | path: /data1.txt
+677444 | src/myfs.cpp:189:fuseRead()
+677451 | reading file: /data1.txt | size: 4096 | offset: 0
+677456 | from: 0 | TO: 512 | bufferOffset: 0
+677463 | Inodepointer: 470
+677487 | src/myfs.cpp:238:fuseFlush()
+677504 | src/myfs.cpp:243:fuseRelease()
+677621 | src/myfs.cpp:163:fuseOpen()
+677649 | src/myfs.cpp:40:fuseGetattr()
+677656 | path: /data1.txt
+677686 | src/myfs.cpp:189:fuseRead()
+677693 | reading file: /data1.txt | size: 4096 | offset: 0
+677698 | from: 0 | TO: 512 | bufferOffset: 0
+677705 | Inodepointer: 470
+677729 | src/myfs.cpp:238:fuseFlush()
+677746 | src/myfs.cpp:243:fuseRelease()
+677895 | src/myfs.cpp:163:fuseOpen()
+677925 | src/myfs.cpp:40:fuseGetattr()
+677932 | path: /data1.txt
+677958 | src/myfs.cpp:189:fuseRead()
+677965 | reading file: /data1.txt | size: 4096 | offset: 0
+677970 | from: 0 | TO: 512 | bufferOffset: 0
+677977 | Inodepointer: 470
+678006 | src/myfs.cpp:238:fuseFlush()
+678024 | src/myfs.cpp:243:fuseRelease()
+678142 | src/myfs.cpp:163:fuseOpen()
+679743 | src/myfs.cpp:40:fuseGetattr()
+679753 | path: /data1.txt
+679785 | src/myfs.cpp:189:fuseRead()
+679792 | reading file: /data1.txt | size: 4096 | offset: 0
+679797 | from: 0 | TO: 512 | bufferOffset: 0
+679805 | Inodepointer: 470
+679833 | src/myfs.cpp:238:fuseFlush()
+679851 | src/myfs.cpp:243:fuseRelease()
+679981 | src/myfs.cpp:163:fuseOpen()
+680010 | src/myfs.cpp:40:fuseGetattr()
+680017 | path: /data1.txt
+680045 | src/myfs.cpp:189:fuseRead()
+680052 | reading file: /data1.txt | size: 4096 | offset: 0
+680058 | from: 0 | TO: 512 | bufferOffset: 0
+680066 | Inodepointer: 470
+680090 | src/myfs.cpp:238:fuseFlush()
+680108 | src/myfs.cpp:243:fuseRelease()
+680249 | src/myfs.cpp:163:fuseOpen()
+680279 | src/myfs.cpp:40:fuseGetattr()
+680285 | path: /data1.txt
+680313 | src/myfs.cpp:189:fuseRead()
+680320 | reading file: /data1.txt | size: 4096 | offset: 0
+680325 | from: 0 | TO: 512 | bufferOffset: 0
+680332 | Inodepointer: 470
+680357 | src/myfs.cpp:238:fuseFlush()
+680375 | src/myfs.cpp:243:fuseRelease()
+680494 | src/myfs.cpp:163:fuseOpen()
+680522 | src/myfs.cpp:40:fuseGetattr()
+680529 | path: /data1.txt
+680555 | src/myfs.cpp:189:fuseRead()
+680562 | reading file: /data1.txt | size: 4096 | offset: 0
+680567 | from: 0 | TO: 512 | bufferOffset: 0
+680574 | Inodepointer: 470
+680598 | src/myfs.cpp:238:fuseFlush()
+680615 | src/myfs.cpp:243:fuseRelease()
+680737 | src/myfs.cpp:163:fuseOpen()
+680765 | src/myfs.cpp:40:fuseGetattr()
+680772 | path: /data1.txt
+680799 | src/myfs.cpp:189:fuseRead()
+680806 | reading file: /data1.txt | size: 4096 | offset: 0
+680810 | from: 0 | TO: 512 | bufferOffset: 0
+680818 | Inodepointer: 470
+680841 | src/myfs.cpp:238:fuseFlush()
+680859 | src/myfs.cpp:243:fuseRelease()
+680978 | src/myfs.cpp:163:fuseOpen()
+681006 | src/myfs.cpp:40:fuseGetattr()
+681012 | path: /data1.txt
+681040 | src/myfs.cpp:189:fuseRead()
+681048 | reading file: /data1.txt | size: 4096 | offset: 0
+681052 | from: 0 | TO: 512 | bufferOffset: 0
+681060 | Inodepointer: 470
+681083 | src/myfs.cpp:238:fuseFlush()
+681101 | src/myfs.cpp:243:fuseRelease()
+683885 | src/myfs.cpp:163:fuseOpen()
+684026 | src/myfs.cpp:40:fuseGetattr()
+684036 | path: /data1.txt
+684059 | src/myfs.cpp:189:fuseRead()
+684065 | reading file: /data1.txt | size: 4096 | offset: 0
+684070 | from: 0 | TO: 512 | bufferOffset: 0
+684078 | Inodepointer: 470
+684149 | src/myfs.cpp:248:fuseFsync()
+684175 | src/myfs.cpp:238:fuseFlush()
+684194 | src/myfs.cpp:243:fuseRelease()
+689588 | src/myfs.cpp:163:fuseOpen()
+689729 | src/myfs.cpp:40:fuseGetattr()
+689738 | path: /data1.txt
+689764 | src/myfs.cpp:189:fuseRead()
+689771 | reading file: /data1.txt | size: 4096 | offset: 0
+689776 | from: 0 | TO: 512 | bufferOffset: 0
+689784 | Inodepointer: 470
+689813 | src/myfs.cpp:248:fuseFsync()
+689836 | src/myfs.cpp:238:fuseFlush()
+689894 | src/myfs.cpp:243:fuseRelease()
+690518 | src/myfs.cpp:163:fuseOpen()
+690576 | src/myfs.cpp:40:fuseGetattr()
+690585 | path: /data1.txt
+690605 | src/myfs.cpp:189:fuseRead()
+690612 | reading file: /data1.txt | size: 4096 | offset: 0
+690618 | from: 0 | TO: 512 | bufferOffset: 0
+690626 | Inodepointer: 470
+690650 | src/myfs.cpp:248:fuseFsync()
+690671 | src/myfs.cpp:238:fuseFlush()
+690717 | src/myfs.cpp:243:fuseRelease()
+691351 | src/myfs.cpp:163:fuseOpen()
+691409 | src/myfs.cpp:40:fuseGetattr()
+691418 | path: /data1.txt
+691444 | src/myfs.cpp:189:fuseRead()
+691451 | reading file: /data1.txt | size: 4096 | offset: 0
+691456 | from: 0 | TO: 512 | bufferOffset: 0
+691463 | Inodepointer: 470
+691488 | src/myfs.cpp:248:fuseFsync()
+691509 | src/myfs.cpp:238:fuseFlush()
+691558 | src/myfs.cpp:243:fuseRelease()
+692670 | src/myfs.cpp:163:fuseOpen()
+692727 | src/myfs.cpp:248:fuseFsync()
+692750 | src/myfs.cpp:238:fuseFlush()
+692794 | src/myfs.cpp:243:fuseRelease()
+693981 | src/myfs.cpp:273:fuseOpendir()
+694033 | src/myfs.cpp:40:fuseGetattr()
+694041 | path: /
+694061 | src/myfs.cpp:278:fuseReaddir()
+694093 | src/myfs.cpp:300:fuseReleasedir()
+694377 | src/myfs.cpp:163:fuseOpen()
+694437 | src/myfs.cpp:258:fuseGetxattr()
+694458 | src/myfs.cpp:226:fuseWrite()
+694465 | path: 'data1.txt', offset: 40, buf: 
+'test'
+694472 | Inodepointer: 470
+694477 | offset ist nicht durch 512 teilbar (40) -> innerhalb eines Blockes
+694482 | Target-Pointer: 535, buffer:
+e12bfbb729a2d63e1b36ae691e08651f3b95765dtest, (Alte size: 40)
+694488 | src/MyFSMgr.cpp:177:write()
+694497 | FAT UPATE: SET: 535 WITH -1
+694506 | FAT UPATE: SET: 535 WITH -1
+694512 | New Inode size: 44
+694607 | src/myfs.cpp:248:fuseFsync()
+694631 | src/myfs.cpp:238:fuseFlush()
+694674 | src/myfs.cpp:243:fuseRelease()
+696105 | src/myfs.cpp:163:fuseOpen()
+696139 | src/myfs.cpp:40:fuseGetattr()
+696146 | path: /data1.txt
+696177 | src/myfs.cpp:189:fuseRead()
+696184 | reading file: /data1.txt | size: 4096 | offset: 0
+696190 | from: 0 | TO: 512 | bufferOffset: 0
+696197 | Inodepointer: 470
+696222 | src/myfs.cpp:238:fuseFlush()
+696627 | src/myfs.cpp:243:fuseRelease()
+696640 | src/myfs.cpp:273:fuseOpendir()
+696659 | src/myfs.cpp:40:fuseGetattr()
+696666 | path: /
+696685 | src/myfs.cpp:278:fuseReaddir()
+696799 | src/myfs.cpp:300:fuseReleasedir()
+696848 | src/myfs.cpp:163:fuseOpen()
+696907 | src/myfs.cpp:258:fuseGetxattr()
+696928 | src/myfs.cpp:226:fuseWrite()
+696935 | path: 'data1.txt', offset: 44, buf: 
+'3af6577ad6b9368c288f9a7a0fa0b82f1c7a82aa'
+696942 | Inodepointer: 470
+696947 | offset ist nicht durch 512 teilbar (44) -> innerhalb eines Blockes
+696952 | Target-Pointer: 535, buffer:
+e12bfbb729a2d63e1b36ae691e08651f3b95765dtest3af6577ad6b9368c288f9a7a0fa0b82f1c7a82aa, (Alte size: 44)
+696958 | src/MyFSMgr.cpp:177:write()
+696965 | FAT UPATE: SET: 535 WITH -1
+696974 | FAT UPATE: SET: 535 WITH -1
+696980 | New Inode size: 84
+697034 | src/myfs.cpp:248:fuseFsync()
+697058 | src/myfs.cpp:238:fuseFlush()
+697158 | src/myfs.cpp:243:fuseRelease()
+698064 | src/myfs.cpp:163:fuseOpen()
+698098 | src/myfs.cpp:40:fuseGetattr()
+698105 | path: /data1.txt
+698136 | src/myfs.cpp:189:fuseRead()
+698143 | reading file: /data1.txt | size: 4096 | offset: 0
+698148 | from: 0 | TO: 512 | bufferOffset: 0
+698156 | Inodepointer: 470
+698181 | src/myfs.cpp:238:fuseFlush()
+698948 | src/myfs.cpp:243:fuseRelease()
+698962 | src/myfs.cpp:273:fuseOpendir()
+698989 | src/myfs.cpp:40:fuseGetattr()
+698996 | path: /
+699015 | src/myfs.cpp:278:fuseReaddir()
+699181 | src/myfs.cpp:300:fuseReleasedir()
+699193 | src/myfs.cpp:163:fuseOpen()
+699216 | src/myfs.cpp:258:fuseGetxattr()
+699234 | src/myfs.cpp:153:fuseTruncate()
+699240 | src/myfs.cpp:40:fuseGetattr()
+699244 | path: /data1.txt
+699461 | src/myfs.cpp:258:fuseGetxattr()
+699488 | src/myfs.cpp:226:fuseWrite()
+699495 | path: 'data1.txt', offset: 0, buf: 
+'test'
+699503 | Inodepointer: 470
+699508 | Target-Pointer: 535, buffer:
+test, (Alte size: 84)
+699514 | src/MyFSMgr.cpp:177:write()
+699521 | FAT UPATE: SET: 535 WITH -1
+699530 | FAT UPATE: SET: 535 WITH -1
+699536 | New Inode size: 4
+699585 | src/myfs.cpp:248:fuseFsync()
+699613 | src/myfs.cpp:238:fuseFlush()
+699772 | src/myfs.cpp:243:fuseRelease()
+700811 | src/myfs.cpp:163:fuseOpen()
+700844 | src/myfs.cpp:40:fuseGetattr()
+700851 | path: /data1.txt
+700881 | src/myfs.cpp:189:fuseRead()
+700888 | reading file: /data1.txt | size: 4096 | offset: 0
+700893 | from: 0 | TO: 512 | bufferOffset: 0
+700901 | Inodepointer: 470
+700925 | src/myfs.cpp:238:fuseFlush()
+701254 | src/myfs.cpp:243:fuseRelease()
+701267 | src/myfs.cpp:273:fuseOpendir()
+701286 | src/myfs.cpp:40:fuseGetattr()
+701292 | path: /
+701310 | src/myfs.cpp:278:fuseReaddir()
+701425 | src/myfs.cpp:300:fuseReleasedir()
+701437 | src/myfs.cpp:163:fuseOpen()
+701460 | src/myfs.cpp:258:fuseGetxattr()
+701477 | src/myfs.cpp:153:fuseTruncate()
+701483 | src/myfs.cpp:40:fuseGetattr()
+701487 | path: /data1.txt
+701647 | src/myfs.cpp:258:fuseGetxattr()
+701671 | src/myfs.cpp:226:fuseWrite()
+701678 | path: 'data1.txt', offset: 0, buf: 
+'################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################'
+701736 | Inodepointer: 470
+701744 | Target-Pointer: 535, buffer:
+################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################, (Alte size: 4)
+701750 | src/MyFSMgr.cpp:177:write()
+701759 | FAT UPATE: SET: 535 WITH -1
+701768 | FAT UPATE: SET: 535 WITH -1
+701773 | New Inode size: 512
+701823 | src/myfs.cpp:248:fuseFsync()
+701847 | src/myfs.cpp:238:fuseFlush()
+702387 | src/myfs.cpp:243:fuseRelease()
+703295 | src/myfs.cpp:163:fuseOpen()
+703327 | src/myfs.cpp:40:fuseGetattr()
+703334 | path: /data1.txt
+703363 | src/myfs.cpp:189:fuseRead()
+703370 | reading file: /data1.txt | size: 4096 | offset: 0
+703375 | from: 0 | TO: 512 | bufferOffset: 0
+703382 | Inodepointer: 470
+703408 | src/myfs.cpp:238:fuseFlush()
+703803 | src/myfs.cpp:243:fuseRelease()
+703816 | src/myfs.cpp:273:fuseOpendir()
+703835 | src/myfs.cpp:40:fuseGetattr()
+703842 | path: /
+703860 | src/myfs.cpp:278:fuseReaddir()
+703982 | src/myfs.cpp:300:fuseReleasedir()
+703994 | src/myfs.cpp:163:fuseOpen()
+704016 | src/myfs.cpp:258:fuseGetxattr()
+704033 | src/myfs.cpp:153:fuseTruncate()
+704039 | src/myfs.cpp:40:fuseGetattr()
+704043 | path: /data1.txt
+704185 | src/myfs.cpp:258:fuseGetxattr()
+704209 | src/myfs.cpp:226:fuseWrite()
+704216 | path: 'data1.txt', offset: 0, buf: 
+'3af6577ad6b9368c288f9a7a0fa0b82f1c7a82aa'
+704223 | Inodepointer: 470
+704228 | Target-Pointer: 535, buffer:
+3af6577ad6b9368c288f9a7a0fa0b82f1c7a82aa, (Alte size: 512)
+704234 | src/MyFSMgr.cpp:177:write()
+704242 | FAT UPATE: SET: 535 WITH -1
+704250 | FAT UPATE: SET: 535 WITH -1
+704256 | New Inode size: 40
+704301 | src/myfs.cpp:248:fuseFsync()
+704323 | src/myfs.cpp:238:fuseFlush()
+704407 | src/myfs.cpp:243:fuseRelease()
+705503 | src/myfs.cpp:163:fuseOpen()
+705536 | src/myfs.cpp:40:fuseGetattr()
+705543 | path: /data1.txt
+705572 | src/myfs.cpp:189:fuseRead()
+705579 | reading file: /data1.txt | size: 4096 | offset: 0
+705585 | from: 0 | TO: 512 | bufferOffset: 0
+705622 | Inodepointer: 470
+705653 | src/myfs.cpp:238:fuseFlush()
+706072 | src/myfs.cpp:243:fuseRelease()
+706085 | src/myfs.cpp:273:fuseOpendir()
+706109 | src/myfs.cpp:40:fuseGetattr()
+706116 | path: /
+706135 | src/myfs.cpp:278:fuseReaddir()
+706221 | src/myfs.cpp:300:fuseReleasedir()
+706233 | src/myfs.cpp:106:fuseUnlink()
+706244 | removed File: 535
+706252 | Max_unit?: -1
+706256 | Removed FATPOINTER: 535
+706261 | FAT UPATE: SET: 535 WITH 0
+715309 | src/myfs.cpp:40:fuseGetattr()
+715326 | path: /file1.txt
+715372 | src/myfs.cpp:86:fuseMknod()
+715382 | Creating file: file1.txt
+715390 | FAT UPATE: SET: 535 WITH -1
+715397 | Write Inode of file: file1.txt
+715408 | src/myfs.cpp:40:fuseGetattr()
+715412 | path: /file1.txt
+715492 | src/myfs.cpp:163:fuseOpen()
+715543 | src/myfs.cpp:258:fuseGetxattr()
+715565 | src/myfs.cpp:226:fuseWrite()
+715571 | path: 'file1.txt', offset: 0, buf: 
+'18833bbeeb1ef18a8bb134633e83c47089d873dc77df681f17fe21593977eceb0e5464ba95fc0b958e3cea9491f42667afb03173ef7acc69df1002d7f40f1e9325de2f5c4faf76084699c998a9901c789e0d9ccd3d259883ca8a37ab4fc7dba1247c9646922577168b50099713052bd5766248b1bdca884a28fcb261d6041342f9db0ed636009d2e12f6e3a66ece6661565b00465a80359057b035b31129df4c2e546b34570771c6fdd0b679053680ce8b7d55eea94c42e6f045e136834e5d00e6ed2282f9d2e6a55e55b54fe3e52796dcf71ef29358d0fdc8a2911488ac006d278b9867e13ab548c014bce505c8adbb66ff808a39e03b694faf6ee9b179184328bb5adf84a083fc1b95ddfad48b42e0fd63e14792eaeb4b59d5badbddd4484e35a357c4bed99b80dda734348049664a5df54a9f82b4e1d70f076ad618fbe222a78f7b36845dc4f6bbf3667ee3e4093577a5d256e1d4409e89dc5c74ea96db09b0493e4b8593237c8b433764da0fd198b8ea2a8fc8e4f211366787cd8a1cb6368a632b19e0bee00cddeb12633fb9e43792f57e8c6f1bba9bb79dcea3f10e4dcdaeea15863918e7e183671e48b15d216f0f949156872d69e303fbbd0262aa5d2820bfadbeeb1e92798b04b86f9546b6768e81ca7d9f2011f1a03eb03679115253e632a4f07bfe25cd0e3af855e6fafaf03bc389ae32b0f9d94e9431b1fdec9c9a4d'
+715579 | Inodepointer: 470
+715585 | Target-Pointer: 535, buffer:
+18833bbeeb1ef18a8bb134633e83c47089d873dc77df681f17fe21593977eceb0e5464ba95fc0b958e3cea9491f42667afb03173ef7acc69df1002d7f40f1e9325de2f5c4faf76084699c998a9901c789e0d9ccd3d259883ca8a37ab4fc7dba1247c9646922577168b50099713052bd5766248b1bdca884a28fcb261d6041342f9db0ed636009d2e12f6e3a66ece6661565b00465a80359057b035b31129df4c2e546b34570771c6fdd0b679053680ce8b7d55eea94c42e6f045e136834e5d00e6ed2282f9d2e6a55e55b54fe3e52796dcf71ef29358d0fdc8a2911488ac006d278b9867e13ab548c014bce505c8adbb66ff808a39e03b694faf6ee9b179184328bb5adf84a083fc1b95ddfad48b42e0fd63e14792eaeb4b59d5badbddd4484e35a357c4bed99b80dda734348049664a5df54a9f82b4e1d70f076ad618fbe222a78f7b36845dc4f6bbf3667ee3e4093577a5d256e1d4409e89dc5c74ea96db09b0493e4b8593237c8b433764da0fd198b8ea2a8fc8e4f211366787cd8a1cb6368a632b19e0bee00cddeb12633fb9e43792f57e8c6f1bba9bb79dcea3f10e4dcdaeea15863918e7e183671e48b15d216f0f949156872d69e303fbbd0262aa5d2820bfadbeeb1e92798b04b86f9546b6768e81ca7d9f2011f1a03eb03679115253e632a4f07bfe25cd0e3af855e6fafaf03bc389ae32b0f9d94e9431b1fdec9c9a4d, (Alte size: 0)
+715593 | src/MyFSMgr.cpp:177:write()
+715601 | FAT UPATE: SET: 535 WITH -1
+715609 | FAT UPATE: SET: 535 WITH 536
+715618 | FAT UPATE: SET: 536 WITH -1
+715625 | FAT UPATE: SET: 536 WITH 537
+715634 | FAT UPATE: SET: 537 WITH -1
+715642 | FAT UPATE: SET: 537 WITH -1
+715648 | New Inode size: 1026
+715706 | src/myfs.cpp:238:fuseFlush()
+715755 | src/myfs.cpp:243:fuseRelease()
+716066 | src/myfs.cpp:40:fuseGetattr()
+716075 | path: /file1.txt
+716292 | src/myfs.cpp:143:fuseChmod()
+716301 | src/myfs.cpp:40:fuseGetattr()
+716306 | path: /file1.txt
+717500 | src/myfs.cpp:273:fuseOpendir()
+717525 | src/myfs.cpp:40:fuseGetattr()
+717532 | path: /
+717552 | src/myfs.cpp:278:fuseReaddir()
+717583 | src/myfs.cpp:300:fuseReleasedir()
+722285 | src/myfs.cpp:163:fuseOpen()
+722360 | src/myfs.cpp:189:fuseRead()
+722368 | reading file: /file1.txt | size: 4096 | offset: 0
+722374 | from: 0 | TO: 512 | bufferOffset: 0
+722382 | from: 0 | TO: 512 | bufferOffset: 512
+722389 | from: 0 | TO: 512 | bufferOffset: 1024
+722396 | Inodepointer: 470
+722426 | src/myfs.cpp:248:fuseFsync()
+722448 | src/myfs.cpp:238:fuseFlush()
+722466 | src/myfs.cpp:243:fuseRelease()
+722546 | src/myfs.cpp:40:fuseGetattr()
+722554 | path: /file1.txt
+722977 | src/myfs.cpp:163:fuseOpen()
+723021 | src/myfs.cpp:258:fuseGetxattr()
+723041 | src/myfs.cpp:226:fuseWrite()
+723048 | path: 'file1.txt', offset: 1026, buf: 
+'#kmd'
+723055 | Inodepointer: 470
+723067 | offset ist nicht durch 512 teilbar (2) -> innerhalb eines Blockes
+723073 | Target-Pointer: 537, buffer:
+4d#kmd, (Alte size: 1026)
+723078 | src/MyFSMgr.cpp:177:write()
+723086 | FAT UPATE: SET: 537 WITH -1
+723095 | FAT UPATE: SET: 537 WITH -1
+723100 | New Inode size: 1030
+723197 | src/myfs.cpp:248:fuseFsync()
+723220 | src/myfs.cpp:238:fuseFlush()
+723263 | src/myfs.cpp:243:fuseRelease()
+723326 | src/myfs.cpp:40:fuseGetattr()
+723334 | path: /file1.txt
+723623 | src/myfs.cpp:163:fuseOpen()
+723649 | src/myfs.cpp:258:fuseGetxattr()
+723667 | src/myfs.cpp:153:fuseTruncate()
+723673 | src/myfs.cpp:40:fuseGetattr()
+723677 | path: /file1.txt
+723817 | src/myfs.cpp:258:fuseGetxattr()
+723839 | src/myfs.cpp:226:fuseWrite()
+723845 | path: 'file1.txt', offset: 0, buf: 
+'test'
+723852 | Inodepointer: 470
+723858 | Target-Pointer: 535, buffer:
+test, (Alte size: 1030)
+723863 | src/MyFSMgr.cpp:177:write()
+723877 | FAT UPATE: SET: 536 WITH 0
+723882 | currentPointer: 537
+723890 | FAT UPATE: SET: 537 WITH 0
+723895 | currentPointer: 4294967295
+723900 | FAT UPATE: SET: 535 WITH -1
+723905 | New Inode size: 4
+723954 | src/myfs.cpp:248:fuseFsync()
+723976 | src/myfs.cpp:238:fuseFlush()
+724022 | src/myfs.cpp:243:fuseRelease()
+724083 | src/myfs.cpp:40:fuseGetattr()
+724091 | path: /file1.txt
+724566 | src/myfs.cpp:163:fuseOpen()
+724604 | src/myfs.cpp:258:fuseGetxattr()
+724624 | src/myfs.cpp:226:fuseWrite()
+724630 | path: 'file1.txt', offset: 4, buf: 
+'#kmd'
+724637 | Inodepointer: 470
+724660 | offset ist nicht durch 512 teilbar (4) -> innerhalb eines Blockes
+724666 | Target-Pointer: 535, buffer:
+test#kmd, (Alte size: 4)
+724672 | src/MyFSMgr.cpp:177:write()
+724702 | FAT UPATE: SET: 535 WITH -1
+724714 | FAT UPATE: SET: 535 WITH -1
+724721 | New Inode size: 8
+724848 | src/myfs.cpp:248:fuseFsync()
+724892 | src/myfs.cpp:238:fuseFlush()
+724974 | src/myfs.cpp:243:fuseRelease()
+725037 | src/myfs.cpp:40:fuseGetattr()
+725045 | path: /file1.txt
+725480 | src/myfs.cpp:163:fuseOpen()
+725506 | src/myfs.cpp:258:fuseGetxattr()
+725523 | src/myfs.cpp:153:fuseTruncate()
+725529 | src/myfs.cpp:40:fuseGetattr()
+725534 | path: /file1.txt
+725659 | src/myfs.cpp:258:fuseGetxattr()
+725681 | src/myfs.cpp:226:fuseWrite()
+725687 | path: 'file1.txt', offset: 0, buf: 
+'test'
+725694 | Inodepointer: 470
+725700 | Target-Pointer: 535, buffer:
+test, (Alte size: 8)
+725735 | src/MyFSMgr.cpp:177:write()
+725744 | FAT UPATE: SET: 535 WITH -1
+725753 | FAT UPATE: SET: 535 WITH -1
+725759 | New Inode size: 4
+726284 | src/myfs.cpp:248:fuseFsync()
+726308 | src/myfs.cpp:238:fuseFlush()
+726356 | src/myfs.cpp:243:fuseRelease()
+726419 | src/myfs.cpp:40:fuseGetattr()
+726426 | path: /file1.txt
+2019.01.14 15:22:52.26859 | ―――――――――――――――――――――――――――――――――――――
+Starting logging to log file...
+2019.01.14 15:22:52.26899 | src/Logger.cpp:46:setLogfile()
+2019.01.14 15:22:52.26906 | src/myfs.cpp:317:fuseInit()
+2019.01.14 15:22:52.26911 | Container file name: /home/pia/Documents/PiaFS/container.bin
+2019.01.14 15:22:52.27002 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.27010 | path: /.Trash
+2019.01.14 15:22:52.27070 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.27105 | path: /.Trash-1000
+2019.01.14 15:22:52.37490 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.40476 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.40510 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.40518 | path: /
+2019.01.14 15:22:52.40537 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.40573 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.41741 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.41753 | path: /
+2019.01.14 15:22:52.41796 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.41836 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.41844 | path: /data1.txt
+2019.01.14 15:22:52.41892 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.41927 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.41947 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.41954 | path: /
+2019.01.14 15:22:52.41981 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.42035 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.42063 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.42082 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.42088 | path: /
+2019.01.14 15:22:52.42114 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.42160 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.42188 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.42207 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.42213 | path: /
+2019.01.14 15:22:52.42238 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.42283 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.42311 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.42330 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.42336 | path: /
+2019.01.14 15:22:52.42361 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.42408 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.42436 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.43944 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.43955 | path: /
+2019.01.14 15:22:52.43987 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44037 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44067 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44087 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44093 | path: /
+2019.01.14 15:22:52.44120 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44169 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44198 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44217 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44223 | path: /
+2019.01.14 15:22:52.44250 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44297 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44325 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44344 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44351 | path: /
+2019.01.14 15:22:52.44376 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44422 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44449 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44468 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44474 | path: /
+2019.01.14 15:22:52.44500 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44544 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44570 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44589 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44595 | path: /
+2019.01.14 15:22:52.44637 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44683 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44708 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44727 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44734 | path: /
+2019.01.14 15:22:52.44759 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44803 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44828 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44847 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44853 | path: /
+2019.01.14 15:22:52.44878 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.44927 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.44952 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.44970 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.44977 | path: /
+2019.01.14 15:22:52.45002 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45044 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45067 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45086 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45092 | path: /
+2019.01.14 15:22:52.45121 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45163 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45187 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45205 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45211 | path: /
+2019.01.14 15:22:52.45236 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45279 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45302 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45321 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45327 | path: /
+2019.01.14 15:22:52.45353 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45400 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45429 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45448 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45454 | path: /
+2019.01.14 15:22:52.45480 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45524 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45549 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45568 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45574 | path: /
+2019.01.14 15:22:52.45643 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45691 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45721 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45740 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45747 | path: /
+2019.01.14 15:22:52.45772 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45816 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45844 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45863 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45870 | path: /
+2019.01.14 15:22:52.45895 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.45940 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.45968 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.45987 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.45993 | path: /
+2019.01.14 15:22:52.46018 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.46062 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.46178 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.46186 | path: /.xdg-volume-info
+2019.01.14 15:22:52.46226 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.46234 | path: /autorun.inf
+2019.01.14 15:22:52.49609 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.49636 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.49643 | path: /
+2019.01.14 15:22:52.49690 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.49773 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.49799 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.49806 | path: /autorun.inf
+2019.01.14 15:22:52.50903 | src/myfs.cpp:273:fuseOpendir()
+2019.01.14 15:22:52.52458 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.52470 | path: /
+2019.01.14 15:22:52.52492 | src/myfs.cpp:278:fuseReaddir()
+2019.01.14 15:22:52.52524 | src/myfs.cpp:300:fuseReleasedir()
+2019.01.14 15:22:52.52595 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.52642 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.52650 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.52663 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.52672 | Inodepointer: 470
+2019.01.14 15:22:52.52701 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.52719 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.52988 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.53021 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.53028 | path: /data1.txt
+2019.01.14 15:22:52.53057 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.53064 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.53069 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.53077 | Inodepointer: 470
+2019.01.14 15:22:52.53102 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.53120 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.53252 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.53281 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.53288 | path: /data1.txt
+2019.01.14 15:22:52.53315 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.53322 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.53327 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.53334 | Inodepointer: 470
+2019.01.14 15:22:52.53358 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.53377 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.53510 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.53538 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.53545 | path: /data1.txt
+2019.01.14 15:22:52.53572 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.53580 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.53586 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.53598 | Inodepointer: 470
+2019.01.14 15:22:52.53623 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.53641 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.53764 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.53793 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.53800 | path: /data1.txt
+2019.01.14 15:22:52.53826 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.53834 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.53839 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.53846 | Inodepointer: 470
+2019.01.14 15:22:52.53869 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.53887 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.54043 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.54072 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.54079 | path: /data1.txt
+2019.01.14 15:22:52.54106 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.54113 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.54118 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.54125 | Inodepointer: 470
+2019.01.14 15:22:52.54150 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.54168 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.54285 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.54318 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.54325 | path: /data1.txt
+2019.01.14 15:22:52.54351 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.54359 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.54363 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.54387 | Inodepointer: 470
+2019.01.14 15:22:52.54440 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.54472 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.54591 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.54619 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.54626 | path: /data1.txt
+2019.01.14 15:22:52.54652 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.54659 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.54664 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.54671 | Inodepointer: 470
+2019.01.14 15:22:52.54694 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.54712 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.54830 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.54858 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.54865 | path: /data1.txt
+2019.01.14 15:22:52.54894 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.54901 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.54909 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.54916 | Inodepointer: 470
+2019.01.14 15:22:52.54940 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.54958 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.55075 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.56861 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.56872 | path: /data1.txt
+2019.01.14 15:22:52.56904 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.56912 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.56917 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.56924 | Inodepointer: 470
+2019.01.14 15:22:52.56949 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.56968 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.57098 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.57127 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.57134 | path: /data1.txt
+2019.01.14 15:22:52.57161 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.57168 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.57174 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.57182 | Inodepointer: 470
+2019.01.14 15:22:52.57206 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.57225 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.57365 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.57394 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.57401 | path: /data1.txt
+2019.01.14 15:22:52.57427 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.57434 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.57443 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.57450 | Inodepointer: 470
+2019.01.14 15:22:52.57474 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.57492 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.57613 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.57641 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.57648 | path: /data1.txt
+2019.01.14 15:22:52.57674 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.57681 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.57686 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.57694 | Inodepointer: 470
+2019.01.14 15:22:52.57717 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.57735 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.57886 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.57917 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.57924 | path: /data1.txt
+2019.01.14 15:22:52.57951 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.57958 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.57963 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.57970 | Inodepointer: 470
+2019.01.14 15:22:52.57999 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.58017 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.58135 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.58163 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.58170 | path: /data1.txt
+2019.01.14 15:22:52.58197 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.58204 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.58209 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.58216 | Inodepointer: 470
+2019.01.14 15:22:52.58239 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.58257 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.58429 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.58458 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.58465 | path: /data1.txt
+2019.01.14 15:22:52.58491 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.58498 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.58503 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.58511 | Inodepointer: 470
+2019.01.14 15:22:52.58534 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.58551 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.58669 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.58697 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.58704 | path: /data1.txt
+2019.01.14 15:22:52.58730 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.58738 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.58742 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.58750 | Inodepointer: 470
+2019.01.14 15:22:52.58773 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.58790 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.58908 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.58936 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.58943 | path: /data1.txt
+2019.01.14 15:22:52.58970 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.58977 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.58982 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.58989 | Inodepointer: 470
+2019.01.14 15:22:52.59012 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.59033 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.59156 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.60422 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.60433 | path: /data1.txt
+2019.01.14 15:22:52.60466 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.60474 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.60479 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.60487 | Inodepointer: 470
+2019.01.14 15:22:52.60512 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.60532 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.60663 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.60691 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.60698 | path: /data1.txt
+2019.01.14 15:22:52.60729 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.60739 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.60746 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.60754 | Inodepointer: 470
+2019.01.14 15:22:52.60779 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.60797 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.60918 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.60946 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.60953 | path: /data1.txt
+2019.01.14 15:22:52.60980 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.60987 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.60992 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.60999 | Inodepointer: 470
+2019.01.14 15:22:52.61024 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.61042 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.61161 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.61188 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.61195 | path: /data1.txt
+2019.01.14 15:22:52.61237 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.61244 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.61249 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.61257 | Inodepointer: 470
+2019.01.14 15:22:52.61281 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.61299 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.61419 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.61447 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.61454 | path: /data1.txt
+2019.01.14 15:22:52.61480 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.61487 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.61492 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.61499 | Inodepointer: 470
+2019.01.14 15:22:52.61522 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.61540 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.61659 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.61686 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.61693 | path: /data1.txt
+2019.01.14 15:22:52.61755 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.61763 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.61767 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.61775 | Inodepointer: 470
+2019.01.14 15:22:52.61800 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.61818 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.61937 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.61965 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.61972 | path: /data1.txt
+2019.01.14 15:22:52.61998 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.62006 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.62010 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.62018 | Inodepointer: 470
+2019.01.14 15:22:52.62041 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.62059 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.62192 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.62248 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.62256 | path: /data1.txt
+2019.01.14 15:22:52.62295 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.62303 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.62307 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.62315 | Inodepointer: 470
+2019.01.14 15:22:52.62338 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.62356 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.62474 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.62502 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.62509 | path: /data1.txt
+2019.01.14 15:22:52.62535 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.62542 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.62548 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.62555 | Inodepointer: 470
+2019.01.14 15:22:52.62580 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.62598 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.62716 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.64868 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.64878 | path: /data1.txt
+2019.01.14 15:22:52.64913 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.64921 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.64926 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.64934 | Inodepointer: 470
+2019.01.14 15:22:52.64959 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.64977 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.65123 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.65152 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.65160 | path: /data1.txt
+2019.01.14 15:22:52.65187 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.65194 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.65199 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.65207 | Inodepointer: 470
+2019.01.14 15:22:52.65231 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.65249 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.65370 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.65398 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.65405 | path: /data1.txt
+2019.01.14 15:22:52.65436 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.65443 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.65448 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.65455 | Inodepointer: 470
+2019.01.14 15:22:52.65480 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.65498 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.65652 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.65682 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.65689 | path: /data1.txt
+2019.01.14 15:22:52.65716 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.65724 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.65729 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.65736 | Inodepointer: 470
+2019.01.14 15:22:52.65760 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.65778 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.65897 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.65925 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.65932 | path: /data1.txt
+2019.01.14 15:22:52.65960 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.65967 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.65972 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.65979 | Inodepointer: 470
+2019.01.14 15:22:52.66003 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.66021 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.66198 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.66228 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.66235 | path: /data1.txt
+2019.01.14 15:22:52.66262 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.66270 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.66274 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.66282 | Inodepointer: 470
+2019.01.14 15:22:52.66305 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.66323 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.66440 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.66468 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.66475 | path: /data1.txt
+2019.01.14 15:22:52.66501 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.66508 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.66515 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.66522 | Inodepointer: 470
+2019.01.14 15:22:52.66546 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.66563 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.67006 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.67036 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.67043 | path: /data1.txt
+2019.01.14 15:22:52.67085 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.67093 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.67098 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.67105 | Inodepointer: 470
+2019.01.14 15:22:52.67130 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.67153 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.67274 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.67303 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.67315 | path: /data1.txt
+2019.01.14 15:22:52.67343 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.67350 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.67355 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.67362 | Inodepointer: 470
+2019.01.14 15:22:52.67388 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.67406 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.67525 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.67552 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.67559 | path: /data1.txt
+2019.01.14 15:22:52.67586 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.67593 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.67598 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.67605 | Inodepointer: 470
+2019.01.14 15:22:52.67628 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.67646 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.67766 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.67794 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.67801 | path: /data1.txt
+2019.01.14 15:22:52.67827 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.67834 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.67839 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.67846 | Inodepointer: 470
+2019.01.14 15:22:52.67870 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.67888 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.68006 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.68049 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.68057 | path: /data1.txt
+2019.01.14 15:22:52.68084 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.68091 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.68096 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.68103 | Inodepointer: 470
+2019.01.14 15:22:52.68127 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.68144 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.68262 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.68290 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.68297 | path: /data1.txt
+2019.01.14 15:22:52.68323 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.68330 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.68335 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.68342 | Inodepointer: 470
+2019.01.14 15:22:52.68369 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.68387 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.68505 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.68536 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.68544 | path: /data1.txt
+2019.01.14 15:22:52.68570 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.68578 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.68582 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.68590 | Inodepointer: 470
+2019.01.14 15:22:52.68613 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.68630 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.68751 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.68779 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.68786 | path: /data1.txt
+2019.01.14 15:22:52.68812 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.68819 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.68824 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.68831 | Inodepointer: 470
+2019.01.14 15:22:52.68855 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.68872 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.69002 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.69548 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.69560 | path: /data1.txt
+2019.01.14 15:22:52.69592 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.69599 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.69606 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.69614 | Inodepointer: 470
+2019.01.14 15:22:52.69640 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.69659 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.69787 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.70469 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.70480 | path: /data1.txt
+2019.01.14 15:22:52.70511 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.70519 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.70524 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.70531 | Inodepointer: 470
+2019.01.14 15:22:52.70556 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.70574 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.70706 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.70734 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.70741 | path: /data1.txt
+2019.01.14 15:22:52.70768 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.70778 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.70783 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.70791 | Inodepointer: 470
+2019.01.14 15:22:52.70815 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.70833 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.70954 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.70995 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.71002 | path: /data1.txt
+2019.01.14 15:22:52.71029 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.71037 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.71042 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.71049 | Inodepointer: 470
+2019.01.14 15:22:52.71073 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.71091 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.71209 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.71238 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.71245 | path: /data1.txt
+2019.01.14 15:22:52.71271 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.71278 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.71283 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.71290 | Inodepointer: 470
+2019.01.14 15:22:52.71314 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.71332 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.71450 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.71481 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.71488 | path: /data1.txt
+2019.01.14 15:22:52.71517 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.71524 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.71529 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.71536 | Inodepointer: 470
+2019.01.14 15:22:52.72615 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.72639 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.72773 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.72802 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.72810 | path: /data1.txt
+2019.01.14 15:22:52.72837 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.72845 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.72850 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.72857 | Inodepointer: 470
+2019.01.14 15:22:52.72882 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.72899 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.73484 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.73514 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.73521 | path: /data1.txt
+2019.01.14 15:22:52.73549 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.73556 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.73563 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.73571 | Inodepointer: 470
+2019.01.14 15:22:52.73595 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.73615 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.73735 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.73763 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.73770 | path: /data1.txt
+2019.01.14 15:22:52.73797 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.73804 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.73809 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.73817 | Inodepointer: 470
+2019.01.14 15:22:52.73840 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.73858 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.74083 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.74113 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.74120 | path: /data1.txt
+2019.01.14 15:22:52.74147 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.74155 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.74159 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.74167 | Inodepointer: 470
+2019.01.14 15:22:52.74191 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.74209 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.74328 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.74356 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.74363 | path: /data1.txt
+2019.01.14 15:22:52.74401 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.74409 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.74414 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.74421 | Inodepointer: 470
+2019.01.14 15:22:52.74449 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.74467 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.74586 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.74613 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.74620 | path: /data1.txt
+2019.01.14 15:22:52.74647 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.74654 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.74659 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.74666 | Inodepointer: 470
+2019.01.14 15:22:52.74691 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.74709 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.74828 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.74856 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.74877 | path: /data1.txt
+2019.01.14 15:22:52.74907 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.74915 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.74919 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.74927 | Inodepointer: 470
+2019.01.14 15:22:52.74950 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.74968 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.75086 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.76990 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.77002 | path: /data1.txt
+2019.01.14 15:22:52.77035 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.77042 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.77047 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.77055 | Inodepointer: 470
+2019.01.14 15:22:52.77081 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.77100 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.77232 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.77266 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.77273 | path: /data1.txt
+2019.01.14 15:22:52.77300 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.77308 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.77313 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.77323 | Inodepointer: 470
+2019.01.14 15:22:52.77347 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.77365 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.77488 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.77516 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.77523 | path: /data1.txt
+2019.01.14 15:22:52.77549 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.77557 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.77561 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.77569 | Inodepointer: 470
+2019.01.14 15:22:52.77592 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.77610 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.77728 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.77756 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.77763 | path: /data1.txt
+2019.01.14 15:22:52.77822 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.77861 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.77869 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.77880 | Inodepointer: 470
+2019.01.14 15:22:52.77924 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.77949 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.78069 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.78097 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.78104 | path: /data1.txt
+2019.01.14 15:22:52.78130 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.78138 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.78143 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.78150 | Inodepointer: 470
+2019.01.14 15:22:52.78173 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.78191 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.78309 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.78336 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.78344 | path: /data1.txt
+2019.01.14 15:22:52.78372 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.78379 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.78384 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.78391 | Inodepointer: 470
+2019.01.14 15:22:52.78415 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.78432 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.78550 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.78578 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.78585 | path: /data1.txt
+2019.01.14 15:22:52.78612 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.78619 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.78624 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.78631 | Inodepointer: 470
+2019.01.14 15:22:52.78655 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.78672 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.78886 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.78915 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.78922 | path: /data1.txt
+2019.01.14 15:22:52.78949 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.78956 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.78961 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.78968 | Inodepointer: 470
+2019.01.14 15:22:52.78992 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.79010 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.79128 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.79156 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.79163 | path: /data1.txt
+2019.01.14 15:22:52.79189 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.79196 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.79201 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.79208 | Inodepointer: 470
+2019.01.14 15:22:52.79232 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.79249 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.79368 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.79396 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.79404 | path: /data1.txt
+2019.01.14 15:22:52.79434 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.79441 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.79446 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.79453 | Inodepointer: 470
+2019.01.14 15:22:52.79477 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.79494 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.79611 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.79639 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.79646 | path: /data1.txt
+2019.01.14 15:22:52.79672 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.79679 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.79686 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.79693 | Inodepointer: 470
+2019.01.14 15:22:52.79717 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.79734 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.79871 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.79900 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.79907 | path: /data1.txt
+2019.01.14 15:22:52.79933 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.79940 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.79945 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.79952 | Inodepointer: 470
+2019.01.14 15:22:52.79979 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.79998 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.80118 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.80146 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.80153 | path: /data1.txt
+2019.01.14 15:22:52.80180 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.80187 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.80192 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.80199 | Inodepointer: 470
+2019.01.14 15:22:52.80222 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.80240 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.80361 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.80389 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.80396 | path: /data1.txt
+2019.01.14 15:22:52.80422 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.80429 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.80434 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.80441 | Inodepointer: 470
+2019.01.14 15:22:52.80464 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.80482 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.80599 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.81735 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.81747 | path: /data1.txt
+2019.01.14 15:22:52.81779 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.81786 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.81791 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.81799 | Inodepointer: 470
+2019.01.14 15:22:52.81826 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.81844 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.81975 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.82004 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.82012 | path: /data1.txt
+2019.01.14 15:22:52.82039 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.82046 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.82051 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.82058 | Inodepointer: 470
+2019.01.14 15:22:52.82082 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.82100 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.82221 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.82249 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.82256 | path: /data1.txt
+2019.01.14 15:22:52.82282 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.82290 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.82294 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.82302 | Inodepointer: 470
+2019.01.14 15:22:52.82326 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.82344 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.82467 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.82496 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.82503 | path: /data1.txt
+2019.01.14 15:22:52.82529 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.82537 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.82543 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.82550 | Inodepointer: 470
+2019.01.14 15:22:52.82574 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.82592 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.82730 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.82758 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.82765 | path: /data1.txt
+2019.01.14 15:22:52.82792 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.82799 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.82804 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.82811 | Inodepointer: 470
+2019.01.14 15:22:52.82835 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.82852 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.82972 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.82999 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.83006 | path: /data1.txt
+2019.01.14 15:22:52.83033 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.83040 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.83045 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.83056 | Inodepointer: 470
+2019.01.14 15:22:52.83080 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.83099 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.83217 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.83244 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.83251 | path: /data1.txt
+2019.01.14 15:22:52.83278 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.83285 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.83290 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.83297 | Inodepointer: 470
+2019.01.14 15:22:52.83320 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.83338 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.83464 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.83492 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.83499 | path: /data1.txt
+2019.01.14 15:22:52.83525 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.83532 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.83537 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.83544 | Inodepointer: 470
+2019.01.14 15:22:52.83568 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.83585 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.83760 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.85213 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.85224 | path: /data1.txt
+2019.01.14 15:22:52.85257 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.85264 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.85269 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.85277 | Inodepointer: 470
+2019.01.14 15:22:52.85307 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.85325 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.85455 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.85484 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.85491 | path: /data1.txt
+2019.01.14 15:22:52.85518 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.85525 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.85530 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.85538 | Inodepointer: 470
+2019.01.14 15:22:52.85561 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.85579 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.85740 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.85770 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.85777 | path: /data1.txt
+2019.01.14 15:22:52.85804 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.85811 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.85816 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.85823 | Inodepointer: 470
+2019.01.14 15:22:52.85848 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.85866 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.85990 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.86019 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.86026 | path: /data1.txt
+2019.01.14 15:22:52.86052 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.86060 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.86064 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.86072 | Inodepointer: 470
+2019.01.14 15:22:52.86095 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.86113 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.86231 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.86260 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.86267 | path: /data1.txt
+2019.01.14 15:22:52.86293 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.86300 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.86307 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.86314 | Inodepointer: 470
+2019.01.14 15:22:52.86338 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.86356 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.86477 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.86505 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.86512 | path: /data1.txt
+2019.01.14 15:22:52.86538 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.86545 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.86553 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.86561 | Inodepointer: 470
+2019.01.14 15:22:52.86600 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.86665 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.86933 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.86993 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.87001 | path: /data1.txt
+2019.01.14 15:22:52.87042 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.87050 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.87054 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.87062 | Inodepointer: 470
+2019.01.14 15:22:52.87085 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.87103 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.87221 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.87250 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.87256 | path: /data1.txt
+2019.01.14 15:22:52.87283 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.87290 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.87295 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.87302 | Inodepointer: 470
+2019.01.14 15:22:52.87326 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.87343 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.87463 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.87491 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.87498 | path: /data1.txt
+2019.01.14 15:22:52.87524 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.87534 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.87539 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.87547 | Inodepointer: 470
+2019.01.14 15:22:52.87609 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.87641 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.87779 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.89988 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.90000 | path: /data1.txt
+2019.01.14 15:22:52.90034 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.90041 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.90046 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.90054 | Inodepointer: 470
+2019.01.14 15:22:52.90080 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.90098 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.90230 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.90258 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.90265 | path: /data1.txt
+2019.01.14 15:22:52.90292 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.90299 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.90304 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.90311 | Inodepointer: 470
+2019.01.14 15:22:52.90340 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.90358 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.90493 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.90524 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.90531 | path: /data1.txt
+2019.01.14 15:22:52.90558 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.90565 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.90572 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.90579 | Inodepointer: 470
+2019.01.14 15:22:52.90603 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.90621 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.90740 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.90768 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.90775 | path: /data1.txt
+2019.01.14 15:22:52.90801 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.90808 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.90813 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.90821 | Inodepointer: 470
+2019.01.14 15:22:52.90844 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.90862 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.90981 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.91009 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.91016 | path: /data1.txt
+2019.01.14 15:22:52.91042 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.91053 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.91058 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.91066 | Inodepointer: 470
+2019.01.14 15:22:52.91090 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.91108 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.91226 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.91257 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.91264 | path: /data1.txt
+2019.01.14 15:22:52.91291 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.91298 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.91303 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.91310 | Inodepointer: 470
+2019.01.14 15:22:52.91333 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.91351 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.91487 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.91515 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.91522 | path: /data1.txt
+2019.01.14 15:22:52.91549 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.91556 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.91561 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.91568 | Inodepointer: 470
+2019.01.14 15:22:52.91592 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.91610 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.91729 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.91757 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.91764 | path: /data1.txt
+2019.01.14 15:22:52.91791 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.91798 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.91803 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.91810 | Inodepointer: 470
+2019.01.14 15:22:52.91834 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.91852 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.91972 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.92000 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.92007 | path: /data1.txt
+2019.01.14 15:22:52.92033 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.92041 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.92045 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.92053 | Inodepointer: 470
+2019.01.14 15:22:52.92076 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.92094 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.92211 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.92239 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.92246 | path: /data1.txt
+2019.01.14 15:22:52.92272 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.92279 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.92285 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.92293 | Inodepointer: 470
+2019.01.14 15:22:52.92317 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.92334 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.92467 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.92497 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.92504 | path: /data1.txt
+2019.01.14 15:22:52.92531 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.92538 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.92543 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.92550 | Inodepointer: 470
+2019.01.14 15:22:52.92574 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.92592 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.92709 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.92737 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.92744 | path: /data1.txt
+2019.01.14 15:22:52.92770 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.92778 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.92782 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.92790 | Inodepointer: 470
+2019.01.14 15:22:52.92813 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.92831 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.92951 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.92979 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.92986 | path: /data1.txt
+2019.01.14 15:22:52.93016 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.93023 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.93028 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.93035 | Inodepointer: 470
+2019.01.14 15:22:52.93058 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.93080 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.93199 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.93230 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.93238 | path: /data1.txt
+2019.01.14 15:22:52.93950 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.93960 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.93965 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.93973 | Inodepointer: 470
+2019.01.14 15:22:52.93999 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.94017 | src/myfs.cpp:243:fuseRelease()
+2019.01.14 15:22:52.98277 | src/myfs.cpp:163:fuseOpen()
+2019.01.14 15:22:52.98392 | src/myfs.cpp:40:fuseGetattr()
+2019.01.14 15:22:52.98402 | path: /data1.txt
+2019.01.14 15:22:52.98424 | src/myfs.cpp:189:fuseRead()
+2019.01.14 15:22:52.98430 | reading file: /data1.txt | size: 4096 | offset: 0
+2019.01.14 15:22:52.98435 | from: 0 | TO: 512 | bufferOffset: 0
+2019.01.14 15:22:52.98443 | Inodepointer: 470
+2019.01.14 15:22:52.98500 | src/myfs.cpp:248:fuseFsync()
+2019.01.14 15:22:52.98525 | src/myfs.cpp:238:fuseFlush()
+2019.01.14 15:22:52.98543 | src/myfs.cpp:243:fuseRelease()
+100704 | src/myfs.cpp:163:fuseOpen()
+100826 | src/myfs.cpp:40:fuseGetattr()
+100835 | path: /data1.txt
+100860 | src/myfs.cpp:189:fuseRead()
+100868 | reading file: /data1.txt | size: 4096 | offset: 0
+100873 | from: 0 | TO: 512 | bufferOffset: 0
+100880 | Inodepointer: 470
+100905 | src/myfs.cpp:248:fuseFsync()
+100927 | src/myfs.cpp:238:fuseFlush()
+100975 | src/myfs.cpp:243:fuseRelease()
+101600 | src/myfs.cpp:163:fuseOpen()
+101657 | src/myfs.cpp:40:fuseGetattr()
+101665 | path: /data1.txt
+101686 | src/myfs.cpp:189:fuseRead()
+101692 | reading file: /data1.txt | size: 4096 | offset: 0
+101699 | from: 0 | TO: 512 | bufferOffset: 0
+101706 | Inodepointer: 470
+101730 | src/myfs.cpp:248:fuseFsync()
+101752 | src/myfs.cpp:238:fuseFlush()
+101799 | src/myfs.cpp:243:fuseRelease()
+102457 | src/myfs.cpp:163:fuseOpen()
+102518 | src/myfs.cpp:40:fuseGetattr()
+102527 | path: /data1.txt
+102548 | src/myfs.cpp:189:fuseRead()
+102554 | reading file: /data1.txt | size: 4096 | offset: 0
+102559 | from: 0 | TO: 512 | bufferOffset: 0
+102566 | Inodepointer: 470
+102592 | src/myfs.cpp:248:fuseFsync()
+102613 | src/myfs.cpp:238:fuseFlush()
+102660 | src/myfs.cpp:243:fuseRelease()
+103317 | src/myfs.cpp:163:fuseOpen()
+103373 | src/myfs.cpp:248:fuseFsync()
+103397 | src/myfs.cpp:238:fuseFlush()
+103440 | src/myfs.cpp:243:fuseRelease()
+104577 | src/myfs.cpp:273:fuseOpendir()
+104626 | src/myfs.cpp:40:fuseGetattr()
+104634 | path: /
+104654 | src/myfs.cpp:278:fuseReaddir()
+104689 | src/myfs.cpp:300:fuseReleasedir()
+104971 | src/myfs.cpp:163:fuseOpen()
+105028 | src/myfs.cpp:258:fuseGetxattr()
+105049 | src/myfs.cpp:226:fuseWrite()
+105056 | path: 'data1.txt', offset: 40, buf: 
+'test'
+105063 | Inodepointer: 470
+105068 | offset ist nicht durch 512 teilbar (40) -> innerhalb eines Blockes
+105074 | Target-Pointer: 535, buffer:
+3af6577ad6b9368c288f9a7a0fa0b82f1c7a82aatest, (Alte size: 40)
+105079 | src/MyFSMgr.cpp:177:write()
+105087 | FAT UPATE: SET: 535 WITH -1
+105096 | FAT UPATE: SET: 535 WITH -1
+105102 | New Inode size: 44
+105241 | src/myfs.cpp:248:fuseFsync()
+105265 | src/myfs.cpp:238:fuseFlush()
+105310 | src/myfs.cpp:243:fuseRelease()
+106914 | src/myfs.cpp:163:fuseOpen()
+106953 | src/myfs.cpp:40:fuseGetattr()
+106960 | path: /data1.txt
+106991 | src/myfs.cpp:189:fuseRead()
+106998 | reading file: /data1.txt | size: 4096 | offset: 0
+107003 | from: 0 | TO: 512 | bufferOffset: 0
+107011 | Inodepointer: 470
+107037 | src/myfs.cpp:238:fuseFlush()
+107428 | src/myfs.cpp:243:fuseRelease()
+107441 | src/myfs.cpp:273:fuseOpendir()
+107461 | src/myfs.cpp:40:fuseGetattr()
+107467 | path: /
+107487 | src/myfs.cpp:278:fuseReaddir()
+107608 | src/myfs.cpp:300:fuseReleasedir()
+107625 | src/myfs.cpp:163:fuseOpen()
+107667 | src/myfs.cpp:258:fuseGetxattr()
+107687 | src/myfs.cpp:226:fuseWrite()
+107694 | path: 'data1.txt', offset: 44, buf: 
+'5bb00de4a8ec1574849475ba90a412b46b5be455'
+107701 | Inodepointer: 470
+107706 | offset ist nicht durch 512 teilbar (44) -> innerhalb eines Blockes
+107711 | Target-Pointer: 535, buffer:
+3af6577ad6b9368c288f9a7a0fa0b82f1c7a82aatest5bb00de4a8ec1574849475ba90a412b46b5be455, (Alte size: 44)
+107717 | src/MyFSMgr.cpp:177:write()
+107725 | FAT UPATE: SET: 535 WITH -1
+107733 | FAT UPATE: SET: 535 WITH -1
+107739 | New Inode size: 84
+107804 | src/myfs.cpp:248:fuseFsync()
+107827 | src/myfs.cpp:238:fuseFlush()
+107924 | src/myfs.cpp:243:fuseRelease()
+108886 | src/myfs.cpp:163:fuseOpen()
+108919 | src/myfs.cpp:40:fuseGetattr()
+108926 | path: /data1.txt
+108957 | src/myfs.cpp:189:fuseRead()
+108964 | reading file: /data1.txt | size: 4096 | offset: 0
+108969 | from: 0 | TO: 512 | bufferOffset: 0
+108977 | Inodepointer: 470
+109001 | src/myfs.cpp:238:fuseFlush()
+109477 | src/myfs.cpp:243:fuseRelease()
+109491 | src/myfs.cpp:273:fuseOpendir()
+109510 | src/myfs.cpp:40:fuseGetattr()
+109517 | path: /
+109535 | src/myfs.cpp:278:fuseReaddir()
+109726 | src/myfs.cpp:300:fuseReleasedir()
+109740 | src/myfs.cpp:163:fuseOpen()
+109765 | src/myfs.cpp:258:fuseGetxattr()
+109782 | src/myfs.cpp:153:fuseTruncate()
+109788 | src/myfs.cpp:40:fuseGetattr()
+109793 | path: /data1.txt
+110045 | src/myfs.cpp:258:fuseGetxattr()
+110068 | src/myfs.cpp:226:fuseWrite()
+110075 | path: 'data1.txt', offset: 0, buf: 
+'test'
+110083 | Inodepointer: 470
+110088 | Target-Pointer: 535, buffer:
+test, (Alte size: 84)
+110094 | src/MyFSMgr.cpp:177:write()
+110102 | FAT UPATE: SET: 535 WITH -1
+110111 | FAT UPATE: SET: 535 WITH -1
+110116 | New Inode size: 4
+110163 | src/myfs.cpp:248:fuseFsync()
+110187 | src/myfs.cpp:238:fuseFlush()
+110278 | src/myfs.cpp:243:fuseRelease()
+111442 | src/myfs.cpp:163:fuseOpen()
+111476 | src/myfs.cpp:40:fuseGetattr()
+111484 | path: /data1.txt
+111514 | src/myfs.cpp:189:fuseRead()
+111521 | reading file: /data1.txt | size: 4096 | offset: 0
+111527 | from: 0 | TO: 512 | bufferOffset: 0
+111534 | Inodepointer: 470
+111559 | src/myfs.cpp:238:fuseFlush()
+111720 | src/myfs.cpp:243:fuseRelease()
+111940 | src/myfs.cpp:273:fuseOpendir()
+111979 | src/myfs.cpp:40:fuseGetattr()
+111986 | path: /
+112005 | src/myfs.cpp:278:fuseReaddir()
+112035 | src/myfs.cpp:300:fuseReleasedir()
+112139 | src/myfs.cpp:163:fuseOpen()
+112165 | src/myfs.cpp:258:fuseGetxattr()
+112181 | src/myfs.cpp:153:fuseTruncate()
+112187 | src/myfs.cpp:40:fuseGetattr()
+112192 | path: /data1.txt
+112374 | src/myfs.cpp:258:fuseGetxattr()
+112396 | src/myfs.cpp:226:fuseWrite()
+112403 | path: 'data1.txt', offset: 0, buf: 
+'################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################'
+112411 | Inodepointer: 470
+112417 | Target-Pointer: 535, buffer:
+################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################, (Alte size: 4)
+112423 | src/MyFSMgr.cpp:177:write()
+112431 | FAT UPATE: SET: 535 WITH -1
+112440 | FAT UPATE: SET: 535 WITH -1
+112446 | New Inode size: 512
+112494 | src/myfs.cpp:248:fuseFsync()
+112517 | src/myfs.cpp:238:fuseFlush()
+112569 | src/myfs.cpp:243:fuseRelease()
+113755 | src/myfs.cpp:163:fuseOpen()
+113796 | src/myfs.cpp:40:fuseGetattr()
+113804 | path: /data1.txt
+113834 | src/myfs.cpp:189:fuseRead()
+113841 | reading file: /data1.txt | size: 4096 | offset: 0
+113846 | from: 0 | TO: 512 | bufferOffset: 0
+113853 | Inodepointer: 470
+113879 | src/myfs.cpp:238:fuseFlush()
+114224 | src/myfs.cpp:243:fuseRelease()
+114237 | src/myfs.cpp:273:fuseOpendir()
+114256 | src/myfs.cpp:40:fuseGetattr()
+114263 | path: /
+114281 | src/myfs.cpp:278:fuseReaddir()
+114407 | src/myfs.cpp:300:fuseReleasedir()
+114419 | src/myfs.cpp:163:fuseOpen()
+114442 | src/myfs.cpp:258:fuseGetxattr()
+114459 | src/myfs.cpp:153:fuseTruncate()
+114465 | src/myfs.cpp:40:fuseGetattr()
+114469 | path: /data1.txt
+114612 | src/myfs.cpp:258:fuseGetxattr()
+114635 | src/myfs.cpp:226:fuseWrite()
+114642 | path: 'data1.txt', offset: 0, buf: 
+'5bb00de4a8ec1574849475ba90a412b46b5be455'
+114649 | Inodepointer: 470
+114654 | Target-Pointer: 535, buffer:
+5bb00de4a8ec1574849475ba90a412b46b5be455, (Alte size: 512)
+114660 | src/MyFSMgr.cpp:177:write()
+114667 | FAT UPATE: SET: 535 WITH -1
+114676 | FAT UPATE: SET: 535 WITH -1
+114682 | New Inode size: 40
+114732 | src/myfs.cpp:248:fuseFsync()
+114755 | src/myfs.cpp:238:fuseFlush()
+114843 | src/myfs.cpp:243:fuseRelease()
+115963 | src/myfs.cpp:163:fuseOpen()
+115994 | src/myfs.cpp:40:fuseGetattr()
+116002 | path: /data1.txt
+116031 | src/myfs.cpp:189:fuseRead()
+116038 | reading file: /data1.txt | size: 4096 | offset: 0
+116043 | from: 0 | TO: 512 | bufferOffset: 0
+116050 | Inodepointer: 470
+116075 | src/myfs.cpp:238:fuseFlush()
+116496 | src/myfs.cpp:243:fuseRelease()
+116508 | src/myfs.cpp:273:fuseOpendir()
+116528 | src/myfs.cpp:40:fuseGetattr()
+116535 | path: /
+116553 | src/myfs.cpp:278:fuseReaddir()
+116640 | src/myfs.cpp:300:fuseReleasedir()
+116653 | src/myfs.cpp:106:fuseUnlink()
+116661 | removed File: 535
+116668 | Max_unit?: -1
+116672 | Removed FATPOINTER: 535
+116677 | FAT UPATE: SET: 535 WITH 0
+125190 | src/myfs.cpp:40:fuseGetattr()
+125215 | path: /file1.txt
+125256 | src/myfs.cpp:86:fuseMknod()
+125266 | Creating file: file1.txt
+125274 | FAT UPATE: SET: 535 WITH -1
+125280 | Write Inode of file: file1.txt
+125292 | src/myfs.cpp:40:fuseGetattr()
+125296 | path: /file1.txt
+125384 | src/myfs.cpp:163:fuseOpen()
+125442 | src/myfs.cpp:258:fuseGetxattr()
+125463 | src/myfs.cpp:226:fuseWrite()
+125470 | path: 'file1.txt', offset: 0, buf: 
+'42de2661b23f9a1d99230135e1b5064c60c2118cd1ed6ee6756f6337afa020020ba16ce56074fbc5e4a73d8c1b233fb34c4464fe7fbc74df0df2beb3ef9bbc08ed5fed3c2b4aa490bed10cb8162c715e4b5f95b890989d36ae11e7068de8eac38dc54c44080c9a1e7e8e1923cdf0925e0db6a701e7a4c89713acb401ffc9e23cf96143ef1d897055c5f6f492448490056b29b5dbe6ee56c1de74632a96e3aa97c94231f8e0a6b1016f911349db820a1b8699b94485cac4c90411e7642d03ebdbd702cb73d83be8370c4ced0ded5cc611ddd4f458c5819e4f73b51e9c82069fbd3b5e7db3455fed9124ba26f4e1add0671a300c1cddfe0aa57fb44a00447c4e58f7c01418737938df93f49fab3f6cdd6bb25c8cf0f2d02b4efc8dc0be01a0a972bc44ef3e9c097333e715d8859d882e2fdbbf7a97f7aad5c0f254d926802fc528d0e8d7e5ef6127d01c0547fab9bf7fdbd744930b1b0ca0b15bd73202ce13a052b21c4e0c086f6026a83a1fec501f9acfa66c29614f97db75b7931352302e539246101f6c7792c32b7266eeac7c2debf9c025e512a73bad8308caed2c487abf9e2cc23a2e513ee51a79619143ba0999a7ae2ee45efe32a08ee74bce7360a89a3dd00ee54b8e88f2a371f254d1f7161dbe1b4bcd153271ffd188d36c53eecd6e82ba3ad10fa93c18d17cc4ed6ef849233a36263ca4f4896b04dd2a71bb290201edfa'
+125478 | Inodepointer: 470
+125483 | Target-Pointer: 535, buffer:
+42de2661b23f9a1d99230135e1b5064c60c2118cd1ed6ee6756f6337afa020020ba16ce56074fbc5e4a73d8c1b233fb34c4464fe7fbc74df0df2beb3ef9bbc08ed5fed3c2b4aa490bed10cb8162c715e4b5f95b890989d36ae11e7068de8eac38dc54c44080c9a1e7e8e1923cdf0925e0db6a701e7a4c89713acb401ffc9e23cf96143ef1d897055c5f6f492448490056b29b5dbe6ee56c1de74632a96e3aa97c94231f8e0a6b1016f911349db820a1b8699b94485cac4c90411e7642d03ebdbd702cb73d83be8370c4ced0ded5cc611ddd4f458c5819e4f73b51e9c82069fbd3b5e7db3455fed9124ba26f4e1add0671a300c1cddfe0aa57fb44a00447c4e58f7c01418737938df93f49fab3f6cdd6bb25c8cf0f2d02b4efc8dc0be01a0a972bc44ef3e9c097333e715d8859d882e2fdbbf7a97f7aad5c0f254d926802fc528d0e8d7e5ef6127d01c0547fab9bf7fdbd744930b1b0ca0b15bd73202ce13a052b21c4e0c086f6026a83a1fec501f9acfa66c29614f97db75b7931352302e539246101f6c7792c32b7266eeac7c2debf9c025e512a73bad8308caed2c487abf9e2cc23a2e513ee51a79619143ba0999a7ae2ee45efe32a08ee74bce7360a89a3dd00ee54b8e88f2a371f254d1f7161dbe1b4bcd153271ffd188d36c53eecd6e82ba3ad10fa93c18d17cc4ed6ef849233a36263ca4f4896b04dd2a71bb290201edfa, (Alte size: 0)
+125495 | src/MyFSMgr.cpp:177:write()
+125503 | FAT UPATE: SET: 535 WITH -1
+125510 | FAT UPATE: SET: 535 WITH 536
+125520 | FAT UPATE: SET: 536 WITH -1
+125527 | FAT UPATE: SET: 536 WITH 537
+125536 | FAT UPATE: SET: 537 WITH -1
+125544 | FAT UPATE: SET: 537 WITH -1
+125550 | New Inode size: 1026
+125603 | src/myfs.cpp:238:fuseFlush()
+125691 | src/myfs.cpp:243:fuseRelease()
+126029 | src/myfs.cpp:40:fuseGetattr()
+126039 | path: /file1.txt
+126274 | src/myfs.cpp:143:fuseChmod()
+126283 | src/myfs.cpp:40:fuseGetattr()
+126287 | path: /file1.txt
+126359 | src/myfs.cpp:273:fuseOpendir()
+126380 | src/myfs.cpp:40:fuseGetattr()
+126387 | path: /
+126405 | src/myfs.cpp:278:fuseReaddir()
+126435 | src/myfs.cpp:300:fuseReleasedir()
+130099 | src/myfs.cpp:163:fuseOpen()
+130156 | src/myfs.cpp:189:fuseRead()
+130165 | reading file: /file1.txt | size: 4096 | offset: 0
+130171 | from: 0 | TO: 512 | bufferOffset: 0
+130179 | from: 0 | TO: 512 | bufferOffset: 512
+130186 | from: 0 | TO: 512 | bufferOffset: 1024
+130193 | Inodepointer: 470
+130224 | src/myfs.cpp:248:fuseFsync()
+130246 | src/myfs.cpp:238:fuseFlush()
+130265 | src/myfs.cpp:243:fuseRelease()
+130342 | src/myfs.cpp:40:fuseGetattr()
+130350 | path: /file1.txt
+130815 | src/myfs.cpp:163:fuseOpen()
+130858 | src/myfs.cpp:258:fuseGetxattr()
+130878 | src/myfs.cpp:226:fuseWrite()
+130885 | path: 'file1.txt', offset: 1026, buf: 
+'#kmd'
+130892 | Inodepointer: 470
+130899 | offset ist nicht durch 512 teilbar (2) -> innerhalb eines Blockes
+130904 | Target-Pointer: 537, buffer:
+fa#kmd, (Alte size: 1026)
+130910 | src/MyFSMgr.cpp:177:write()
+130917 | FAT UPATE: SET: 537 WITH -1
+130926 | FAT UPATE: SET: 537 WITH -1
+130931 | New Inode size: 1030
+131001 | src/myfs.cpp:248:fuseFsync()
+131027 | src/myfs.cpp:238:fuseFlush()
+131070 | src/myfs.cpp:243:fuseRelease()
+131135 | src/myfs.cpp:40:fuseGetattr()
+131143 | path: /file1.txt
+132067 | src/myfs.cpp:163:fuseOpen()
+132095 | src/myfs.cpp:258:fuseGetxattr()
+132113 | src/myfs.cpp:153:fuseTruncate()
+132119 | src/myfs.cpp:40:fuseGetattr()
+132123 | path: /file1.txt
+132222 | src/myfs.cpp:258:fuseGetxattr()
+132244 | src/myfs.cpp:226:fuseWrite()
+132251 | path: 'file1.txt', offset: 0, buf: 
+'test'
+132258 | Inodepointer: 470
+132264 | Target-Pointer: 535, buffer:
+test, (Alte size: 1030)
+132269 | src/MyFSMgr.cpp:177:write()
+132283 | FAT UPATE: SET: 536 WITH 0
+132288 | currentPointer: 537
+132296 | FAT UPATE: SET: 537 WITH 0
+132301 | currentPointer: 4294967295
+132306 | FAT UPATE: SET: 535 WITH -1
+132311 | New Inode size: 4
+132358 | src/myfs.cpp:248:fuseFsync()
+132380 | src/myfs.cpp:238:fuseFlush()
+132426 | src/myfs.cpp:243:fuseRelease()
+132505 | src/myfs.cpp:40:fuseGetattr()
+132513 | path: /file1.txt
+133149 | src/myfs.cpp:163:fuseOpen()
+133985 | src/myfs.cpp:258:fuseGetxattr()
+134010 | src/myfs.cpp:226:fuseWrite()
+134017 | path: 'file1.txt', offset: 4, buf: 
+'#kmd'
+134026 | Inodepointer: 470
+134031 | offset ist nicht durch 512 teilbar (4) -> innerhalb eines Blockes
+134036 | Target-Pointer: 535, buffer:
+test#kmd, (Alte size: 4)
+134041 | src/MyFSMgr.cpp:177:write()
+134050 | FAT UPATE: SET: 535 WITH -1
+134058 | FAT UPATE: SET: 535 WITH -1
+134064 | New Inode size: 8
+134117 | src/myfs.cpp:248:fuseFsync()
+134140 | src/myfs.cpp:238:fuseFlush()
+134187 | src/myfs.cpp:243:fuseRelease()
+134252 | src/myfs.cpp:40:fuseGetattr()
+134260 | path: /file1.txt
+134566 | src/myfs.cpp:163:fuseOpen()
+134592 | src/myfs.cpp:258:fuseGetxattr()
+134630 | src/myfs.cpp:153:fuseTruncate()
+134637 | src/myfs.cpp:40:fuseGetattr()
+134654 | path: /file1.txt
+134853 | src/myfs.cpp:258:fuseGetxattr()
+134875 | src/myfs.cpp:226:fuseWrite()
+134882 | path: 'file1.txt', offset: 0, buf: 
+'test'
+134889 | Inodepointer: 470
+134894 | Target-Pointer: 535, buffer:
+test, (Alte size: 8)
+134905 | src/MyFSMgr.cpp:177:write()
+134913 | FAT UPATE: SET: 535 WITH -1
+134921 | FAT UPATE: SET: 535 WITH -1
+134927 | New Inode size: 4
+134970 | src/myfs.cpp:248:fuseFsync()
+134992 | src/myfs.cpp:238:fuseFlush()
+135064 | src/myfs.cpp:243:fuseRelease()
+135185 | src/myfs.cpp:40:fuseGetattr()
+135194 | path: /file1.txt

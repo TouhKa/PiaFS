@@ -18,50 +18,50 @@
 #define BD_PATH "/dummy.bin"
 #define NUM_TESTBLOCKS 1024
 
-TEST_CASE( "Write/Read blocks", "[blockdevice]" ) {
+// TEST_CASE( "Write/Read blocks", "[blockdevice]" ) {
     
-    remove(BD_PATH);
+//     remove(BD_PATH);
     
-    BlockDevice bd;
-    bd.create(BD_PATH);
+//     BlockDevice bd;
+//     bd.create(BD_PATH);
     
-    SECTION("writing single block") {
-        char* r= new char[BD_BLOCK_SIZE];
-        memset(r, 0, BD_BLOCK_SIZE);
+//     SECTION("writing single block") {
+//         char* r= new char[BD_BLOCK_SIZE];
+//         memset(r, 0, BD_BLOCK_SIZE);
         
-        char* w= new char[BD_BLOCK_SIZE];
-        gen_random(w, BD_BLOCK_SIZE);
+//         char* w= new char[BD_BLOCK_SIZE];
+//         gen_random(w, BD_BLOCK_SIZE);
         
-        bd.write(0, w);
-        bd.read(0, r);
+//         bd.write(0, w);
+//         bd.read(0, r);
         
-        REQUIRE(memcmp(w, r, BD_BLOCK_SIZE) == 0);
+//         REQUIRE(memcmp(w, r, BD_BLOCK_SIZE) == 0);
 
-        delete [] r;
-        delete [] w;
-    }
+//         delete [] r;
+//         delete [] w;
+//     }
     
-    SECTION("writing multiple blocks") {
-        char* r= new char[BD_BLOCK_SIZE * NUM_TESTBLOCKS];
-        memset(r, 0, BD_BLOCK_SIZE * NUM_TESTBLOCKS);
+//     SECTION("writing multiple blocks") {
+//         char* r= new char[BD_BLOCK_SIZE * NUM_TESTBLOCKS];
+//         memset(r, 0, BD_BLOCK_SIZE * NUM_TESTBLOCKS);
         
-        char* w= new char[BD_BLOCK_SIZE * NUM_TESTBLOCKS];
-        gen_random(w, BD_BLOCK_SIZE * NUM_TESTBLOCKS);
+//         char* w= new char[BD_BLOCK_SIZE * NUM_TESTBLOCKS];
+//         gen_random(w, BD_BLOCK_SIZE * NUM_TESTBLOCKS);
         
-        // write all blocks
-        for(int b= 0; b < NUM_TESTBLOCKS; b++) {
-            bd.write(b, w + b*BD_BLOCK_SIZE);
-        }
+//         // write all blocks
+//         for(int b= 0; b < NUM_TESTBLOCKS; b++) {
+//             bd.write(b, w + b*BD_BLOCK_SIZE);
+//         }
         
-        // read all blocks
-        for(int b= 0; b < NUM_TESTBLOCKS; b++) {
-            bd.read(b, r + b*BD_BLOCK_SIZE);
-        }
+//         // read all blocks
+//         for(int b= 0; b < NUM_TESTBLOCKS; b++) {
+//             bd.read(b, r + b*BD_BLOCK_SIZE);
+//         }
 
-        REQUIRE(memcmp(w, r, BD_BLOCK_SIZE * NUM_TESTBLOCKS) == 0);
-    }
+//         REQUIRE(memcmp(w, r, BD_BLOCK_SIZE * NUM_TESTBLOCKS) == 0);
+//     }
     
-    bd.close();
-    remove(BD_PATH);
+//     bd.close();
+//     remove(BD_PATH);
     
-}
+// }

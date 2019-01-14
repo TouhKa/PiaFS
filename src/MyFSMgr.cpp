@@ -470,7 +470,6 @@ int MyFSMgr::writeRootPointer(uint32_t newPointer) {
     }
 
     root->pointer[i] = newPointer;
-    printf("%x", root->pointer[i]);
     return _blockDevice->write(ROOT_BLOCK, (char*)root);
 
     }

@@ -86,41 +86,41 @@ describe("Myfs", async function () {
                     compareTestToContainer(txtFile, txtTest, 0, 0);
                 });
             });
-            describe('with offset:', () => {
-                it("Exact", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512, 512);
-                });
-                it("Half", async () => {
-                    compareTestToContainer(txtFile, txtTest, 256, 256);
-                });
-                it("One", async () => {
-                    compareTestToContainer(txtFile, txtTest, 500, 12);
-                });
-                it("Long", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512 * 2, 20 * 512);
-                });
-                it("short", async () => {
-                    compareTestToContainer(txtFile, txtTest, 20, 20);
-                });
-            });
-            describe('with oneBlock offset:', () => {
-                it("Exact", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512, 512);
-                });
-                it("Half", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512, 256);
-                });
-                it("Long", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512, 20 * 512);
-                });
-                it("short", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512, 20);
-                });
-                it("nothing", async () => {
-                    compareTestToContainer(txtFile, txtTest, 512, 0);
-                });
-            });
-        });
+        //     describe('with offset:', () => {
+        //         it("Exact", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512, 512);
+        //         });
+        //         it("Half", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 256, 256);
+        //         });
+        //         it("One", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 500, 12);
+        //         });
+        //         it("Long", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512 * 2, 20 * 512);
+        //         });
+        //         it("short", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 20, 20);
+        //         });
+        //     });
+        //     describe('with oneBlock offset:', () => {
+        //         it("Exact", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512, 512);
+        //         });
+        //         it("Half", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512, 256);
+        //         });
+        //         it("Long", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512, 20 * 512);
+        //         });
+        //         it("short", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512, 20);
+        //         });
+        //         it("nothing", async () => {
+        //             compareTestToContainer(txtFile, txtTest, 512, 0);
+        //         });
+        //     });
+        // });
 
     });
 
@@ -240,7 +240,7 @@ describe("Myfs", async function () {
         //         compareDirectorys();
         //     });
         //});
-   // });
+    });
 
     describe('delete files:', () => {
         it('delete all files in directory', () => {

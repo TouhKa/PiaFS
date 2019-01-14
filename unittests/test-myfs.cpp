@@ -57,23 +57,16 @@ TEST_CASE("FAT", "[fat]"){
         MyFSMgr::instance()->fillBlocks(0, BLOCK_COUNT);
         MyFSMgr::instance()->writeSuperBlock();
 
-        //read empty entry
-      //  REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 0);
+        //read random emty entry
         REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 0);
         REQUIRE(MyFSMgr::instance()->readNextFATPointer(514) == 0);
     
         //modify
-       // MyFSMgr::instance()->setFATBlockPointer(223, 511);
         MyFSMgr::instance()->setFATBlockPointer(511, 514);
-        //REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 511);
         REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 514);
-       
-
-
+  
         //delete ENTRY
-        //MyFSMgr::instance()->removeFatPointer(223);
         MyFSMgr::instance()->removeFatPointer(511);
-        //REQUIRE(MyFSMgr::instance()->readNextFATPointer(223) == 0);
         REQUIRE(MyFSMgr::instance()->readNextFATPointer(511) == 0);
 
         MyFSMgr::instance()->BDInstance()->close();
@@ -94,10 +87,7 @@ TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for a
         MyFSMgr::instance()->fillBlocks(0, BLOCK_COUNT);
         MyFSMgr::instance()->writeSuperBlock();
 
-        
         u_int32_t free1 = MyFSMgr::instance()->findNextFreeBlock();
-       
-    
         MyFSMgr::instance()->setFATBlockPointer(free1, 1);  
         
         u_int32_t free2 = MyFSMgr::instance()->findNextFreeBlock();  
@@ -107,7 +97,6 @@ TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for a
         MyFSMgr::instance()->removeFatPointer(free1);                              //free block
         MyFSMgr::instance()->removeFatPointer(free2);
       
-   
         REQUIRE(MyFSMgr::instance()->findNextFreeBlock() == free1);
 
         MyFSMgr::instance()->BDInstance()->close();
@@ -119,9 +108,6 @@ TEST_CASE("dmap", "[dmap]"){ //Please note: As we read through the FAT Map for a
 
 TEST_CASE("imap", "[imap]"){
     remove(BD_PATH);
-
-
-    
     SECTION("imap"){
 
         MyFSMgr::instance()->BDInstance()->create(BD_PATH); //create container instance 
@@ -155,7 +141,6 @@ TEST_CASE("imap", "[imap]"){
         MyFSMgr::instance()->BDInstance()->close();
     }
  
-  
     remove(BD_PATH);
 }
 
