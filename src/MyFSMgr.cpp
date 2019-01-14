@@ -35,8 +35,8 @@ MyFSMgr::MyFSMgr() {
 }
 
 MyFSMgr::~MyFSMgr() {
-    delete[] _instance;
-    delete[] _blockDevice;
+    // delete[] _instance;
+    // delete[] _blockDevice;
 }
 
 
@@ -470,6 +470,7 @@ int MyFSMgr::writeRootPointer(uint32_t newPointer) {
     }
 
     root->pointer[i] = newPointer;
+    printf("%x", root->pointer[i]);
     return _blockDevice->write(ROOT_BLOCK, (char*)root);
 
     }
