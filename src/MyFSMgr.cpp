@@ -35,6 +35,8 @@ MyFSMgr::MyFSMgr() {
 }
 
 MyFSMgr::~MyFSMgr() {
+    // delete[] _instance;
+    // delete[] _blockDevice;
 }
 
 
@@ -69,7 +71,7 @@ void MyFSMgr::fillBlocks(uint32_t startBlockIndex, uint32_t endBlockIndex) {
         rawBlock[i] = 0; 
 
     for (uint32_t i = startBlockIndex; i < endBlockIndex; i++){     //write for every part of the given  interall the empty block
-        LOGF("Filled Block %i\n",i);
+       // LOGF("Filled Block %i\n",i);
         _blockDevice->write(i, rawBlock);
     }
 }
@@ -118,7 +120,7 @@ void MyFSMgr::changeSBFileCount(int difference) {
         LOGF("Total files : %u \n", sb->fileCount);
 
     } else {
-        LOGF("Invalid difference value %d!", difference);
+        LOGF("No files to import %d!", difference);
     }
     _blockDevice->write(0, (char*) sb);     //update superblock
 }
