@@ -18,9 +18,11 @@
 class MyFS {
 private:
     static MyFS *_instance;
+    int NoOfOpenFiles;
     
 public:
     static MyFS *Instance();
+
     
     MyFS();
     ~MyFS();

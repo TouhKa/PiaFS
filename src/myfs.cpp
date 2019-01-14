@@ -168,7 +168,8 @@ int MyFS::fuseOpen(const char *path, struct fuse_file_info *fileInfo) {
     char copy[BLOCK_SIZE];
     Inode* node = (Inode*)copy;
     path++;
-    while ((pointer = MyFSMgr::instance()->readNextRootPointer(pointer)) != 0){
+    if (NoOfOpenFiles <= NUM_OPEN_FILES) {
+        while ((pointer = MyFSMgr::instance()->readNextRootPointer(pointer)) != 0){
         MyFSMgr::BDInstance()->read(pointer, (char*)node);
 
         if (strcmp(node->fileName, path) == 0) {                 //Anlegen eines Buffers
@@ -179,9 +180,12 @@ int MyFS::fuseOpen(const char *path, struct fuse_file_info *fileInfo) {
             db.dataPointer = node->pointer;                             
             dataBuffer[pointer - NODE_START] = db;
             fileInfo->fh = pointer - NODE_START;
+            NoOfOpenFiles++;
             return 0;
+            }
         }
     }
+    
     return -ENOENT;   //Return error file not found
 }
 
@@ -241,6 +245,8 @@ int MyFS::fuseFlush(const char *path, struct fuse_file_info *fileInfo) {
 //close a file - completly
 int MyFS::fuseRelease(const char *path, struct fuse_file_info *fileInfo) {      //TODO
     LOGM();
+    //nr of open files is decreades in MyFSMgr::
+    NoOfOpenFiles--;
     return 0;
 }
 
